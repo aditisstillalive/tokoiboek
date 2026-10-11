@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useEffect, useCallback } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -36,11 +37,42 @@ const slides: HeroSlide[] = [
 ];
 
 export function HeroBanner() {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [isAnimating, setIsAnimating] = useState(false);
+
+  const goToSlide = useCallback((index: number) => {
+    if (!isAnimating && index !== currentSlide) {
+      setIsAnimating(true);
+      setCurrentSlide(index);
+      setTimeout(() => setIsAnimating(false), 500);
+    }
+  }, [currentSlide, isAnimating]);
+
+  const goToNext = useCallback(() => {
+    goToSlide((currentSlide + 1) % slides.length);
+  }, [currentSlide, goToSlide]);
+
+  const goToPrev = useCallback(() => {
+    goToSlide((currentSlide - 1 + slides.length) % slides.length);
+  }, [currentSlide, goToSlide]);
+
+  // Auto-slide
+  useEffect(() => {
+    const interval = setInterval(goToNext, 5000);
+    return () => clearInterval(interval);
+  }, [goToNext]);
+
   return (
     <section className="relative overflow-hidden" aria-label="Hero banner">
       <div className="relative h-[400px] md:h-[500px] lg:h-[600px]">
         {slides.map((slide, index) => (
-          <div key={index} className="absolute inset-0">
+          <div
+            key={index}
+            className={`absolute inset-0 transition-opacity duration-500 ease-in-out ${
+              index === currentSlide ? 'opacity-100 z-10' : 'opacity-0 z-0 pointer-events-none'
+            }`}
+            aria-hidden={index !== currentSlide}
+          >
             <Image
               src={slide.image}
               alt={slide.title}
@@ -52,7 +84,7 @@ export function HeroBanner() {
             />
             <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent" />
             <div className="container h-full flex items-center">
-              <div className="max-w-2xl text-white animate-fade-up" style={{ animationDelay: `${index * 100}ms` }}>
+              <div className="max-w-2xl text-white animate-fade-up">
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
                   {slide.title}
                 </h1>
@@ -72,14 +104,42 @@ export function HeroBanner() {
             </div>
           </div>
         ))}
+
+        {/* Navigation arrows */}
+        <button
+          onClick={goToPrev}
+          disabled={isAnimating}
+          className="absolute left-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-white/20 hover:bg-white/30 text-white transition-colors z-20"
+          aria-label="Previous slide"
+        >
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M15 18l-6-6 6-6"/>
+          </svg>
+        </button>
+        <button
+          onClick={goToNext}
+          disabled={isAnimating}
+          className="absolute right-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-white/20 hover:bg-white/30 text-white transition-colors z-20"
+          aria-label="Next slide"
+        >
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+            <path d="M9 18l6-6-6-6"/>
+          </svg>
+        </button>
       </div>
 
+      {/* Slide indicators */}
       <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2" aria-label="Slide indicators">
         {slides.map((_, index) => (
           <button
             key={index}
-            className="w-2 h-2 rounded-full bg-white/50 hover:bg-white transition-colors"
+            onClick={() => goToSlide(index)}
+            disabled={isAnimating}
+            className={`w-2 h-2 rounded-full transition-all duration-300 ${
+              index === currentSlide ? 'bg-white w-6' : 'bg-white/50 hover:bg-white'
+            }`}
             aria-label={`Go to slide ${index + 1}`}
+            aria-current={index === currentSlide ? 'true' : 'false'}
           />
         ))}
       </div>
