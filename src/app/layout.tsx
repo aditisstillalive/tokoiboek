@@ -12,6 +12,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://tokoiboek-ldtx9obeh-kotaksabun.vercel.app"),
   title: {
     default: "Toko Iboek - Produk Berkualitas Harga Terjangkau",
     template: "%s | Toko Iboek",
