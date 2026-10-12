@@ -18,10 +18,10 @@ export function ProductDetail({ product }: ProductDetailProps) {
 
   // Generate multiple placeholder images with different patterns for demo
   const images = [
-    '/placeholder-product.svg',
-    '/placeholder-product.svg',
-    '/placeholder-product.svg',
-    '/placeholder-product.svg',
+    '/product-img-1.svg',
+    '/product-img-2.svg',
+    '/product-img-3.svg',
+    '/product-img-4.svg',
   ];
 
   const variants = ['Default', 'Kecil', 'Sedang', 'Besar'];
