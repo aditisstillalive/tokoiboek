@@ -64,28 +64,31 @@ export function ProductDetail({ product }: ProductDetailProps) {
         <div className="space-y-4">
           {/* Main Image Carousel */}
           <div className="relative aspect-square overflow-hidden rounded-2xl bg-muted">
-            <div className="absolute inset-0">
-              {images.map((img, index) => (
-                <div
-                  key={index}
-                  className={`absolute inset-0 transition-opacity duration-500 ease-in-out ${
-                    index === selectedImage
-                      ? 'opacity-100 z-10'
-                      : 'opacity-0 z-0 pointer-events-none'
-                  }`}
-                  aria-hidden={index !== selectedImage}
-                >
-                  <Image
-                    src={img}
-                    alt={`${product.namaProduk} - Gambar ${index + 1}`}
-                    fill
-                    className="object-cover"
-                    priority={index === 0}
-                    placeholder="blur"
-                    blurDataURL="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect fill='%23f0f0f0' width='1' height='1'/%3E%3C/svg%3E"
-                  />
-                </div>
-              ))}
+            <div className="absolute inset-0 bg-white">
+              {images.map((img, index) => {
+                const isActive = index === selectedImage;
+                return (
+                  <div
+                    key={index}
+                    className={`absolute inset-0 transition-opacity duration-500 ease-in-out ${
+                      isActive ? 'opacity-100 z-10' : 'opacity-0 z-0 pointer-events-none'
+                    }`}
+                    aria-hidden={!isActive}
+                  >
+                    <div className="absolute inset-0 bg-white">
+                      <Image
+                        src={img}
+                        alt={`${product.namaProduk} - Gambar ${index + 1}`}
+                        fill
+                        className="object-cover"
+                        priority={index === 0}
+                        placeholder="blur"
+                        blurDataURL="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect fill='%23f0f0f0' width='1' height='1'/%3E%3C/svg%3E"
+                      />
+                    </div>
+                  </div>
+                );
+              })}
             </div>
 
             {/* Navigation Arrows */}
