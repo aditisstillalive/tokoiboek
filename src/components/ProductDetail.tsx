@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
@@ -16,7 +16,6 @@ export function ProductDetail({ product }: ProductDetailProps) {
   const [activeTab, setActiveTab] = useState<'description' | 'specification'>('description');
   const [selectedVariant, setSelectedVariant] = useState<string>('Default');
 
-  // Generate multiple placeholder images with different patterns for demo
   const images = [
     '/product-img-1.svg',
     '/product-img-2.svg',
@@ -37,6 +36,12 @@ export function ProductDetail({ product }: ProductDetailProps) {
   const goToNext = useCallback(() => {
     setSelectedImage(prev => (prev + 1) % images.length);
   }, [images.length]);
+
+  // Auto-advance carousel
+  useEffect(() => {
+    const interval = setInterval(goToNext, 5000);
+    return () => clearInterval(interval);
+  }, [goToNext]);
 
   const incrementQuantity = () => setQuantity(q => q + 1);
   const decrementQuantity = () => setQuantity(q => Math.max(1, q - 1));
@@ -64,31 +69,17 @@ export function ProductDetail({ product }: ProductDetailProps) {
         <div className="space-y-4">
           {/* Main Image Carousel */}
           <div className="relative aspect-square overflow-hidden rounded-2xl bg-white">
-            <div className="absolute inset-0 bg-white">
-              {images.map((img, index) => {
-                const isActive = index === selectedImage;
-                return (
-                  <div
-                    key={index}
-                    className={`absolute inset-0 transition-opacity duration-500 ease-in-out ${
-                      isActive ? 'opacity-100 z-10' : 'opacity-0 z-0 pointer-events-none'
-                    }`}
-                    aria-hidden={!isActive}
-                  >
-                    <div className="absolute inset-0 bg-white">
-                      <Image
-                        src={img}
-                        alt={`${product.namaProduk} - Gambar ${index + 1}`}
-                        fill
-                        className="object-cover"
-                        priority={index === 0}
-                        placeholder="blur"
-                        blurDataURL="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect fill='%23f0f0f0' width='1' height='1'/%3E%3C/svg%3E"
-                      />
-                    </div>
-                  </div>
-                );
-              })}
+            {/* Solid white background layer */}
+            <div className="absolute inset-0 bg-white z-0" />
+            
+            {/* Images - only render active one to prevent bleed */}
+            <div className="absolute inset-0 z-10">
+              <img
+                src={images[selectedImage]}
+                alt={`${product.namaProduk} - Gambar ${selectedImage + 1}`}
+                className="w-full h-full object-cover"
+                loading="eager"
+              />
             </div>
 
             {/* Navigation Arrows */}
@@ -127,8 +118,8 @@ export function ProductDetail({ product }: ProductDetailProps) {
                   onClick={() => handleImageChange(index)}
                   className={`w-2 h-2 rounded-full transition-all duration-300 ${
                     index === selectedImage
-                      ? 'bg-white w-8'
-                      : 'bg-white/60 hover:bg-white'
+                      ? 'bg-primary w-8'
+                      : 'bg-gray-300 hover:bg-gray-400'
                   }`}
                   aria-label={`Go to image ${index + 1}`}
                   aria-current={index === selectedImage ? 'true' : 'false'}
@@ -151,12 +142,11 @@ export function ProductDetail({ product }: ProductDetailProps) {
                 aria-label={`View image ${index + 1}`}
                 aria-current={index === selectedImage ? 'true' : 'false'}
               >
-                <Image
+                <img
                   src={img}
                   alt=""
-                  fill
-                  className="object-cover"
-                  sizes="80px"
+                  className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </button>
             ))}
