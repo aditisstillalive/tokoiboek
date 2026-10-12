@@ -15,12 +15,16 @@ const DRIVE_IMAGE_BASE = 'https://drive.google.com/uc?export=view&id=';
 
 async function loadImageMapping(): Promise<Record<string, string>> {
   try {
-    const res = await fetch('/image-mapping.json');
+    const res = await fetch('/image-mapping.json', { cache: 'no-store' });
+    console.log('Image mapping fetch status:', res.status);
     if (res.ok) {
-      return await res.json();
+      const data = await res.json();
+      console.log('Image mapping loaded, keys:', Object.keys(data).length);
+      return data;
     }
+    console.warn('Image mapping fetch failed:', res.status, res.statusText);
   } catch (e) {
-    console.warn('Failed to load image mapping:', e);
+    console.error('Failed to load image mapping:', e);
   }
   return {};
 }
@@ -32,8 +36,10 @@ export function ProductDetail({ product }: ProductDetailProps) {
   const [selectedVariant, setSelectedVariant] = useState<string>('Default');
   const [imageMapping, setImageMapping] = useState<Record<string, string>>({});
   const [productImages, setProductImages] = useState<string[]>([]);
+  const [imagesLoading, setImagesLoading] = useState(true);
 
   useEffect(() => {
+    setImagesLoading(true);
     loadImageMapping().then(mapping => {
       setImageMapping(mapping);
       const asset = product.asset || '';
@@ -49,6 +55,15 @@ export function ProductDetail({ product }: ProductDetailProps) {
           '/product-img-4.svg',
         ]);
       }
+      setImagesLoading(false);
+    }).catch(() => {
+      setProductImages([
+        '/product-img-1.svg',
+        '/product-img-2.svg',
+        '/product-img-3.svg',
+        '/product-img-4.svg',
+      ]);
+      setImagesLoading(false);
     });
   }, [product.asset]);
 
@@ -105,7 +120,14 @@ export function ProductDetail({ product }: ProductDetailProps) {
             
             {/* Images - only render active one to prevent bleed */}
             <div className="absolute inset-0 z-10">
-              {productImages.length > 0 ? (
+              {imagesLoading ? (
+                <div className="w-full h-full flex items-center justify-center bg-muted">
+                  <svg className="animate-spin h-8 w-8 text-primary" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
+                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                  </svg>
+                </div>
+              ) : productImages.length > 0 ? (
                 <img
                   src={productImages[selectedImage]}
                   alt={`${product.namaProduk} - Gambar ${selectedImage + 1}`}
