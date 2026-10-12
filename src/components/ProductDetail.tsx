@@ -63,7 +63,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
         {/* Left: Image Carousel */}
         <div className="space-y-4">
           {/* Main Image Carousel */}
-          <div className="relative aspect-square overflow-hidden rounded-2xl bg-muted">
+          <div className="relative aspect-square overflow-hidden rounded-2xl bg-white">
             <div className="absolute inset-0 bg-white">
               {images.map((img, index) => {
                 const isActive = index === selectedImage;
