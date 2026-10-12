@@ -1,0 +1,90 @@
+// Image mapping for Google Drive files
+// This file is generated from the Google Drive folder
+// File IDs map to asset names (kategori-nama_produk)
+
+export const imageMapping: Record<string, string> = {
+  "bebi_suka-kremesan_hati_ayam_organik_bites": "1MWaIG_3ziMifLCzjeV2GpKHcpDTjJMji",
+  "bebi_suka-kremesan_hati_ayam_organik": "",
+  "bebi_suka-kremesan_hati_ayam_original_bites": "",
+  "bebi_suka-kremesan_hati_ayam_original": "",
+  "bebi_suka-kremesan_teri_75g": "",
+  "bebi_suka-kremesan_teri_pouch_115gr": "",
+  "berkah_chicken-ati_ampela_1kg": "",
+  "berkah_chicken-ati_ampela_500gr": "",
+  "berkah_chicken-ayam_potong_10": "",
+  "berkah_chicken-ayam_ungkep": "",
+  "berkah_chicken-bakso_ayam": "",
+  "berkah_chicken-ceker_1kg": "",
+  "berkah_chicken-ceker_500g": "",
+  "berkah_chicken-dada_fillet_1kg": "",
+  "berkah_chicken-dada_fillet_500g": "",
+  "berkah_chicken-kaki_naga_organik": "",
+  "berkah_chicken-kulit_ayam_1kg": "",
+  "berkah_chicken-kulit_ayam_500g": "",
+  "berkah_chicken-middle_wings": "",
+  "berkah_chicken-nugget_ayam": "",
+  "berkah_chicken-paha_atas_1kg": "",
+  "berkah_chicken-paha_bawah_1kg": "",
+  "berkah_chicken-paha_fillet_1kg": "",
+  "berkah_chicken-paha_fillet_500g": "",
+  "berkah_chicken-paha_utuh_organik": "",
+  "berkah_chicken-sayap_1kg": "",
+  "berkah_chicken-sosis_ayam": "",
+  "berkah_chicken-stick_wings": "",
+  "botol-minyak_goreng_barco_2l": "",
+  "botol-minyak_goreng_kelapa_@klapajiwo": "",
+  "brothmama-chicken_bone_broth_mild": "",
+  "brothmama-chicken_bone_broth_original": "",
+  "brothmama-chicken_oil": "",
+  "brothmama-duck_fat": "",
+  "brothmama-duck_liver_grizzard_pate": "",
+  "brothmama-duck_skin_patty": "",
+  "brothmama-extra_fat_chicken_skin_patty": "",
+  "brothmama-gabus_broth": "",
+  "brothmama-gabus_patty": "",
+  "brothmama-grassfed_beef_bone_broth": "",
+  "brothmama-hati_ayam_blondo": "",
+  "brothmama-lidah_sapi_bumbu_empal": "",
+  "brothmama-ndf_honey_histago": "",
+  "brothmama-ndf_honey_original": "",
+  "brothmama-otak_patty": "",
+  "brothmama-otak_sapi_bumbu_kuning": "",
+  "brothmama-tallow_grassfed_beef": "",
+  "brothmama-wellness_shot": "",
+  "bumbu-bumbu_dasar_kuning_non_msg": "",
+  "benourish-ayam_kuah_kemangi": "",
+  "benourish-beef_&_chicken_fingers": "",
+  "benourish-beef_liver_egg_roll": "",
+  "benourish-beef_liver_pate": "",
+  "benourish-chicken_chinese_soup": "",
+  "benourish-chicken_dashi_porridge": "",
+  "benourish-chicken_greek_lemon_soup": "",
+  "benourish-chicken_liver_pate": "",
+  "benourish-chicken_mushroom_with_broth": "",
+  "benourish-chicken_pops": "",
+  "benourish-chicken_spam": "",
+  "benourish-chicken_strip": "",
+  "benourish-es_lontar": "",
+  "benourish-extra_liver_chicken_patty": "",
+  "benourish-lumpia_sapi_ayam": "",
+  "benourish-nugget_otak_ayam": "",
+  "benourish-otak_bumbu_kuning": "",
+  "benourish-fatty_meatballs": "",
+  "benourish-prawn_miso_soup": "",
+  "benourish-sempol_ayam": "",
+  "benourish-sop_segar_ikan_dory": "",
+  "benourish-soto_betawi_daging_hati_sapi": "",
+  "benourish-soto_otak_tunjang_sapi": "",
+  "benourish-sup_mutiara_bola_udang": "",
+  "benourish-tim_sup_sum-sum_daging_sapi": ""
+};
+
+export const DRIVE_IMAGE_BASE = 'https://drive.google.com/uc?export=view&id=';
+
+export function getProductImageUrl(asset: string): string | null {
+  const fileId = imageMapping[asset];
+  if (fileId) {
+    return `${DRIVE_IMAGE_BASE}${fileId}`;
+  }
+  return null;
+}

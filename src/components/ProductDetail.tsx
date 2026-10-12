@@ -5,28 +5,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
 import { formatPrice } from '@/lib/sheets';
+import { imageMapping, getProductImageUrl } from '@/lib/image-mapping';
 
 interface ProductDetailProps {
   product: Product;
-}
-
-// Google Drive image mapping
-const DRIVE_IMAGE_BASE = 'https://drive.google.com/uc?export=view&id=';
-
-async function loadImageMapping(): Promise<Record<string, string>> {
-  try {
-    const res = await fetch('/image-mapping.json', { cache: 'no-store' });
-    console.log('Image mapping fetch status:', res.status);
-    if (res.ok) {
-      const data = await res.json();
-      console.log('Image mapping loaded, keys:', Object.keys(data).length);
-      return data;
-    }
-    console.warn('Image mapping fetch failed:', res.status, res.statusText);
-  } catch (e) {
-    console.error('Failed to load image mapping:', e);
-  }
-  return {};
 }
 
 export function ProductDetail({ product }: ProductDetailProps) {
@@ -34,37 +16,25 @@ export function ProductDetail({ product }: ProductDetailProps) {
   const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState<'description' | 'specification'>('description');
   const [selectedVariant, setSelectedVariant] = useState<string>('Default');
-  const [imageMapping, setImageMapping] = useState<Record<string, string>>({});
   const [productImages, setProductImages] = useState<string[]>([]);
   const [imagesLoading, setImagesLoading] = useState(true);
 
+  // Load images synchronously from mapping
   useEffect(() => {
     setImagesLoading(true);
-    loadImageMapping().then(mapping => {
-      setImageMapping(mapping);
-      const asset = product.asset || '';
-      const fileId = mapping[asset];
-      if (fileId) {
-        setProductImages([`https://drive.google.com/uc?export=view&id=${fileId}`]);
-      } else {
-        // Fallback to placeholder images
-        setProductImages([
-          '/product-img-1.svg',
-          '/product-img-2.svg',
-          '/product-img-3.svg',
-          '/product-img-4.svg',
-        ]);
-      }
-      setImagesLoading(false);
-    }).catch(() => {
+    const driveImageUrl = getProductImageUrl(product.asset || '');
+    if (driveImageUrl) {
+      setProductImages([driveImageUrl]);
+    } else {
+      // Fallback to placeholder images
       setProductImages([
         '/product-img-1.svg',
         '/product-img-2.svg',
         '/product-img-3.svg',
         '/product-img-4.svg',
       ]);
-      setImagesLoading(false);
-    });
+    }
+    setImagesLoading(false);
   }, [product.asset]);
 
   const variants = ['Default', 'Kecil', 'Sedang', 'Besar'];
