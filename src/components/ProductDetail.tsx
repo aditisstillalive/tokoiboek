@@ -10,18 +10,47 @@ interface ProductDetailProps {
   product: Product;
 }
 
+// Google Drive image mapping
+const DRIVE_IMAGE_BASE = 'https://drive.google.com/uc?export=view&id=';
+
+async function loadImageMapping(): Promise<Record<string, string>> {
+  try {
+    const res = await fetch('/image-mapping.json');
+    if (res.ok) {
+      return await res.json();
+    }
+  } catch (e) {
+    console.warn('Failed to load image mapping:', e);
+  }
+  return {};
+}
+
 export function ProductDetail({ product }: ProductDetailProps) {
   const [selectedImage, setSelectedImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState<'description' | 'specification'>('description');
   const [selectedVariant, setSelectedVariant] = useState<string>('Default');
+  const [imageMapping, setImageMapping] = useState<Record<string, string>>({});
+  const [productImages, setProductImages] = useState<string[]>([]);
 
-  const images = [
-    '/product-img-1.svg',
-    '/product-img-2.svg',
-    '/product-img-3.svg',
-    '/product-img-4.svg',
-  ];
+  useEffect(() => {
+    loadImageMapping().then(mapping => {
+      setImageMapping(mapping);
+      const asset = product.asset || '';
+      const fileId = mapping[asset];
+      if (fileId) {
+        setProductImages([`https://drive.google.com/uc?export=view&id=${fileId}`]);
+      } else {
+        // Fallback to placeholder images
+        setProductImages([
+          '/product-img-1.svg',
+          '/product-img-2.svg',
+          '/product-img-3.svg',
+          '/product-img-4.svg',
+        ]);
+      }
+    });
+  }, [product.asset]);
 
   const variants = ['Default', 'Kecil', 'Sedang', 'Besar'];
 
@@ -30,18 +59,20 @@ export function ProductDetail({ product }: ProductDetailProps) {
   }, []);
 
   const goToPrev = useCallback(() => {
-    setSelectedImage(prev => (prev - 1 + images.length) % images.length);
-  }, [images.length]);
+    setSelectedImage(prev => (prev - 1 + productImages.length) % productImages.length);
+  }, [productImages.length]);
 
   const goToNext = useCallback(() => {
-    setSelectedImage(prev => (prev + 1) % images.length);
-  }, [images.length]);
+    setSelectedImage(prev => (prev + 1) % productImages.length);
+  }, [productImages.length]);
 
   // Auto-advance carousel
   useEffect(() => {
-    const interval = setInterval(goToNext, 5000);
-    return () => clearInterval(interval);
-  }, [goToNext]);
+    if (productImages.length > 1) {
+      const interval = setInterval(goToNext, 5000);
+      return () => clearInterval(interval);
+    }
+  }, [goToNext, productImages.length]);
 
   const incrementQuantity = () => setQuantity(q => q + 1);
   const decrementQuantity = () => setQuantity(q => Math.max(1, q - 1));
@@ -74,12 +105,18 @@ export function ProductDetail({ product }: ProductDetailProps) {
             
             {/* Images - only render active one to prevent bleed */}
             <div className="absolute inset-0 z-10">
-              <img
-                src={images[selectedImage]}
-                alt={`${product.namaProduk} - Gambar ${selectedImage + 1}`}
-                className="w-full h-full object-cover"
-                loading="eager"
-              />
+              {productImages.length > 0 ? (
+                <img
+                  src={productImages[selectedImage]}
+                  alt={`${product.namaProduk} - Gambar ${selectedImage + 1}`}
+                  className="w-full h-full object-cover"
+                  loading="eager"
+                />
+              ) : (
+                <div className="w-full h-full flex items-center justify-center bg-muted">
+                  <span className="text-gray-400">Gambar tidak tersedia</span>
+                </div>
+              )}
             </div>
 
             {/* Navigation Arrows */}
@@ -112,7 +149,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
 
             {/* Image Counter */}
             <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-20" aria-label="Image indicators">
-              {images.map((_, index) => (
+              {productImages.map((_, index) => (
                 <button
                   key={index}
                   onClick={() => handleImageChange(index)}
@@ -129,28 +166,30 @@ export function ProductDetail({ product }: ProductDetailProps) {
           </div>
 
           {/* Thumbnail Strip */}
-          <div className="flex gap-3 overflow-x-auto pb-2" role="list" aria-label="Product thumbnails">
-            {images.map((img, index) => (
-              <button
-                key={index}
-                onClick={() => handleImageChange(index)}
-                className={`flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden border-2 transition-all shadow-sm ${
-                  index === selectedImage
-                    ? 'border-primary ring-2 ring-primary/20'
-                    : 'border-transparent hover:border-gray-200'
-                }`}
-                aria-label={`View image ${index + 1}`}
-                aria-current={index === selectedImage ? 'true' : 'false'}
-              >
-                <img
-                  src={img}
-                  alt=""
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                />
-              </button>
-            ))}
-          </div>
+          {productImages.length > 1 && (
+            <div className="flex gap-3 overflow-x-auto pb-2" role="list" aria-label="Product thumbnails">
+              {productImages.map((img, index) => (
+                <button
+                  key={index}
+                  onClick={() => handleImageChange(index)}
+                  className={`flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden border-2 transition-all shadow-sm ${
+                    index === selectedImage
+                      ? 'border-primary ring-2 ring-primary/20'
+                      : 'border-transparent hover:border-gray-200'
+                  }`}
+                  aria-label={`View image ${index + 1}`}
+                  aria-current={index === selectedImage ? 'true' : 'false'}
+                >
+                  <img
+                    src={img}
+                    alt=""
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                </button>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Right: Product Info & Variants */}

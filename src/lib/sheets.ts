@@ -53,6 +53,7 @@ export async function fetchProducts(): Promise<Product[]> {
   const hargaJualIndex = headers.findIndex(h => h === 'Harga Jual Rekomendasi');
   const statusIndex = headers.findIndex(h => h === 'Status');
   const marginIndex = headers.findIndex(h => h === 'Margin Bersih');
+  const assetIndex = headers.findIndex(h => h === 'asset');
   
   const products: Product[] = rows.slice(1).map((row, i) => ({
     id: String(i + 1),
@@ -61,6 +62,7 @@ export async function fetchProducts(): Promise<Product[]> {
     hargaJualRekomendasi: parsePrice(row[hargaJualIndex] || '0'),
     status: row[statusIndex]?.trim() || '',
     marginBersih: parseFloat(row[marginIndex]?.replace(',', '.') || '0'),
+    asset: row[assetIndex]?.trim() || '',
   })).filter(p => p.namaProduk && p.hargaJualRekomendasi > 0);
   
   return products;

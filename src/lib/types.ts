@@ -5,6 +5,7 @@ export interface Product {
   hargaJualRekomendasi: number;
   status: string;
   marginBersih: number;
+  asset?: string;
 }
 
 export interface Category {
