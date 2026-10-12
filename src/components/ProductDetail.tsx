@@ -16,26 +16,17 @@ export function ProductDetail({ product }: ProductDetailProps) {
   const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState<'description' | 'specification'>('description');
   const [selectedVariant, setSelectedVariant] = useState<string>('Default');
-  const [productImages, setProductImages] = useState<string[]>([]);
-  const [imagesLoading, setImagesLoading] = useState(true);
 
-  // Load images synchronously from mapping
-  useEffect(() => {
-    setImagesLoading(true);
-    const driveImageUrl = getProductImageUrl(product.asset || '');
-    if (driveImageUrl) {
-      setProductImages([driveImageUrl]);
-    } else {
-      // Fallback to placeholder images
-      setProductImages([
+  // Compute image URL directly from mapping (available at build time)
+  const driveImageUrl = getProductImageUrl(product.asset || '');
+  const productImages = driveImageUrl 
+    ? [driveImageUrl] 
+    : [
         '/product-img-1.svg',
         '/product-img-2.svg',
         '/product-img-3.svg',
         '/product-img-4.svg',
-      ]);
-    }
-    setImagesLoading(false);
-  }, [product.asset]);
+      ];
 
   const variants = ['Default', 'Kecil', 'Sedang', 'Besar'];
 
@@ -90,14 +81,7 @@ export function ProductDetail({ product }: ProductDetailProps) {
             
             {/* Images - only render active one to prevent bleed */}
             <div className="absolute inset-0 z-10">
-              {imagesLoading ? (
-                <div className="w-full h-full flex items-center justify-center bg-muted">
-                  <svg className="animate-spin h-8 w-8 text-primary" viewBox="0 0 24 24">
-                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" fill="none" />
-                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
-                  </svg>
-                </div>
-              ) : productImages.length > 0 ? (
+              {productImages.length > 0 ? (
                 <img
                   src={productImages[selectedImage]}
                   alt={`${product.namaProduk} - Gambar ${selectedImage + 1}`}
