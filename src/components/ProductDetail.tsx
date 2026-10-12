@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useCallback } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
@@ -14,16 +14,29 @@ export function ProductDetail({ product }: ProductDetailProps) {
   const [selectedImage, setSelectedImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [activeTab, setActiveTab] = useState<'description' | 'specification'>('description');
+  const [selectedVariant, setSelectedVariant] = useState<string>('Default');
 
+  // Generate multiple placeholder images with different patterns for demo
   const images = [
+    '/placeholder-product.svg',
     '/placeholder-product.svg',
     '/placeholder-product.svg',
     '/placeholder-product.svg',
   ];
 
-  const handleImageChange = (index: number) => {
+  const variants = ['Default', 'Kecil', 'Sedang', 'Besar'];
+
+  const handleImageChange = useCallback((index: number) => {
     setSelectedImage(index);
-  };
+  }, []);
+
+  const goToPrev = useCallback(() => {
+    setSelectedImage(prev => (prev - 1 + images.length) % images.length);
+  }, [images.length]);
+
+  const goToNext = useCallback(() => {
+    setSelectedImage(prev => (prev + 1) % images.length);
+  }, [images.length]);
 
   const incrementQuantity = () => setQuantity(q => q + 1);
   const decrementQuantity = () => setQuantity(q => Math.max(1, q - 1));
@@ -47,35 +60,90 @@ export function ProductDetail({ product }: ProductDetailProps) {
       </nav>
 
       <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
-        {/* Image Gallery */}
+        {/* Left: Image Carousel */}
         <div className="space-y-4">
-          <div className="relative aspect-square overflow-hidden rounded-xl bg-muted">
-            <Image
-              src={images[selectedImage]}
-              alt={`${product.namaProduk} - Gambar ${selectedImage + 1}`}
-              fill
-              className="object-cover transition-opacity duration-300"
-              priority
-              placeholder="blur"
-              blurDataURL="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect fill='%23f0f0f0' width='1' height='1'/%3E%3C/svg%3E"
-            />
+          {/* Main Image Carousel */}
+          <div className="relative aspect-square overflow-hidden rounded-2xl bg-muted">
+            <div className="absolute inset-0">
+              {images.map((img, index) => (
+                <div
+                  key={index}
+                  className={`absolute inset-0 transition-opacity duration-500 ease-in-out ${
+                    index === selectedImage
+                      ? 'opacity-100 z-10'
+                      : 'opacity-0 z-0 pointer-events-none'
+                  }`}
+                  aria-hidden={index !== selectedImage}
+                >
+                  <Image
+                    src={img}
+                    alt={`${product.namaProduk} - Gambar ${index + 1}`}
+                    fill
+                    className="object-cover"
+                    priority={index === 0}
+                    placeholder="blur"
+                    blurDataURL="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1 1'%3E%3Crect fill='%23f0f0f0' width='1' height='1'/%3E%3C/svg%3E"
+                  />
+                </div>
+              ))}
+            </div>
+
+            {/* Navigation Arrows */}
+            <button
+              onClick={goToPrev}
+              className="absolute left-4 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/90 hover:bg-white text-gray-700 shadow-lg transition-all duration-300 z-20 group"
+              aria-label="Previous image"
+            >
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="group-hover:-translate-x-1 transition-transform">
+                <path d="M15 18l-6-6 6-6"/>
+              </svg>
+            </button>
+            <button
+              onClick={goToNext}
+              className="absolute right-4 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/90 hover:bg-white text-gray-700 shadow-lg transition-all duration-300 z-20 group"
+              aria-label="Next image"
+            >
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="group-hover:translate-x-1 transition-transform">
+                <path d="M9 18l6-6-6-6"/>
+              </svg>
+            </button>
+
+            {/* Status Badge */}
             {product.status === 'Aman' && (
-              <span className="absolute top-4 left-4 badge badge-aman">Stok Aman</span>
+              <span className="absolute top-4 left-4 badge badge-aman z-20">Stok Aman</span>
             )}
             {product.status === 'Tipis' && (
-              <span className="absolute top-4 left-4 badge badge-tipis">Stok Tipis</span>
+              <span className="absolute top-4 left-4 badge badge-tipis z-20">Stok Tipis</span>
             )}
+
+            {/* Image Counter */}
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-20" aria-label="Image indicators">
+              {images.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => handleImageChange(index)}
+                  className={`w-2 h-2 rounded-full transition-all duration-300 ${
+                    index === selectedImage
+                      ? 'bg-white w-8'
+                      : 'bg-white/60 hover:bg-white'
+                  }`}
+                  aria-label={`Go to image ${index + 1}`}
+                  aria-current={index === selectedImage ? 'true' : 'false'}
+                />
+              ))}
+            </div>
           </div>
 
+          {/* Thumbnail Strip */}
           <div className="flex gap-3 overflow-x-auto pb-2" role="list" aria-label="Product thumbnails">
             {images.map((img, index) => (
               <button
                 key={index}
                 onClick={() => handleImageChange(index)}
-                className={`flex-shrink-0 w-20 h-20 rounded-lg overflow-hidden border-2 transition-all ${
+                className={`flex-shrink-0 w-20 h-20 rounded-xl overflow-hidden border-2 transition-all shadow-sm ${
                   index === selectedImage
-                    ? 'border-primary'
-                    : 'border-transparent hover:border-gray-300'
+                    ? 'border-primary ring-2 ring-primary/20'
+                    : 'border-transparent hover:border-gray-200'
                 }`}
                 aria-label={`View image ${index + 1}`}
                 aria-current={index === selectedImage ? 'true' : 'false'}
@@ -92,14 +160,14 @@ export function ProductDetail({ product }: ProductDetailProps) {
           </div>
         </div>
 
-        {/* Product Info */}
-        <div className="space-y-6">
+        {/* Right: Product Info & Variants */}
+        <div className="space-y-6 lg:sticky lg:top-24">
           <span className="text-sm font-medium text-gray-500 uppercase tracking-wider">{product.kategori}</span>
           
           <h1 className="text-3xl lg:text-4xl font-bold leading-tight">{product.namaProduk}</h1>
 
           <div className="flex items-baseline gap-4">
-            <span className="text-3xl font-bold text-primary">{formatPrice(product.hargaJualRekomendasi)}</span>
+            <span className="text-3xl lg:text-4xl font-bold text-primary">{formatPrice(product.hargaJualRekomendasi)}</span>
           </div>
 
           <div className="flex items-center gap-4 text-sm text-gray-600 border-t border-b border-border py-4">
@@ -118,6 +186,28 @@ export function ProductDetail({ product }: ProductDetailProps) {
               </svg>
               Stok: {product.status === 'Aman' ? '125' : 'Terbatas'}
             </span>
+          </div>
+
+          {/* Variant Selector */}
+          <div className="space-y-3">
+            <label className="text-sm font-medium">Varian</label>
+            <div className="flex flex-wrap gap-2" role="radiogroup" aria-label="Pilih varian">
+              {variants.map((variant) => (
+                <button
+                  key={variant}
+                  onClick={() => setSelectedVariant(variant)}
+                  role="radio"
+                  aria-checked={selectedVariant === variant}
+                  className={`px-4 py-2.5 rounded-lg text-sm font-medium border-2 transition-all ${
+                    selectedVariant === variant
+                      ? 'border-primary bg-primary text-white'
+                      : 'border-border hover:border-gray-300 bg-white'
+                  }`}
+                >
+                  {variant}
+                </button>
+              ))}
+            </div>
           </div>
 
           {/* Quantity Selector */}
@@ -168,6 +258,16 @@ export function ProductDetail({ product }: ProductDetailProps) {
             Add to Cart
           </button>
 
+          {/* Buy Now Button */}
+          <button className="btn btn-secondary w-full py-4 text-lg gap-3">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/>
+              <path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/>
+              <line x1="18" y1="5" x2="18" y2="19"/>
+            </svg>
+            Beli Sekarang
+          </button>
+
           {/* Trust Badges */}
           <div className="flex flex-wrap gap-3 text-sm text-gray-600">
             <span className="flex items-center gap-1 px-3 py-1.5 bg-green-50 text-green-700 rounded-full">
@@ -191,6 +291,29 @@ export function ProductDetail({ product }: ProductDetailProps) {
               </svg>
               Pembayaran Aman
             </span>
+          </div>
+
+          {/* Share */}
+          <div className="flex items-center gap-3 pt-4 border-t border-border">
+            <span className="text-sm text-gray-500">Bagikan:</span>
+            <div className="flex gap-2">
+              <button className="p-2 rounded-lg border border-border hover:bg-muted transition-colors" aria-label="Share to WhatsApp">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </button>
+              <button className="p-2 rounded-lg border border-border hover:bg-muted transition-colors" aria-label="Share to Facebook">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                </svg>
+              </button>
+              <button className="p-2 rounded-lg border border-border hover:bg-muted transition-colors" aria-label="Copy link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                  <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
       </div>
