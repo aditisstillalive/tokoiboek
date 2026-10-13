@@ -1,9 +1,9 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { fetchProducts, formatPrice } from '@/lib/sheets';
+import { fetchProducts } from '@/lib/sheets';
 import { ProductGrid } from '@/components/ProductGrid';
 
-export const revalidate = 3600;
+export const revalidate = false;
 
 export const metadata: Metadata = {
   title: 'Semua Produk',

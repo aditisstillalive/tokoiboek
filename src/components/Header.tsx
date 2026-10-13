@@ -2,10 +2,19 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 export function Header() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const router = useRouter();
+
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      router.push(`/search?q=${encodeURIComponent(searchQuery)}`);
+    }
+  };
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-border">
@@ -46,7 +55,7 @@ export function Header() {
                 </svg>
               </button>
               
-              <form className="flex items-center gap-2" onSubmit={(e) => { e.preventDefault(); if (searchQuery.trim()) window.location.href = `/search?q=${encodeURIComponent(searchQuery)}`; }}>
+              <form className="flex items-center gap-2" onSubmit={handleSearch}>
                 <input
                   type="search"
                   placeholder="Cari produk..."
@@ -87,7 +96,7 @@ export function Header() {
 
         {searchOpen && (
           <div className="md:hidden py-4 border-t border-border animate-slide-down">
-            <form onSubmit={(e) => { e.preventDefault(); if (searchQuery.trim()) window.location.href = `/search?q=${encodeURIComponent(searchQuery)}`; }}>
+            <form onSubmit={handleSearch}>
               <input
                 type="search"
                 placeholder="Cari produk..."

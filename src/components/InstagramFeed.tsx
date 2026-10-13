@@ -1,7 +1,6 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
 
 const instagramImages = Array.from({ length: 12 }, (_, i) => `/instagram-${(i % 6) + 1}.jpg`);
 

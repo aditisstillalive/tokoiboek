@@ -38,7 +38,7 @@ function parsePrice(value: string): number {
 }
 
 export async function fetchProducts(): Promise<Product[]> {
-  const response = await fetch(CSV_URL, { next: { revalidate: 3600 } });
+  const response = await fetch(CSV_URL, { next: { revalidate: false } });
   if (!response.ok) {
     throw new Error(`Failed to fetch CSV: ${response.statusText}`);
   }

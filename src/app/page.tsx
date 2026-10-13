@@ -5,7 +5,7 @@ import { ProductGrid } from '@/components/ProductGrid';
 import { InstagramFeed } from '@/components/InstagramFeed';
 import { fetchCategories, fetchProducts } from '@/lib/sheets';
 
-export const revalidate = 3600;
+export const revalidate = false;
 
 export default async function Home() {
   const [categories, products] = await Promise.all([
@@ -13,7 +13,6 @@ export default async function Home() {
     fetchProducts(),
   ]);
 
-  const featuredProducts = products.slice(0, 8);
   const newArrivals = products.slice(0, 4);
   const saleProducts = products.filter(p => p.status === 'Aman').slice(0, 4);
 

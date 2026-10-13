@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { Product } from '@/lib/types';
 import { formatPrice } from '@/lib/sheets';
-import { getProductImageUrl } from '@/lib/image-mapping';
+import { getProductThumbnailUrl } from '@/lib/image-mapping';
 
 interface ProductCardProps {
   product: Product;
@@ -12,8 +12,8 @@ interface ProductCardProps {
 }
 
 export function ProductCard({ product, priority = false }: ProductCardProps) {
-  const driveImageUrl = getProductImageUrl(product.asset || '');
-  const imageUrl = driveImageUrl || '/placeholder-product.svg';
+  const thumbnailUrl = getProductThumbnailUrl(product.asset || '', 400);
+  const imageUrl = thumbnailUrl || '/placeholder-product.svg';
   
   return (
     <Link href={`/product/${product.id}`} className="product-card group" aria-label={product.namaProduk}>

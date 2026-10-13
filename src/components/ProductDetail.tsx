@@ -5,7 +5,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Product } from '@/lib/types';
 import { formatPrice } from '@/lib/sheets';
-import { imageMapping, getProductImageUrl } from '@/lib/image-mapping';
+import { getProductFullImageUrl } from '@/lib/image-mapping';
+import { getWhatsAppUrl } from '@/lib/whatsapp';
 
 interface ProductDetailProps {
   product: Product;
@@ -17,10 +18,10 @@ export function ProductDetail({ product }: ProductDetailProps) {
   const [activeTab, setActiveTab] = useState<'description' | 'specification'>('description');
   const [selectedVariant, setSelectedVariant] = useState<string>('Default');
 
-  // Compute image URL directly from mapping (available at build time)
-  const driveImageUrl = getProductImageUrl(product.asset || '');
-  const productImages = driveImageUrl 
-    ? [driveImageUrl] 
+  // Compute image URL with optimization
+  const fullImageUrl = getProductFullImageUrl(product.asset || '', 1200);
+  const productImages = fullImageUrl 
+    ? [fullImageUrl] 
     : [
         '/product-img-1.svg',
         '/product-img-2.svg',
@@ -82,11 +83,13 @@ export function ProductDetail({ product }: ProductDetailProps) {
             {/* Images - only render active one to prevent bleed */}
             <div className="absolute inset-0 z-10">
               {productImages.length > 0 ? (
-                <img
+                <Image
                   src={productImages[selectedImage]}
                   alt={`${product.namaProduk} - Gambar ${selectedImage + 1}`}
+                  fill
                   className="w-full h-full object-cover"
-                  loading="eager"
+                  priority
+                  sizes="100%"
                 />
               ) : (
                 <div className="w-full h-full flex items-center justify-center bg-muted">
@@ -156,11 +159,12 @@ export function ProductDetail({ product }: ProductDetailProps) {
                   aria-label={`View image ${index + 1}`}
                   aria-current={index === selectedImage ? 'true' : 'false'}
                 >
-                  <img
+                  <Image
                     src={img}
                     alt=""
+                    fill
                     className="w-full h-full object-cover"
-                    loading="lazy"
+                    sizes="80px"
                   />
                 </button>
               ))}
@@ -266,15 +270,18 @@ export function ProductDetail({ product }: ProductDetailProps) {
             Add to Cart
           </button>
 
-          {/* Buy Now Button */}
-          <button className="btn btn-secondary w-full py-4 text-lg gap-3">
+          {/* Buy Now Button - WhatsApp */}
+          <a
+            href={getWhatsAppUrl(product.namaProduk, product.hargaJualRekomendasi, quantity)}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-secondary w-full py-4 text-lg gap-3 flex items-center justify-center"
+          >
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/>
-              <path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/>
-              <line x1="18" y1="5" x2="18" y2="19"/>
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
             </svg>
-            Beli Sekarang
-          </button>
+            Beli via WhatsApp
+          </a>
 
           {/* Trust Badges */}
           <div className="flex flex-wrap gap-3 text-sm text-gray-600">
@@ -305,11 +312,17 @@ export function ProductDetail({ product }: ProductDetailProps) {
           <div className="flex items-center gap-3 pt-4 border-t border-border">
             <span className="text-sm text-gray-500">Bagikan:</span>
             <div className="flex gap-2">
-              <button className="p-2 rounded-lg border border-border hover:bg-muted transition-colors" aria-label="Share to WhatsApp">
+              <a
+                href={getWhatsAppUrl(product.namaProduk, product.hargaJualRekomendasi, quantity)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-lg border border-border hover:bg-muted transition-colors"
+                aria-label="Share to WhatsApp"
+              >
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
                 </svg>
-              </button>
+              </a>
               <button className="p-2 rounded-lg border border-border hover:bg-muted transition-colors" aria-label="Share to Facebook">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>

@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { fetchProducts } from '@/lib/sheets';
 import { ProductDetail } from '@/components/ProductDetail';
+import { ProductErrorBoundary } from '@/components/ProductErrorBoundary';
 
 interface ProductPageProps {
   params: Promise<{ id: string }>;
@@ -45,5 +46,9 @@ export default async function ProductPage({ params }: ProductPageProps) {
     notFound();
   }
 
-  return <ProductDetail product={product} />;
+  return (
+    <ProductErrorBoundary>
+      <ProductDetail product={product} />
+    </ProductErrorBoundary>
+  );
 }

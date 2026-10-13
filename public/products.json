@@ -1,0 +1,5652 @@
+[
+  {
+    "id": "1",
+    "namaProduk": "Kremesan Hati Ayam Organik Bites",
+    "kategori": "Bebi Suka",
+    "hargaJualRekomendasi": 63000,
+    "status": "Tipis",
+    "marginBersih": 0.08052380952,
+    "asset": "bebi_suka-kremesan_hati_ayam_organik_bites",
+    "imgUrl": ""
+  },
+  {
+    "id": "2",
+    "namaProduk": "Kremesan Hati Ayam Organik",
+    "kategori": "Bebi Suka",
+    "hargaJualRekomendasi": 60000,
+    "status": "Tipis",
+    "marginBersih": 0.0836,
+    "asset": "bebi_suka-kremesan_hati_ayam_organik",
+    "imgUrl": ""
+  },
+  {
+    "id": "3",
+    "namaProduk": "Kremesan Hati Ayam Original Bites",
+    "kategori": "Bebi Suka",
+    "hargaJualRekomendasi": 55000,
+    "status": "Tipis",
+    "marginBersih": 0.08205454545,
+    "asset": "bebi_suka-kremesan_hati_ayam_original_bites",
+    "imgUrl": ""
+  },
+  {
+    "id": "4",
+    "namaProduk": "Kremesan Hati Ayam Original",
+    "kategori": "Bebi Suka",
+    "hargaJualRekomendasi": 52000,
+    "status": "Tipis",
+    "marginBersih": 0.08569230769,
+    "asset": "bebi_suka-kremesan_hati_ayam_original",
+    "imgUrl": ""
+  },
+  {
+    "id": "5",
+    "namaProduk": "Kremesan Teri 75g",
+    "kategori": "Bebi Suka",
+    "hargaJualRekomendasi": 51000,
+    "status": "Tipis",
+    "marginBersih": 0.083,
+    "asset": "bebi_suka-kremesan_teri_75g",
+    "imgUrl": ""
+  },
+  {
+    "id": "6",
+    "namaProduk": "Kremesan Teri Pouch 115gr",
+    "kategori": "Bebi Suka",
+    "hargaJualRekomendasi": 93000,
+    "status": "Aman",
+    "marginBersih": 0.1396451613,
+    "asset": "bebi_suka-kremesan_teri_pouch_115gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "7",
+    "namaProduk": "Ayam Kuah Kemangi",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 46000,
+    "status": "Tipis",
+    "marginBersih": 0.08108695652,
+    "asset": "benourish-ayam_kuah_kemangi",
+    "imgUrl": ""
+  },
+  {
+    "id": "8",
+    "namaProduk": "Beef & Chicken Fingers",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 56000,
+    "status": "Tipis",
+    "marginBersih": 0.07801428571,
+    "asset": "benourish-beef_&_chicken_fingers",
+    "imgUrl": ""
+  },
+  {
+    "id": "9",
+    "namaProduk": "Beef Liver Egg Roll",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 145000,
+    "status": "Aman",
+    "marginBersih": 0.1399931034,
+    "asset": "benourish-beef_liver_egg_roll",
+    "imgUrl": ""
+  },
+  {
+    "id": "10",
+    "namaProduk": "Beef Liver Pate",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 129000,
+    "status": "Aman",
+    "marginBersih": 0.1391860465,
+    "asset": "benourish-beef_liver_pate",
+    "imgUrl": ""
+  },
+  {
+    "id": "11",
+    "namaProduk": "Chicken Chinese Soup",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 51000,
+    "status": "Tipis",
+    "marginBersih": 0.0902,
+    "asset": "benourish-chicken_chinese_soup",
+    "imgUrl": ""
+  },
+  {
+    "id": "12",
+    "namaProduk": "Chicken Dashi Porridge",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 39000,
+    "status": "Tipis",
+    "marginBersih": 0.087,
+    "asset": "benourish-chicken_dashi_porridge",
+    "imgUrl": ""
+  },
+  {
+    "id": "13",
+    "namaProduk": "Chicken Greek Lemon Soup",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 43000,
+    "status": "Tipis",
+    "marginBersih": 0.09253488372,
+    "asset": "benourish-chicken_greek_lemon_soup",
+    "imgUrl": ""
+  },
+  {
+    "id": "14",
+    "namaProduk": "Chicken Liver Pate",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 145000,
+    "status": "Aman",
+    "marginBersih": 0.1399931034,
+    "asset": "benourish-chicken_liver_pate",
+    "imgUrl": ""
+  },
+  {
+    "id": "15",
+    "namaProduk": "Chicken Mushroom with Broth",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 50000,
+    "status": "Tipis",
+    "marginBersih": 0.08632,
+    "asset": "benourish-chicken_mushroom_with_broth",
+    "imgUrl": ""
+  },
+  {
+    "id": "16",
+    "namaProduk": "Chicken Pops",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 61000,
+    "status": "Tipis",
+    "marginBersih": 0.0858852459,
+    "asset": "benourish-chicken_pops",
+    "imgUrl": ""
+  },
+  {
+    "id": "17",
+    "namaProduk": "Chicken Spam",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 75000,
+    "status": "Tipis",
+    "marginBersih": 0.07884,
+    "asset": "benourish-chicken_spam",
+    "imgUrl": ""
+  },
+  {
+    "id": "18",
+    "namaProduk": "Chicken Strip",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 114000,
+    "status": "Aman",
+    "marginBersih": 0.1442631579,
+    "asset": "benourish-chicken_strip",
+    "imgUrl": ""
+  },
+  {
+    "id": "19",
+    "namaProduk": "Es Lontar",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 39000,
+    "status": "Tipis",
+    "marginBersih": 0.08072307692,
+    "asset": "benourish-es_lontar",
+    "imgUrl": ""
+  },
+  {
+    "id": "20",
+    "namaProduk": "Extra Liver Chicken Patty",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 93000,
+    "status": "Aman",
+    "marginBersih": 0.1422774194,
+    "asset": "benourish-extra_liver_chicken_patty",
+    "imgUrl": ""
+  },
+  {
+    "id": "21",
+    "namaProduk": "Lumpia Sapi Ayam",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 57000,
+    "status": "Tipis",
+    "marginBersih": 0.08163157895,
+    "asset": "benourish-lumpia_sapi_ayam",
+    "imgUrl": ""
+  },
+  {
+    "id": "22",
+    "namaProduk": "Nugget Otak Ayam",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 53000,
+    "status": "Tipis",
+    "marginBersih": 0.07673584906,
+    "asset": "benourish-nugget_otak_ayam",
+    "imgUrl": ""
+  },
+  {
+    "id": "23",
+    "namaProduk": "Otak Bumbu Kuning",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 145000,
+    "status": "Aman",
+    "marginBersih": 0.1399931034,
+    "asset": "benourish-otak_bumbu_kuning",
+    "imgUrl": ""
+  },
+  {
+    "id": "24",
+    "namaProduk": "Fatty Meatballs",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 46000,
+    "status": "Tipis",
+    "marginBersih": 0.08108695652,
+    "asset": "benourish-fatty_meatballs",
+    "imgUrl": ""
+  },
+  {
+    "id": "25",
+    "namaProduk": "Prawn Miso Soup",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 39000,
+    "status": "Tipis",
+    "marginBersih": 0.087,
+    "asset": "benourish-prawn_miso_soup",
+    "imgUrl": ""
+  },
+  {
+    "id": "26",
+    "namaProduk": "Sempol Ayam",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 90000,
+    "status": "Aman",
+    "marginBersih": 0.1436666667,
+    "asset": "benourish-sempol_ayam",
+    "imgUrl": ""
+  },
+  {
+    "id": "27",
+    "namaProduk": "Sop Segar Ikan Dory",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 51000,
+    "status": "Tipis",
+    "marginBersih": 0.0902,
+    "asset": "benourish-sop_segar_ikan_dory",
+    "imgUrl": ""
+  },
+  {
+    "id": "28",
+    "namaProduk": "Soto Betawi Daging Hati Sapi",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 53000,
+    "status": "Tipis",
+    "marginBersih": 0.08712830189,
+    "asset": "benourish-soto_betawi_daging_hati_sapi",
+    "imgUrl": ""
+  },
+  {
+    "id": "29",
+    "namaProduk": "Soto Otak Tunjang Sapi",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 68000,
+    "status": "Tipis",
+    "marginBersih": 0.082,
+    "asset": "benourish-soto_otak_tunjang_sapi",
+    "imgUrl": ""
+  },
+  {
+    "id": "30",
+    "namaProduk": "Sup Mutiara Bola Udang",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 59000,
+    "status": "Tipis",
+    "marginBersih": 0.07916271186,
+    "asset": "benourish-sup_mutiara_bola_udang",
+    "imgUrl": ""
+  },
+  {
+    "id": "31",
+    "namaProduk": "Tim Sup Sum-sum Daging Sapi",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 56000,
+    "status": "Tipis",
+    "marginBersih": 0.07801428571,
+    "asset": "benourish-tim_sup_sum-sum_daging_sapi",
+    "imgUrl": ""
+  },
+  {
+    "id": "32",
+    "namaProduk": "Ati Ampela 1kg",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 81000,
+    "status": "Tipis",
+    "marginBersih": 0.08196296296,
+    "asset": "berkah_chicken-ati_ampela_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "33",
+    "namaProduk": "Ati Ampela 500gr",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 45000,
+    "status": "Tipis",
+    "marginBersih": 0.07793333333,
+    "asset": "berkah_chicken-ati_ampela_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "34",
+    "namaProduk": "Ayam Potong 10",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 107000,
+    "status": "Aman",
+    "marginBersih": 0.1448317757,
+    "asset": "berkah_chicken-ayam_potong_10",
+    "imgUrl": ""
+  },
+  {
+    "id": "35",
+    "namaProduk": "Ayam Ungkep",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 127000,
+    "status": "Aman",
+    "marginBersih": 0.1426850394,
+    "asset": "berkah_chicken-ayam_ungkep",
+    "imgUrl": ""
+  },
+  {
+    "id": "36",
+    "namaProduk": "Bakso Ayam",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 50000,
+    "status": "Tipis",
+    "marginBersih": 0.0802,
+    "asset": "berkah_chicken-bakso_ayam",
+    "imgUrl": ""
+  },
+  {
+    "id": "37",
+    "namaProduk": "Ceker 1kg",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 99000,
+    "status": "Aman",
+    "marginBersih": 0.1446969697,
+    "asset": "berkah_chicken-ceker_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "38",
+    "namaProduk": "Ceker 500g",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 53000,
+    "status": "Tipis",
+    "marginBersih": 0.07673584906,
+    "asset": "berkah_chicken-ceker_500g",
+    "imgUrl": ""
+  },
+  {
+    "id": "39",
+    "namaProduk": "Dada Fillet 1kg",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 141000,
+    "status": "Aman",
+    "marginBersih": 0.1419787234,
+    "asset": "berkah_chicken-dada_fillet_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "40",
+    "namaProduk": "Dada Fillet 500g",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 74000,
+    "status": "Tipis",
+    "marginBersih": 0.08516216216,
+    "asset": "berkah_chicken-dada_fillet_500g",
+    "imgUrl": ""
+  },
+  {
+    "id": "41",
+    "namaProduk": "Kaki Naga Organik",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 68000,
+    "status": "Tipis",
+    "marginBersih": 0.082,
+    "asset": "berkah_chicken-kaki_naga_organik",
+    "imgUrl": ""
+  },
+  {
+    "id": "42",
+    "namaProduk": "Kulit Ayam 1kg",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 93000,
+    "status": "Aman",
+    "marginBersih": 0.1396451613,
+    "asset": "berkah_chicken-kulit_ayam_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "43",
+    "namaProduk": "Kulit Ayam 500g",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 50000,
+    "status": "Tipis",
+    "marginBersih": 0.0802,
+    "asset": "berkah_chicken-kulit_ayam_500g",
+    "imgUrl": ""
+  },
+  {
+    "id": "44",
+    "namaProduk": "Middle Wings",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 63000,
+    "status": "Tipis",
+    "marginBersih": 0.08052380952,
+    "asset": "berkah_chicken-middle_wings",
+    "imgUrl": ""
+  },
+  {
+    "id": "45",
+    "namaProduk": "Nugget Ayam",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 61000,
+    "status": "Tipis",
+    "marginBersih": 0.0858852459,
+    "asset": "berkah_chicken-nugget_ayam",
+    "imgUrl": ""
+  },
+  {
+    "id": "46",
+    "namaProduk": "Paha Atas 1kg",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 115000,
+    "status": "Aman",
+    "marginBersih": 0.1449478261,
+    "asset": "berkah_chicken-paha_atas_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "47",
+    "namaProduk": "Paha Bawah 1kg",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 115000,
+    "status": "Aman",
+    "marginBersih": 0.1449478261,
+    "asset": "berkah_chicken-paha_bawah_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "48",
+    "namaProduk": "Paha Fillet 1kg",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 148000,
+    "status": "Aman",
+    "marginBersih": 0.1416756757,
+    "asset": "berkah_chicken-paha_fillet_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "49",
+    "namaProduk": "Paha Fillet 500g",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 77000,
+    "status": "Tipis",
+    "marginBersih": 0.08258441558,
+    "asset": "berkah_chicken-paha_fillet_500g",
+    "imgUrl": ""
+  },
+  {
+    "id": "50",
+    "namaProduk": "Paha Utuh Organik",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 115000,
+    "status": "Aman",
+    "marginBersih": 0.1449478261,
+    "asset": "berkah_chicken-paha_utuh_organik",
+    "imgUrl": ""
+  },
+  {
+    "id": "51",
+    "namaProduk": "Sayap 1kg",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 106000,
+    "status": "Aman",
+    "marginBersih": 0.1440943396,
+    "asset": "berkah_chicken-sayap_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "52",
+    "namaProduk": "Sosis Ayam",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 76000,
+    "status": "Tipis",
+    "marginBersih": 0.08073684211,
+    "asset": "berkah_chicken-sosis_ayam",
+    "imgUrl": ""
+  },
+  {
+    "id": "53",
+    "namaProduk": "Stick Wings",
+    "kategori": "Berkah Chicken",
+    "hargaJualRekomendasi": 60000,
+    "status": "Tipis",
+    "marginBersih": 0.0836,
+    "asset": "berkah_chicken-stick_wings",
+    "imgUrl": ""
+  },
+  {
+    "id": "54",
+    "namaProduk": "Minyak Goreng Barco 2L",
+    "kategori": "Botol",
+    "hargaJualRekomendasi": 179000,
+    "status": "Aman",
+    "marginBersih": 0.1392323575,
+    "asset": "botol-minyak_goreng_barco_2l",
+    "imgUrl": ""
+  },
+  {
+    "id": "55",
+    "namaProduk": "Minyak Goreng Kelapa @klapajiwo",
+    "kategori": "Botol",
+    "hargaJualRekomendasi": 141000,
+    "status": "Aman",
+    "marginBersih": 0.142268143,
+    "asset": "botol-minyak_goreng_kelapa_@klapajiwo",
+    "imgUrl": ""
+  },
+  {
+    "id": "56",
+    "namaProduk": "Chicken Bone Broth Mild",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 103000,
+    "status": "Aman",
+    "marginBersih": 0.1417961165,
+    "asset": "brothmama-chicken_bone_broth_mild",
+    "imgUrl": ""
+  },
+  {
+    "id": "57",
+    "namaProduk": "Chicken Bone Broth Original",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 111000,
+    "status": "Aman",
+    "marginBersih": 0.1421351351,
+    "asset": "brothmama-chicken_bone_broth_original",
+    "imgUrl": ""
+  },
+  {
+    "id": "58",
+    "namaProduk": "Chicken Oil",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 151000,
+    "status": "Aman",
+    "marginBersih": 0.1432913907,
+    "asset": "brothmama-chicken_oil",
+    "imgUrl": ""
+  },
+  {
+    "id": "59",
+    "namaProduk": "Duck Fat",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 134000,
+    "status": "Aman",
+    "marginBersih": 0.1395731343,
+    "asset": "brothmama-duck_fat",
+    "imgUrl": ""
+  },
+  {
+    "id": "60",
+    "namaProduk": "Duck Liver Grizzard Pate",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 165000,
+    "status": "Aman",
+    "marginBersih": 0.1426363636,
+    "asset": "brothmama-duck_liver_grizzard_pate",
+    "imgUrl": ""
+  },
+  {
+    "id": "61",
+    "namaProduk": "Duck Skin Patty",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 134000,
+    "status": "Aman",
+    "marginBersih": 0.1395731343,
+    "asset": "brothmama-duck_skin_patty",
+    "imgUrl": ""
+  },
+  {
+    "id": "62",
+    "namaProduk": "Extra Fat Chicken Skin Patty",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 134000,
+    "status": "Aman",
+    "marginBersih": 0.1395731343,
+    "asset": "brothmama-extra_fat_chicken_skin_patty",
+    "imgUrl": ""
+  },
+  {
+    "id": "63",
+    "namaProduk": "Gabus Broth",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 166000,
+    "status": "Aman",
+    "marginBersih": 0.1394337349,
+    "asset": "brothmama-gabus_broth",
+    "imgUrl": ""
+  },
+  {
+    "id": "64",
+    "namaProduk": "Gabus Patty",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 135000,
+    "status": "Aman",
+    "marginBersih": 0.1429111111,
+    "asset": "brothmama-gabus_patty",
+    "imgUrl": ""
+  },
+  {
+    "id": "65",
+    "namaProduk": "Grassfed Beef Bone Broth",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 166000,
+    "status": "Aman",
+    "marginBersih": 0.1394337349,
+    "asset": "brothmama-grassfed_beef_bone_broth",
+    "imgUrl": ""
+  },
+  {
+    "id": "66",
+    "namaProduk": "Hati Ayam Blondo",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 119000,
+    "status": "Aman",
+    "marginBersih": 0.1424285714,
+    "asset": "brothmama-hati_ayam_blondo",
+    "imgUrl": ""
+  },
+  {
+    "id": "67",
+    "namaProduk": "Lidah Sapi Bumbu Empal",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 166000,
+    "status": "Aman",
+    "marginBersih": 0.1394337349,
+    "asset": "brothmama-lidah_sapi_bumbu_empal",
+    "imgUrl": ""
+  },
+  {
+    "id": "68",
+    "namaProduk": "NDF Honey Original",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 254000,
+    "status": "Aman",
+    "marginBersih": 0.1418818898,
+    "asset": "brothmama-ndf_honey_original",
+    "imgUrl": ""
+  },
+  {
+    "id": "69",
+    "namaProduk": "Otak Patty",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 166000,
+    "status": "Aman",
+    "marginBersih": 0.1394337349,
+    "asset": "brothmama-otak_patty",
+    "imgUrl": ""
+  },
+  {
+    "id": "70",
+    "namaProduk": "Otak Sapi Bumbu Kuning",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 166000,
+    "status": "Aman",
+    "marginBersih": 0.1394337349,
+    "asset": "brothmama-otak_sapi_bumbu_kuning",
+    "imgUrl": ""
+  },
+  {
+    "id": "71",
+    "namaProduk": "Tallow Grassfed Beef",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 135000,
+    "status": "Aman",
+    "marginBersih": 0.1429111111,
+    "asset": "brothmama-tallow_grassfed_beef",
+    "imgUrl": ""
+  },
+  {
+    "id": "72",
+    "namaProduk": "Wellness Shot",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 74000,
+    "status": "Tipis",
+    "marginBersih": 0.08516216216,
+    "asset": "brothmama-wellness_shot",
+    "imgUrl": ""
+  },
+  {
+    "id": "73",
+    "namaProduk": "Blondo 500gr",
+    "kategori": "Buah-buahan",
+    "hargaJualRekomendasi": 102000,
+    "status": "Aman",
+    "marginBersih": 0.14140008,
+    "asset": "buah-buahan-blondo_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "74",
+    "namaProduk": "Bumbu Dasar Kuning Non MSG",
+    "kategori": "Bumbu",
+    "hargaJualRekomendasi": 43000,
+    "status": "Tipis",
+    "marginBersih": 0.08541860465,
+    "asset": "bumbu-bumbu_dasar_kuning_non_msg",
+    "imgUrl": ""
+  },
+  {
+    "id": "75",
+    "namaProduk": "Bumbu Dasar Putih Non MSG",
+    "kategori": "Bumbu",
+    "hargaJualRekomendasi": 43000,
+    "status": "Tipis",
+    "marginBersih": 0.08541860465,
+    "asset": "bumbu-bumbu_dasar_putih_non_msg",
+    "imgUrl": ""
+  },
+  {
+    "id": "76",
+    "namaProduk": "Bumbu Nasi Goreng/Mie Goreng No MSG",
+    "kategori": "Bumbu",
+    "hargaJualRekomendasi": 43000,
+    "status": "Tipis",
+    "marginBersih": 0.08541860465,
+    "asset": "bumbu-bumbu_nasi_goreng/mie_goreng_no_msg",
+    "imgUrl": ""
+  },
+  {
+    "id": "77",
+    "namaProduk": "Bumbu Nasi Kebuli",
+    "kategori": "Bumbu",
+    "hargaJualRekomendasi": 34000,
+    "status": "Tipis",
+    "marginBersih": 0.085,
+    "asset": "bumbu-bumbu_nasi_kebuli",
+    "imgUrl": ""
+  },
+  {
+    "id": "78",
+    "namaProduk": "Bumbu Nusantara",
+    "kategori": "Bumbu",
+    "hargaJualRekomendasi": 34000,
+    "status": "Tipis",
+    "marginBersih": 0.085,
+    "asset": "bumbu-bumbu_nusantara",
+    "imgUrl": ""
+  },
+  {
+    "id": "79",
+    "namaProduk": "Bumbu Rawon",
+    "kategori": "Bumbu",
+    "hargaJualRekomendasi": 42000,
+    "status": "Tipis",
+    "marginBersih": 0.08214285714,
+    "asset": "bumbu-bumbu_rawon",
+    "imgUrl": ""
+  },
+  {
+    "id": "80",
+    "namaProduk": "Bumbu Rendang",
+    "kategori": "Bumbu",
+    "hargaJualRekomendasi": 42000,
+    "status": "Tipis",
+    "marginBersih": 0.08214285714,
+    "asset": "bumbu-bumbu_rendang",
+    "imgUrl": ""
+  },
+  {
+    "id": "81",
+    "namaProduk": "Choco Lava Cake 2 pcs",
+    "kategori": "Cakes",
+    "hargaJualRekomendasi": 66000,
+    "status": "Tipis",
+    "marginBersih": 0.07657513636,
+    "asset": "cakes-choco_lava_cake_2_pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "82",
+    "namaProduk": "Choco Lava Cake 4 pcs",
+    "kategori": "Cakes",
+    "hargaJualRekomendasi": 134000,
+    "status": "Aman",
+    "marginBersih": 0.1411784925,
+    "asset": "cakes-choco_lava_cake_4_pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "83",
+    "namaProduk": "Cookie Dough Energy Bar Mix 1",
+    "kategori": "Cakes",
+    "hargaJualRekomendasi": 108000,
+    "status": "Aman",
+    "marginBersih": 0.1431642222,
+    "asset": "cakes-cookie_dough_energy_bar_mix_1",
+    "imgUrl": ""
+  },
+  {
+    "id": "84",
+    "namaProduk": "Cookie Dough Energy Bar Mix 2",
+    "kategori": "Cakes",
+    "hargaJualRekomendasi": 112000,
+    "status": "Aman",
+    "marginBersih": 0.1437642143,
+    "asset": "cakes-cookie_dough_energy_bar_mix_2",
+    "imgUrl": ""
+  },
+  {
+    "id": "85",
+    "namaProduk": "Cookie Dough Energy Bars - Choco Chizzu",
+    "kategori": "Cakes",
+    "hargaJualRekomendasi": 34000,
+    "status": "Tipis",
+    "marginBersih": 0.077404,
+    "asset": "cakes-cookie_dough_energy_bars_-_choco_chizzu",
+    "imgUrl": ""
+  },
+  {
+    "id": "86",
+    "namaProduk": "Cookie Dough Energy Bars - Chocolate",
+    "kategori": "Cakes",
+    "hargaJualRekomendasi": 35000,
+    "status": "Tipis",
+    "marginBersih": 0.08156388571,
+    "asset": "cakes-cookie_dough_energy_bars_-_chocolate",
+    "imgUrl": ""
+  },
+  {
+    "id": "87",
+    "namaProduk": "Cookie Dough Energy Bars - Cream Cheese",
+    "kategori": "Cakes",
+    "hargaJualRekomendasi": 31000,
+    "status": "Tipis",
+    "marginBersih": 0.083056,
+    "asset": "cakes-cookie_dough_energy_bars_-_cream_cheese",
+    "imgUrl": ""
+  },
+  {
+    "id": "88",
+    "namaProduk": "Cookie Dough Energy Bars - Long Matchiz",
+    "kategori": "Cakes",
+    "hargaJualRekomendasi": 36000,
+    "status": "Tipis",
+    "marginBersih": 0.08549266667,
+    "asset": "cakes-cookie_dough_energy_bars_-_long_matchiz",
+    "imgUrl": ""
+  },
+  {
+    "id": "89",
+    "namaProduk": "Homemade Cookies",
+    "kategori": "Cakes",
+    "hargaJualRekomendasi": 25000,
+    "status": "Tipis",
+    "marginBersih": 0.0598,
+    "asset": "cakes-homemade_cookies",
+    "imgUrl": ""
+  },
+  {
+    "id": "90",
+    "namaProduk": "Ayam Ungkep Bumbu Kuning",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 102000,
+    "status": "Aman",
+    "marginBersih": 0.14454,
+    "asset": "de_natural_taste-ayam_ungkep_bumbu_kuning",
+    "imgUrl": ""
+  },
+  {
+    "id": "91",
+    "namaProduk": "Buras Daging Sapi",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 63000,
+    "status": "Tipis",
+    "marginBersih": 0.07654095238,
+    "asset": "de_natural_taste-buras_daging_sapi",
+    "imgUrl": ""
+  },
+  {
+    "id": "92",
+    "namaProduk": "Chicken Dimsum Ori (GF)",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 82000,
+    "status": "Tipis",
+    "marginBersih": 0.08062292683,
+    "asset": "de_natural_taste-chicken_dimsum_ori_(gf)",
+    "imgUrl": ""
+  },
+  {
+    "id": "93",
+    "namaProduk": "Chicken Dimsum Ori Chili Oil",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 95000,
+    "status": "Aman",
+    "marginBersih": 0.1452008421,
+    "asset": "de_natural_taste-chicken_dimsum_ori_chili_oil",
+    "imgUrl": ""
+  },
+  {
+    "id": "94",
+    "namaProduk": "Chicken Dimsum Seaweed (GF)",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 82000,
+    "status": "Tipis",
+    "marginBersih": 0.08062292683,
+    "asset": "de_natural_taste-chicken_dimsum_seaweed_(gf)",
+    "imgUrl": ""
+  },
+  {
+    "id": "95",
+    "namaProduk": "Chicken Dimsum Seaweed Chili Oil",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 95000,
+    "status": "Aman",
+    "marginBersih": 0.1452008421,
+    "asset": "de_natural_taste-chicken_dimsum_seaweed_chili_oil",
+    "imgUrl": ""
+  },
+  {
+    "id": "96",
+    "namaProduk": "Chicken Egg Roll",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 62000,
+    "status": "Tipis",
+    "marginBersih": 0.08612258065,
+    "asset": "de_natural_taste-chicken_egg_roll",
+    "imgUrl": ""
+  },
+  {
+    "id": "97",
+    "namaProduk": "Chicken Stick",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 77000,
+    "status": "Tipis",
+    "marginBersih": 0.07932571429,
+    "asset": "de_natural_taste-chicken_stick",
+    "imgUrl": ""
+  },
+  {
+    "id": "98",
+    "namaProduk": "Chicken Wings",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 82000,
+    "status": "Tipis",
+    "marginBersih": 0.08069756098,
+    "asset": "de_natural_taste-chicken_wings",
+    "imgUrl": ""
+  },
+  {
+    "id": "99",
+    "namaProduk": "Mungbean Mylk 125ml",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 22000,
+    "status": "Tipis",
+    "marginBersih": 0.06536363636,
+    "asset": "de_natural_taste-mungbean_mylk_125ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "100",
+    "namaProduk": "Mungbean Mylk 1L",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 93000,
+    "status": "Aman",
+    "marginBersih": 0.1396451613,
+    "asset": "de_natural_taste-mungbean_mylk_1l",
+    "imgUrl": ""
+  },
+  {
+    "id": "101",
+    "namaProduk": "Mungbean Mylk 250ml",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 32000,
+    "status": "Tipis",
+    "marginBersih": 0.076375,
+    "asset": "de_natural_taste-mungbean_mylk_250ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "102",
+    "namaProduk": "Pecak Lele",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 78000,
+    "status": "Tipis",
+    "marginBersih": 0.08438461538,
+    "asset": "de_natural_taste-pecak_lele",
+    "imgUrl": ""
+  },
+  {
+    "id": "103",
+    "namaProduk": "Pecak Nila",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 95000,
+    "status": "Aman",
+    "marginBersih": 0.1439768421,
+    "asset": "de_natural_taste-pecak_nila",
+    "imgUrl": ""
+  },
+  {
+    "id": "104",
+    "namaProduk": "Pepes Lele",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 73000,
+    "status": "Tipis",
+    "marginBersih": 0.0832739726,
+    "asset": "de_natural_taste-pepes_lele",
+    "imgUrl": ""
+  },
+  {
+    "id": "105",
+    "namaProduk": "Rissole Beef Ragout",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 72000,
+    "status": "Tipis",
+    "marginBersih": 0.08124833333,
+    "asset": "de_natural_taste-rissole_beef_ragout",
+    "imgUrl": ""
+  },
+  {
+    "id": "106",
+    "namaProduk": "Shrimp Ekkado",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 103000,
+    "status": "Aman",
+    "marginBersih": 0.13936,
+    "asset": "de_natural_taste-shrimp_ekkado",
+    "imgUrl": ""
+  },
+  {
+    "id": "107",
+    "namaProduk": "Shrimp Gohyong",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 98000,
+    "status": "Aman",
+    "marginBersih": 0.141337551,
+    "asset": "de_natural_taste-shrimp_gohyong",
+    "imgUrl": ""
+  },
+  {
+    "id": "108",
+    "namaProduk": "Batang Tebu 250gr",
+    "kategori": "Gula",
+    "hargaJualRekomendasi": 32000,
+    "status": "Tipis",
+    "marginBersih": 0.076375,
+    "asset": "gula-batang_tebu_250gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "109",
+    "namaProduk": "Pigo PalmSuiker 200gr",
+    "kategori": "Gula",
+    "hargaJualRekomendasi": 18000,
+    "status": "Tipis",
+    "marginBersih": 0.05158333333,
+    "asset": "gula-pigo_palmsuiker_200gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "110",
+    "namaProduk": "Stetes Stevia 15ml",
+    "kategori": "Gula",
+    "hargaJualRekomendasi": 159000,
+    "status": "Aman",
+    "marginBersih": 0.1392188679,
+    "asset": "gula-stetes_stevia_15ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "111",
+    "namaProduk": "Stetes Stevia 30ml",
+    "kategori": "Gula",
+    "hargaJualRekomendasi": 260000,
+    "status": "Aman",
+    "marginBersih": 0.1411646154,
+    "asset": "gula-stetes_stevia_30ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "112",
+    "namaProduk": "Stetes Stevia 5ml",
+    "kategori": "Gula",
+    "hargaJualRekomendasi": 70000,
+    "status": "Tipis",
+    "marginBersih": 0.08515428571,
+    "asset": "gula-stetes_stevia_5ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "113",
+    "namaProduk": "Bay Leaf Powder 30gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 19000,
+    "status": "Tipis",
+    "marginBersih": 0.05181178947,
+    "asset": "herbs-bay_leaf_powder_30gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "114",
+    "namaProduk": "Biji Pala 50gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 35000,
+    "status": "Tipis",
+    "marginBersih": 0.09742342857,
+    "asset": "herbs-biji_pala_50gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "115",
+    "namaProduk": "Blackpapper 55gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 29000,
+    "status": "Tipis",
+    "marginBersih": 0.09944634483,
+    "asset": "herbs-blackpapper_55gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "116",
+    "namaProduk": "Cajun Spices 65gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 30000,
+    "status": "Tipis",
+    "marginBersih": 0.0968328,
+    "asset": "herbs-cajun_spices_65gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "117",
+    "namaProduk": "Chilli Flakes 25gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 19000,
+    "status": "Tipis",
+    "marginBersih": 0.05714263158,
+    "asset": "herbs-chilli_flakes_25gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "118",
+    "namaProduk": "Cinnamon Powder 65gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 30000,
+    "status": "Tipis",
+    "marginBersih": 0.0968328,
+    "asset": "herbs-cinnamon_powder_65gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "119",
+    "namaProduk": "Galangal 30gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 17000,
+    "status": "Tipis",
+    "marginBersih": 0.079552,
+    "asset": "herbs-galangal_30gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "120",
+    "namaProduk": "Garlic Powder 80gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 47000,
+    "status": "Tipis",
+    "marginBersih": 0.08202297872,
+    "asset": "herbs-garlic_powder_80gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "121",
+    "namaProduk": "Kunyit Powder 40gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 18000,
+    "status": "Bahaya",
+    "marginBersih": 0.04610933333,
+    "asset": "herbs-kunyit_powder_40gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "122",
+    "namaProduk": "Lemongrass Powder 45gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 22000,
+    "status": "Tipis",
+    "marginBersih": 0.06605909091,
+    "asset": "herbs-lemongrass_powder_45gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "123",
+    "namaProduk": "Onion Powder 70gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 49000,
+    "status": "Tipis",
+    "marginBersih": 0.08777714286,
+    "asset": "herbs-onion_powder_70gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "124",
+    "namaProduk": "Oregano 40gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 25000,
+    "status": "Tipis",
+    "marginBersih": 0.06048544,
+    "asset": "herbs-oregano_40gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "125",
+    "namaProduk": "Paprika Powder 50gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 30000,
+    "status": "Tipis",
+    "marginBersih": 0.099036,
+    "asset": "herbs-paprika_powder_50gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "126",
+    "namaProduk": "Parsley 10gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 15000,
+    "status": "Tipis",
+    "marginBersih": 0.07784312,
+    "asset": "herbs-parsley_10gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "127",
+    "namaProduk": "Rosemary 30gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 21000,
+    "status": "Tipis",
+    "marginBersih": 0.06817371429,
+    "asset": "herbs-rosemary_30gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "128",
+    "namaProduk": "Star Anise USDA 20gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 18000,
+    "status": "Tipis",
+    "marginBersih": 0.08371333333,
+    "asset": "herbs-star_anise_usda_20gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "129",
+    "namaProduk": "Dairy Ice Cream Cookies n Cream",
+    "kategori": "Ice Cream",
+    "hargaJualRekomendasi": 126000,
+    "status": "Aman",
+    "marginBersih": 0.1443401905,
+    "asset": "ice_cream-dairy_ice_cream_cookies_n_cream",
+    "imgUrl": ""
+  },
+  {
+    "id": "130",
+    "namaProduk": "Dairy Ice Cream London Fog Latte",
+    "kategori": "Ice Cream",
+    "hargaJualRekomendasi": 120000,
+    "status": "Aman",
+    "marginBersih": 0.1404072,
+    "asset": "ice_cream-dairy_ice_cream_london_fog_latte",
+    "imgUrl": ""
+  },
+  {
+    "id": "131",
+    "namaProduk": "Dairy Ice Cream Matcha Latte",
+    "kategori": "Ice Cream",
+    "hargaJualRekomendasi": 136000,
+    "status": "Aman",
+    "marginBersih": 0.141124,
+    "asset": "ice_cream-dairy_ice_cream_matcha_latte",
+    "imgUrl": ""
+  },
+  {
+    "id": "132",
+    "namaProduk": "Dairy Ice Cream Pistachio",
+    "kategori": "Ice Cream",
+    "hargaJualRekomendasi": 154000,
+    "status": "Aman",
+    "marginBersih": 0.1427458701,
+    "asset": "ice_cream-dairy_ice_cream_pistachio",
+    "imgUrl": ""
+  },
+  {
+    "id": "133",
+    "namaProduk": "Dairy Ice Cream Vanilla Honey",
+    "kategori": "Ice Cream",
+    "hargaJualRekomendasi": 120000,
+    "status": "Aman",
+    "marginBersih": 0.1404072,
+    "asset": "ice_cream-dairy_ice_cream_vanilla_honey",
+    "imgUrl": ""
+  },
+  {
+    "id": "134",
+    "namaProduk": "Probiotic Ice Cream Blueberry",
+    "kategori": "Ice Cream",
+    "hargaJualRekomendasi": 122000,
+    "status": "Aman",
+    "marginBersih": 0.1417611803,
+    "asset": "ice_cream-probiotic_ice_cream_blueberry",
+    "imgUrl": ""
+  },
+  {
+    "id": "135",
+    "namaProduk": "Probiotic Ice Cream Raw Cacao",
+    "kategori": "Ice Cream",
+    "hargaJualRekomendasi": 122000,
+    "status": "Aman",
+    "marginBersih": 0.1417611803,
+    "asset": "ice_cream-probiotic_ice_cream_raw_cacao",
+    "imgUrl": ""
+  },
+  {
+    "id": "136",
+    "namaProduk": "Probiotic Ice Cream Strawberry Cheesecake",
+    "kategori": "Ice Cream",
+    "hargaJualRekomendasi": 122000,
+    "status": "Aman",
+    "marginBersih": 0.1417611803,
+    "asset": "ice_cream-probiotic_ice_cream_strawberry_cheesecake",
+    "imgUrl": ""
+  },
+  {
+    "id": "137",
+    "namaProduk": "Beras Coklat Organik 1kg",
+    "kategori": "Karbohidrat",
+    "hargaJualRekomendasi": 41000,
+    "status": "Tipis",
+    "marginBersih": 0.07870731707,
+    "asset": "karbohidrat-beras_coklat_organik_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "138",
+    "namaProduk": "Beras Merah Pecah Kulit Organik 1kg",
+    "kategori": "Karbohidrat",
+    "hargaJualRekomendasi": 42000,
+    "status": "Tipis",
+    "marginBersih": 0.08797142857,
+    "asset": "karbohidrat-beras_merah_pecah_kulit_organik_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "139",
+    "namaProduk": "Beras Merah Sosoh 1kg",
+    "kategori": "Karbohidrat",
+    "hargaJualRekomendasi": 41000,
+    "status": "Tipis",
+    "marginBersih": 0.07870731707,
+    "asset": "karbohidrat-beras_merah_sosoh_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "140",
+    "namaProduk": "Beras Ogranik Mix 1kg",
+    "kategori": "Karbohidrat",
+    "hargaJualRekomendasi": 45000,
+    "status": "Tipis",
+    "marginBersih": 0.07793333333,
+    "asset": "karbohidrat-beras_ogranik_mix_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "141",
+    "namaProduk": "Beras Seven Grains 1kg",
+    "kategori": "Karbohidrat",
+    "hargaJualRekomendasi": 65000,
+    "status": "Tipis",
+    "marginBersih": 0.08490769231,
+    "asset": "karbohidrat-beras_seven_grains_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "142",
+    "namaProduk": "Mie Lethek 250g",
+    "kategori": "Karbohidrat",
+    "hargaJualRekomendasi": 39000,
+    "status": "Tipis",
+    "marginBersih": 0.08804636308,
+    "asset": "karbohidrat-mie_lethek_250g",
+    "imgUrl": ""
+  },
+  {
+    "id": "143",
+    "namaProduk": "Miesoa Burung Walet",
+    "kategori": "Karbohidrat",
+    "hargaJualRekomendasi": 18000,
+    "status": "Bahaya",
+    "marginBersih": 0.04166689333,
+    "asset": "karbohidrat-miesoa_burung_walet",
+    "imgUrl": ""
+  },
+  {
+    "id": "144",
+    "namaProduk": "Ayam Panggang Madu",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 79000,
+    "status": "Tipis",
+    "marginBersih": 0.08518792911,
+    "asset": "kedai_mpasi-ayam_panggang_madu",
+    "imgUrl": ""
+  },
+  {
+    "id": "145",
+    "namaProduk": "Ayam Pop",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 97000,
+    "status": "Aman",
+    "marginBersih": 0.1430824742,
+    "asset": "kedai_mpasi-ayam_pop",
+    "imgUrl": ""
+  },
+  {
+    "id": "146",
+    "namaProduk": "Ayam Udang Nori",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 72000,
+    "status": "Tipis",
+    "marginBersih": 0.08643333333,
+    "asset": "kedai_mpasi-ayam_udang_nori",
+    "imgUrl": ""
+  },
+  {
+    "id": "147",
+    "namaProduk": "Bakso Ayam Lohua",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 81000,
+    "status": "Tipis",
+    "marginBersih": 0.07780740741,
+    "asset": "kedai_mpasi-bakso_ayam_lohua",
+    "imgUrl": ""
+  },
+  {
+    "id": "148",
+    "namaProduk": "Banana Schotel",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 71000,
+    "status": "Tipis",
+    "marginBersih": 0.07933802817,
+    "asset": "kedai_mpasi-banana_schotel",
+    "imgUrl": ""
+  },
+  {
+    "id": "149",
+    "namaProduk": "Barongko Pisang",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 62000,
+    "status": "Tipis",
+    "marginBersih": 0.08217419355,
+    "asset": "kedai_mpasi-barongko_pisang",
+    "imgUrl": ""
+  },
+  {
+    "id": "150",
+    "namaProduk": "Beef Bolognese",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 77000,
+    "status": "Tipis",
+    "marginBersih": 0.07922397922,
+    "asset": "kedai_mpasi-beef_bolognese",
+    "imgUrl": ""
+  },
+  {
+    "id": "151",
+    "namaProduk": "Beef Bulgogi",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 109000,
+    "status": "Aman",
+    "marginBersih": 0.1406513761,
+    "asset": "kedai_mpasi-beef_bulgogi",
+    "imgUrl": ""
+  },
+  {
+    "id": "152",
+    "namaProduk": "Beef Luncheon",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 76000,
+    "status": "Tipis",
+    "marginBersih": 0.08395789474,
+    "asset": "kedai_mpasi-beef_luncheon",
+    "imgUrl": ""
+  },
+  {
+    "id": "153",
+    "namaProduk": "Belut Kuah Lemak",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 100000,
+    "status": "Aman",
+    "marginBersih": 0.13936,
+    "asset": "kedai_mpasi-belut_kuah_lemak",
+    "imgUrl": ""
+  },
+  {
+    "id": "154",
+    "namaProduk": "Brown Brownies",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 73000,
+    "status": "Tipis",
+    "marginBersih": 0.07656712329,
+    "asset": "kedai_mpasi-brown_brownies",
+    "imgUrl": ""
+  },
+  {
+    "id": "155",
+    "namaProduk": "Bubur Hati Ayam",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 54000,
+    "status": "Tipis",
+    "marginBersih": 0.08624444444,
+    "asset": "kedai_mpasi-bubur_hati_ayam",
+    "imgUrl": ""
+  },
+  {
+    "id": "156",
+    "namaProduk": "Chicken Luncheon",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 70000,
+    "status": "Tipis",
+    "marginBersih": 0.07903428571,
+    "asset": "kedai_mpasi-chicken_luncheon",
+    "imgUrl": ""
+  },
+  {
+    "id": "157",
+    "namaProduk": "Chicken Skin",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 66000,
+    "status": "Tipis",
+    "marginBersih": 0.08050909091,
+    "asset": "kedai_mpasi-chicken_skin",
+    "imgUrl": ""
+  },
+  {
+    "id": "158",
+    "namaProduk": "Fish Cake",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 77000,
+    "status": "Tipis",
+    "marginBersih": 0.08178961039,
+    "asset": "kedai_mpasi-fish_cake",
+    "imgUrl": ""
+  },
+  {
+    "id": "159",
+    "namaProduk": "Gadon Sapi",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 81000,
+    "status": "Tipis",
+    "marginBersih": 0.08196296296,
+    "asset": "kedai_mpasi-gadon_sapi",
+    "imgUrl": ""
+  },
+  {
+    "id": "160",
+    "namaProduk": "Gadon Teri Nasi",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 73000,
+    "status": "Tipis",
+    "marginBersih": 0.0832739726,
+    "asset": "kedai_mpasi-gadon_teri_nasi",
+    "imgUrl": ""
+  },
+  {
+    "id": "161",
+    "namaProduk": "Gulai Otak Sapi",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 123000,
+    "status": "Aman",
+    "marginBersih": 0.1419499707,
+    "asset": "kedai_mpasi-gulai_otak_sapi",
+    "imgUrl": ""
+  },
+  {
+    "id": "162",
+    "namaProduk": "Gulai Tuna Fillet",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 92000,
+    "status": "Aman",
+    "marginBersih": 0.1453913043,
+    "asset": "kedai_mpasi-gulai_tuna_fillet",
+    "imgUrl": ""
+  },
+  {
+    "id": "163",
+    "namaProduk": "Hati Ayam Blondo",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 76000,
+    "status": "Tipis",
+    "marginBersih": 0.08073684211,
+    "asset": "kedai_mpasi-hati_ayam_blondo",
+    "imgUrl": ""
+  },
+  {
+    "id": "164",
+    "namaProduk": "Ikan Kembung Kuah Kemangi",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 95000,
+    "status": "Aman",
+    "marginBersih": 0.1414,
+    "asset": "kedai_mpasi-ikan_kembung_kuah_kemangi",
+    "imgUrl": ""
+  },
+  {
+    "id": "165",
+    "namaProduk": "Javanese Noodle",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 60000,
+    "status": "Tipis",
+    "marginBersih": 0.08564,
+    "asset": "kedai_mpasi-javanese_noodle",
+    "imgUrl": ""
+  },
+  {
+    "id": "166",
+    "namaProduk": "Kakap Fillet Bumbu Acar",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 100000,
+    "status": "Aman",
+    "marginBersih": 0.13936,
+    "asset": "kedai_mpasi-kakap_fillet_bumbu_acar",
+    "imgUrl": ""
+  },
+  {
+    "id": "167",
+    "namaProduk": "Kremes Hati Ayam",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 62000,
+    "status": "Tipis",
+    "marginBersih": 0.08217419355,
+    "asset": "kedai_mpasi-kremes_hati_ayam",
+    "imgUrl": ""
+  },
+  {
+    "id": "168",
+    "namaProduk": "Kungpao Chicken",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 66000,
+    "status": "Tipis",
+    "marginBersih": 0.08236363636,
+    "asset": "kedai_mpasi-kungpao_chicken",
+    "imgUrl": ""
+  },
+  {
+    "id": "169",
+    "namaProduk": "Lidah Sapi",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 90000,
+    "status": "Aman",
+    "marginBersih": 0.1429866667,
+    "asset": "kedai_mpasi-lidah_sapi",
+    "imgUrl": ""
+  },
+  {
+    "id": "170",
+    "namaProduk": "Otak Otak Ikan Tenggiri",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 95000,
+    "status": "Aman",
+    "marginBersih": 0.1414,
+    "asset": "kedai_mpasi-otak_otak_ikan_tenggiri",
+    "imgUrl": ""
+  },
+  {
+    "id": "171",
+    "namaProduk": "Otak Sapi Bumbu Kuning",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 123000,
+    "status": "Aman",
+    "marginBersih": 0.1435560976,
+    "asset": "kedai_mpasi-otak_sapi_bumbu_kuning",
+    "imgUrl": ""
+  },
+  {
+    "id": "172",
+    "namaProduk": "Pumpkin Beef",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 93000,
+    "status": "Aman",
+    "marginBersih": 0.1429354839,
+    "asset": "kedai_mpasi-pumpkin_beef",
+    "imgUrl": ""
+  },
+  {
+    "id": "173",
+    "namaProduk": "Rolade Ayam",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 70000,
+    "status": "Tipis",
+    "marginBersih": 0.07903428571,
+    "asset": "kedai_mpasi-rolade_ayam",
+    "imgUrl": ""
+  },
+  {
+    "id": "174",
+    "namaProduk": "Rolade Daging",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 81000,
+    "status": "Tipis",
+    "marginBersih": 0.07894074074,
+    "asset": "kedai_mpasi-rolade_daging",
+    "imgUrl": ""
+  },
+  {
+    "id": "175",
+    "namaProduk": "Sate Lilit",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 73000,
+    "status": "Tipis",
+    "marginBersih": 0.0832739726,
+    "asset": "kedai_mpasi-sate_lilit",
+    "imgUrl": ""
+  },
+  {
+    "id": "176",
+    "namaProduk": "Sempol Otak Sapi",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 118000,
+    "status": "Aman",
+    "marginBersih": 0.1417457627,
+    "asset": "kedai_mpasi-sempol_otak_sapi",
+    "imgUrl": ""
+  },
+  {
+    "id": "177",
+    "namaProduk": "Sosis Ayam Daging",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 80000,
+    "status": "Tipis",
+    "marginBersih": 0.084025,
+    "asset": "kedai_mpasi-sosis_ayam_daging",
+    "imgUrl": ""
+  },
+  {
+    "id": "178",
+    "namaProduk": "Sup Bola Daging",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 102000,
+    "status": "Aman",
+    "marginBersih": 0.1419,
+    "asset": "kedai_mpasi-sup_bola_daging",
+    "imgUrl": ""
+  },
+  {
+    "id": "179",
+    "namaProduk": "Sup Bola Daging Telur Puyuh",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 91000,
+    "status": "Aman",
+    "marginBersih": 0.1405032967,
+    "asset": "kedai_mpasi-sup_bola_daging_telur_puyuh",
+    "imgUrl": ""
+  },
+  {
+    "id": "180",
+    "namaProduk": "Sup Buntut Panggang",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 76000,
+    "status": "Tipis",
+    "marginBersih": 0.07912631579,
+    "asset": "kedai_mpasi-sup_buntut_panggang",
+    "imgUrl": ""
+  },
+  {
+    "id": "181",
+    "namaProduk": "Sup Tomat Ikan Patin",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 81000,
+    "status": "Tipis",
+    "marginBersih": 0.08196296296,
+    "asset": "kedai_mpasi-sup_tomat_ikan_patin",
+    "imgUrl": ""
+  },
+  {
+    "id": "182",
+    "namaProduk": "Sweet Muffin",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 52000,
+    "status": "Tipis",
+    "marginBersih": 0.07980769231,
+    "asset": "kedai_mpasi-sweet_muffin",
+    "imgUrl": ""
+  },
+  {
+    "id": "183",
+    "namaProduk": "Tomyum Bakso Ikan",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 66000,
+    "status": "Tipis",
+    "marginBersih": 0.08143636364,
+    "asset": "kedai_mpasi-tomyum_bakso_ikan",
+    "imgUrl": ""
+  },
+  {
+    "id": "184",
+    "namaProduk": "Tongseng Hati Ayam",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 71000,
+    "status": "Tipis",
+    "marginBersih": 0.07933802817,
+    "asset": "kedai_mpasi-tongseng_hati_ayam",
+    "imgUrl": ""
+  },
+  {
+    "id": "185",
+    "namaProduk": "Ubee Berry",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 55000,
+    "status": "Tipis",
+    "marginBersih": 0.07957538909,
+    "asset": "kedai_mpasi-ubee_berry",
+    "imgUrl": ""
+  },
+  {
+    "id": "186",
+    "namaProduk": "Artisan Cheese - Cheddar",
+    "kategori": "Keju-kejuan",
+    "hargaJualRekomendasi": 198000,
+    "status": "Aman",
+    "marginBersih": 0.1415166303,
+    "asset": "keju-kejuan-artisan_cheese_-_cheddar",
+    "imgUrl": ""
+  },
+  {
+    "id": "187",
+    "namaProduk": "Artisan Cheese - Cream Cheese",
+    "kategori": "Keju-kejuan",
+    "hargaJualRekomendasi": 109000,
+    "status": "Aman",
+    "marginBersih": 0.1416732477,
+    "asset": "keju-kejuan-artisan_cheese_-_cream_cheese",
+    "imgUrl": ""
+  },
+  {
+    "id": "188",
+    "namaProduk": "Artisan Cheese - Halloumi",
+    "kategori": "Keju-kejuan",
+    "hargaJualRekomendasi": 125000,
+    "status": "Aman",
+    "marginBersih": 0.142291072,
+    "asset": "keju-kejuan-artisan_cheese_-_halloumi",
+    "imgUrl": ""
+  },
+  {
+    "id": "189",
+    "namaProduk": "Artisan Cheese - Mozzarela",
+    "kategori": "Keju-kejuan",
+    "hargaJualRekomendasi": 97000,
+    "status": "Aman",
+    "marginBersih": 0.1442307629,
+    "asset": "keju-kejuan-artisan_cheese_-_mozzarela",
+    "imgUrl": ""
+  },
+  {
+    "id": "190",
+    "namaProduk": "Butter West Gold 1kg",
+    "kategori": "Keju-kejuan",
+    "hargaJualRekomendasi": 324000,
+    "status": "Aman",
+    "marginBersih": 0.1405185185,
+    "asset": "keju-kejuan-butter_west_gold_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "191",
+    "namaProduk": "West Gold Unsalted Butter Repack 500gr",
+    "kategori": "Keju-kejuan",
+    "hargaJualRekomendasi": 151000,
+    "status": "Aman",
+    "marginBersih": 0.1432913907,
+    "asset": "keju-kejuan-west_gold_unsalted_butter_repack_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "192",
+    "namaProduk": "Almond Spekoek",
+    "kategori": "Kue Lebaran",
+    "hargaJualRekomendasi": 129000,
+    "status": "Aman",
+    "marginBersih": 0.1391860465,
+    "asset": "kue_lebaran-almond_spekoek",
+    "imgUrl": ""
+  },
+  {
+    "id": "193",
+    "namaProduk": "Cashew Choco",
+    "kategori": "Kue Lebaran",
+    "hargaJualRekomendasi": 129000,
+    "status": "Aman",
+    "marginBersih": 0.1391860465,
+    "asset": "kue_lebaran-cashew_choco",
+    "imgUrl": ""
+  },
+  {
+    "id": "194",
+    "namaProduk": "Cheese Corn",
+    "kategori": "Kue Lebaran",
+    "hargaJualRekomendasi": 114000,
+    "status": "Aman",
+    "marginBersih": 0.1442631579,
+    "asset": "kue_lebaran-cheese_corn",
+    "imgUrl": ""
+  },
+  {
+    "id": "195",
+    "namaProduk": "Chocolate Stick",
+    "kategori": "Kue Lebaran",
+    "hargaJualRekomendasi": 122000,
+    "status": "Aman",
+    "marginBersih": 0.1444098361,
+    "asset": "kue_lebaran-chocolate_stick",
+    "imgUrl": ""
+  },
+  {
+    "id": "196",
+    "namaProduk": "Kaastengel",
+    "kategori": "Kue Lebaran",
+    "hargaJualRekomendasi": 153000,
+    "status": "Aman",
+    "marginBersih": 0.1403333333,
+    "asset": "kue_lebaran-kaastengel",
+    "imgUrl": ""
+  },
+  {
+    "id": "197",
+    "namaProduk": "Nastar",
+    "kategori": "Kue Lebaran",
+    "hargaJualRekomendasi": 160000,
+    "status": "Aman",
+    "marginBersih": 0.140125,
+    "asset": "kue_lebaran-nastar",
+    "imgUrl": ""
+  },
+  {
+    "id": "198",
+    "namaProduk": "Peanut Cookies",
+    "kategori": "Kue Lebaran",
+    "hargaJualRekomendasi": 114000,
+    "status": "Aman",
+    "marginBersih": 0.1442631579,
+    "asset": "kue_lebaran-peanut_cookies",
+    "imgUrl": ""
+  },
+  {
+    "id": "199",
+    "namaProduk": "Putri Salju",
+    "kategori": "Kue Lebaran",
+    "hargaJualRekomendasi": 145000,
+    "status": "Aman",
+    "marginBersih": 0.1399931034,
+    "asset": "kue_lebaran-putri_salju",
+    "imgUrl": ""
+  },
+  {
+    "id": "200",
+    "namaProduk": "Sagu Keju",
+    "kategori": "Kue Lebaran",
+    "hargaJualRekomendasi": 122000,
+    "status": "Aman",
+    "marginBersih": 0.1444098361,
+    "asset": "kue_lebaran-sagu_keju",
+    "imgUrl": ""
+  },
+  {
+    "id": "201",
+    "namaProduk": "Veggie Noodle - Beet",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 22000,
+    "status": "Tipis",
+    "marginBersih": 0.05450759091,
+    "asset": "ladang_lima-veggie_noodle_-_beet",
+    "imgUrl": ""
+  },
+  {
+    "id": "202",
+    "namaProduk": "Veggie Noodle - Kale",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 22000,
+    "status": "Tipis",
+    "marginBersih": 0.05450759091,
+    "asset": "ladang_lima-veggie_noodle_-_kale",
+    "imgUrl": ""
+  },
+  {
+    "id": "203",
+    "namaProduk": "Veggie Noodle - Ayam Bawang",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 22000,
+    "status": "Tipis",
+    "marginBersih": 0.05450731273,
+    "asset": "ladang_lima-veggie_noodle_-_ayam_bawang",
+    "imgUrl": ""
+  },
+  {
+    "id": "204",
+    "namaProduk": "Veggie Noodle - Soto Lamongan",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 23000,
+    "status": "Tipis",
+    "marginBersih": 0.06587653913,
+    "asset": "ladang_lima-veggie_noodle_-_soto_lamongan",
+    "imgUrl": ""
+  },
+  {
+    "id": "205",
+    "namaProduk": "Veggie Noodle - Korean Beef",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 28000,
+    "status": "Tipis",
+    "marginBersih": 0.07594456,
+    "asset": "ladang_lima-veggie_noodle_-_korean_beef_",
+    "imgUrl": ""
+  },
+  {
+    "id": "206",
+    "namaProduk": "Blackmond Cookies",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 32000,
+    "status": "Tipis",
+    "marginBersih": 0.0873125875,
+    "asset": "ladang_lima-blackmond_cookies",
+    "imgUrl": ""
+  },
+  {
+    "id": "207",
+    "namaProduk": "Blackthins Cookies",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 32000,
+    "status": "Tipis",
+    "marginBersih": 0.0873125875,
+    "asset": "ladang_lima-blackthins_cookies",
+    "imgUrl": ""
+  },
+  {
+    "id": "208",
+    "namaProduk": "Brownies Mix",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 60000,
+    "status": "Tipis",
+    "marginBersih": 0.07834496,
+    "asset": "ladang_lima-brownies_mix",
+    "imgUrl": ""
+  },
+  {
+    "id": "209",
+    "namaProduk": "Cassava Pasta Mac & Cheese",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 41000,
+    "status": "Tipis",
+    "marginBersih": 0.07970263805,
+    "asset": "ladang_lima-cassava_pasta_mac_&_cheese",
+    "imgUrl": ""
+  },
+  {
+    "id": "210",
+    "namaProduk": "Cheesethins 80gr",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 56000,
+    "status": "Tipis",
+    "marginBersih": 0.08766902286,
+    "asset": "ladang_lima-cheesethins_80gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "211",
+    "namaProduk": "Matchathins 80g",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 56000,
+    "status": "Tipis",
+    "marginBersih": 0.08766902286,
+    "asset": "ladang_lima-matchathins_80g",
+    "imgUrl": ""
+  },
+  {
+    "id": "212",
+    "namaProduk": "Pumpberry Cookies",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 61000,
+    "status": "Tipis",
+    "marginBersih": 0.07925698492,
+    "asset": "ladang_lima-pumpberry_cookies",
+    "imgUrl": ""
+  },
+  {
+    "id": "213",
+    "namaProduk": "Tepung Bakwan",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 37000,
+    "status": "Tipis",
+    "marginBersih": 0.09148479481,
+    "asset": "ladang_lima-tepung_bakwan",
+    "imgUrl": ""
+  },
+  {
+    "id": "214",
+    "namaProduk": "Tepung Bumbu",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 36000,
+    "status": "Tipis",
+    "marginBersih": 0.09141308667,
+    "asset": "ladang_lima-tepung_bumbu",
+    "imgUrl": ""
+  },
+  {
+    "id": "215",
+    "namaProduk": "Tepung Mocaf",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 39000,
+    "status": "Tipis",
+    "marginBersih": 0.08134198154,
+    "asset": "ladang_lima-tepung_mocaf",
+    "imgUrl": ""
+  },
+  {
+    "id": "216",
+    "namaProduk": "Tepung Pancake Mix",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 47000,
+    "status": "Tipis",
+    "marginBersih": 0.07768090383,
+    "asset": "ladang_lima-tepung_pancake_mix",
+    "imgUrl": ""
+  },
+  {
+    "id": "217",
+    "namaProduk": "Tepung Pisang Goreng",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 37000,
+    "status": "Tipis",
+    "marginBersih": 0.09148479481,
+    "asset": "ladang_lima-tepung_pisang_goreng",
+    "imgUrl": ""
+  },
+  {
+    "id": "218",
+    "namaProduk": "Ginger Bread",
+    "kategori": "Makanan",
+    "hargaJualRekomendasi": 23000,
+    "status": "Bahaya",
+    "marginBersih": 0.04560869565,
+    "asset": "makanan-ginger_bread",
+    "imgUrl": ""
+  },
+  {
+    "id": "219",
+    "namaProduk": "Orithin Cheese Edam",
+    "kategori": "Makanan",
+    "hargaJualRekomendasi": 39000,
+    "status": "Tipis",
+    "marginBersih": 0.07758461538,
+    "asset": "makanan-orithin_cheese_edam",
+    "imgUrl": ""
+  },
+  {
+    "id": "220",
+    "namaProduk": "Orithin Original",
+    "kategori": "Makanan",
+    "hargaJualRekomendasi": 39000,
+    "status": "Tipis",
+    "marginBersih": 0.07758461538,
+    "asset": "makanan-orithin_original",
+    "imgUrl": ""
+  },
+  {
+    "id": "221",
+    "namaProduk": "Roti Gambang",
+    "kategori": "Makanan",
+    "hargaJualRekomendasi": 22000,
+    "status": "Tipis",
+    "marginBersih": 0.06536363636,
+    "asset": "makanan-roti_gambang",
+    "imgUrl": ""
+  },
+  {
+    "id": "222",
+    "namaProduk": "Ubi Cilembu 500gr",
+    "kategori": "Makanan",
+    "hargaJualRekomendasi": 32000,
+    "status": "Tipis",
+    "marginBersih": 0.076375,
+    "asset": "makanan-ubi_cilembu_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "223",
+    "namaProduk": "Bakso Sapi Kuah",
+    "kategori": "Mam.Meal",
+    "hargaJualRekomendasi": 63000,
+    "status": "Tipis",
+    "marginBersih": 0.07933866667,
+    "asset": "mam.meal-bakso_sapi_kuah",
+    "imgUrl": ""
+  },
+  {
+    "id": "224",
+    "namaProduk": "Beef Meat Loaf",
+    "kategori": "Mam.Meal",
+    "hargaJualRekomendasi": 122000,
+    "status": "Aman",
+    "marginBersih": 0.1427945574,
+    "asset": "mam.meal-beef_meat_loaf",
+    "imgUrl": ""
+  },
+  {
+    "id": "225",
+    "namaProduk": "Bihun Goreng Putih",
+    "kategori": "Mam.Meal",
+    "hargaJualRekomendasi": 44000,
+    "status": "Tipis",
+    "marginBersih": 0.08684854545,
+    "asset": "mam.meal-bihun_goreng_putih",
+    "imgUrl": ""
+  },
+  {
+    "id": "226",
+    "namaProduk": "Bistik Lidah Sapi",
+    "kategori": "Mam.Meal",
+    "hargaJualRekomendasi": 100000,
+    "status": "Aman",
+    "marginBersih": 0.14473336,
+    "asset": "mam.meal-bistik_lidah_sapi",
+    "imgUrl": ""
+  },
+  {
+    "id": "227",
+    "namaProduk": "Chick N Shroom",
+    "kategori": "Mam.Meal",
+    "hargaJualRekomendasi": 110000,
+    "status": "Aman",
+    "marginBersih": 0.1423903273,
+    "asset": "mam.meal-chick_n_shroom",
+    "imgUrl": ""
+  },
+  {
+    "id": "228",
+    "namaProduk": "Creamy Mushroom Sauce",
+    "kategori": "Mam.Meal",
+    "hargaJualRekomendasi": 67000,
+    "status": "Tipis",
+    "marginBersih": 0.07604083582,
+    "asset": "mam.meal-creamy_mushroom_sauce",
+    "imgUrl": ""
+  },
+  {
+    "id": "229",
+    "namaProduk": "Meatball set",
+    "kategori": "Mam.Meal",
+    "hargaJualRekomendasi": 138000,
+    "status": "Aman",
+    "marginBersih": 0.1432241739,
+    "asset": "mam.meal-meatball_set",
+    "imgUrl": ""
+  },
+  {
+    "id": "230",
+    "namaProduk": "Mini Lomaigai",
+    "kategori": "Mam.Meal",
+    "hargaJualRekomendasi": 106000,
+    "status": "Aman",
+    "marginBersih": 0.1422352453,
+    "asset": "mam.meal-mini_lomaigai",
+    "imgUrl": ""
+  },
+  {
+    "id": "231",
+    "namaProduk": "Sambal Goreng Hati",
+    "kategori": "Mam.Meal",
+    "hargaJualRekomendasi": 109000,
+    "status": "Aman",
+    "marginBersih": 0.1410893211,
+    "asset": "mam.meal-sambal_goreng_hati",
+    "imgUrl": ""
+  },
+  {
+    "id": "232",
+    "namaProduk": "Minuman Maraca 1L",
+    "kategori": "Menu Maraca",
+    "hargaJualRekomendasi": 97000,
+    "status": "Aman",
+    "marginBersih": 0.1449752577,
+    "asset": "menu_maraca-minuman_maraca_1l",
+    "imgUrl": ""
+  },
+  {
+    "id": "233",
+    "namaProduk": "Minuman Maraca 250ml",
+    "kategori": "Menu Maraca",
+    "hargaJualRekomendasi": 30000,
+    "status": "Tipis",
+    "marginBersih": 0.0987504,
+    "asset": "menu_maraca-minuman_maraca_250ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "234",
+    "namaProduk": "Minuman Maraca 500ml",
+    "kategori": "Menu Maraca",
+    "hargaJualRekomendasi": 49000,
+    "status": "Tipis",
+    "marginBersih": 0.07915918367,
+    "asset": "menu_maraca-minuman_maraca_500ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "235",
+    "namaProduk": "Biokul Yoghurt To Go 80g",
+    "kategori": "Milk",
+    "hargaJualRekomendasi": 17000,
+    "status": "Tipis",
+    "marginBersih": 0.055,
+    "asset": "milk-biokul_yoghurt_to_go_80g",
+    "imgUrl": ""
+  },
+  {
+    "id": "236",
+    "namaProduk": "Brookfarm Almond Matcha",
+    "kategori": "Milk",
+    "hargaJualRekomendasi": 20000,
+    "status": "Bahaya",
+    "marginBersih": 0.0496,
+    "asset": "milk-brookfarm_almond_matcha",
+    "imgUrl": ""
+  },
+  {
+    "id": "237",
+    "namaProduk": "Cow Yoghurt Plain 350ml",
+    "kategori": "Milk",
+    "hargaJualRekomendasi": 67000,
+    "status": "Tipis",
+    "marginBersih": 0.07806865672,
+    "asset": "milk-cow_yoghurt_plain_350ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "238",
+    "namaProduk": "Cow Yoghurt Vanila 350ml",
+    "kategori": "Milk",
+    "hargaJualRekomendasi": 100000,
+    "status": "Aman",
+    "marginBersih": 0.144256,
+    "asset": "milk-cow_yoghurt_vanila_350ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "239",
+    "namaProduk": "Diamond UHT Milk Plain 1 L",
+    "kategori": "Milk",
+    "hargaJualRekomendasi": 38000,
+    "status": "Tipis",
+    "marginBersih": 0.08312600421,
+    "asset": "milk-diamond_uht_milk_plain_1_l",
+    "imgUrl": ""
+  },
+  {
+    "id": "240",
+    "namaProduk": "Oatside OatMylk Original 1L",
+    "kategori": "Milk",
+    "hargaJualRekomendasi": 60000,
+    "status": "Tipis",
+    "marginBersih": 0.0774392,
+    "asset": "milk-oatside_oatmylk_original_1l",
+    "imgUrl": ""
+  },
+  {
+    "id": "241",
+    "namaProduk": "Raw Cow Milk 1L",
+    "kategori": "Milk",
+    "hargaJualRekomendasi": 61000,
+    "status": "Tipis",
+    "marginBersih": 0.08387868852,
+    "asset": "milk-raw_cow_milk_1l",
+    "imgUrl": ""
+  },
+  {
+    "id": "242",
+    "namaProduk": "Raw Cow Milk 250ml",
+    "kategori": "Milk",
+    "hargaJualRekomendasi": 33000,
+    "status": "Tipis",
+    "marginBersih": 0.07710909091,
+    "asset": "milk-raw_cow_milk_250ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "243",
+    "namaProduk": "Raw Goat Milk 1L",
+    "kategori": "Milk",
+    "hargaJualRekomendasi": 117000,
+    "status": "Aman",
+    "marginBersih": 0.1400051282,
+    "asset": "milk-raw_goat_milk_1l",
+    "imgUrl": ""
+  },
+  {
+    "id": "244",
+    "namaProduk": "Raw Goat Milk 250ml",
+    "kategori": "Milk",
+    "hargaJualRekomendasi": 46000,
+    "status": "Tipis",
+    "marginBersih": 0.07842608696,
+    "asset": "milk-raw_goat_milk_250ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "245",
+    "namaProduk": "Raw Goat Milk Pamijahan 1L",
+    "kategori": "Milk",
+    "hargaJualRekomendasi": 58000,
+    "status": "Tipis",
+    "marginBersih": 0.07879310345,
+    "asset": "milk-raw_goat_milk_pamijahan_1l",
+    "imgUrl": ""
+  },
+  {
+    "id": "246",
+    "namaProduk": "Raw Goat Milk Pamijahan 200ML",
+    "kategori": "Milk",
+    "hargaJualRekomendasi": 19000,
+    "status": "Tipis",
+    "marginBersih": 0.07268421053,
+    "asset": "milk-raw_goat_milk_pamijahan_200ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "247",
+    "namaProduk": "Vsoy Multigrain 1 L",
+    "kategori": "Milk",
+    "hargaJualRekomendasi": 54000,
+    "status": "Tipis",
+    "marginBersih": 0.08887377778,
+    "asset": "milk-vsoy_multigrain_1_l",
+    "imgUrl": ""
+  },
+  {
+    "id": "248",
+    "namaProduk": "Kusamba Sea Salt 250gr",
+    "kategori": "Mrs.Good",
+    "hargaJualRekomendasi": 35000,
+    "status": "Tipis",
+    "marginBersih": 0.08894285714,
+    "asset": "mrs.good-kusamba_sea_salt_250gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "249",
+    "namaProduk": "Vanila Extract Bulk",
+    "kategori": "Mrs.Good",
+    "hargaJualRekomendasi": 73000,
+    "status": "Tipis",
+    "marginBersih": 0.0832739726,
+    "asset": "mrs.good-vanila_extract_bulk",
+    "imgUrl": ""
+  },
+  {
+    "id": "250",
+    "namaProduk": "Vanilla Extract Tetes",
+    "kategori": "Mrs.Good",
+    "hargaJualRekomendasi": 66000,
+    "status": "Tipis",
+    "marginBersih": 0.07772727273,
+    "asset": "mrs.good-vanilla_extract_tetes",
+    "imgUrl": ""
+  },
+  {
+    "id": "251",
+    "namaProduk": "Vanilla Paste Bulk",
+    "kategori": "Mrs.Good",
+    "hargaJualRekomendasi": 115000,
+    "status": "Aman",
+    "marginBersih": 0.1449478261,
+    "asset": "mrs.good-vanilla_paste_bulk",
+    "imgUrl": ""
+  },
+  {
+    "id": "252",
+    "namaProduk": "Berry Healthy Tonic",
+    "kategori": "Nima Bali",
+    "hargaJualRekomendasi": 190000,
+    "status": "Aman",
+    "marginBersih": 0.13936,
+    "asset": "nima_bali-berry_healthy_tonic",
+    "imgUrl": ""
+  },
+  {
+    "id": "253",
+    "namaProduk": "Bubuk Hati Ayam",
+    "kategori": "Nima Bali",
+    "hargaJualRekomendasi": 69000,
+    "status": "Tipis",
+    "marginBersih": 0.08049565217,
+    "asset": "nima_bali-bubuk_hati_ayam",
+    "imgUrl": ""
+  },
+  {
+    "id": "254",
+    "namaProduk": "Ghee",
+    "kategori": "Nima Bali",
+    "hargaJualRekomendasi": 218000,
+    "status": "Aman",
+    "marginBersih": 0.1416807339,
+    "asset": "nima_bali-ghee",
+    "imgUrl": ""
+  },
+  {
+    "id": "255",
+    "namaProduk": "Kaliandra Raw Honey",
+    "kategori": "Nima Bali",
+    "hargaJualRekomendasi": 170000,
+    "status": "Aman",
+    "marginBersih": 0.1432,
+    "asset": "nima_bali-kaliandra_raw_honey",
+    "imgUrl": ""
+  },
+  {
+    "id": "256",
+    "namaProduk": "Kecap Manis Aren",
+    "kategori": "Nima Bali",
+    "hargaJualRekomendasi": 40000,
+    "status": "Tipis",
+    "marginBersih": 0.087493,
+    "asset": "nima_bali-kecap_manis_aren",
+    "imgUrl": ""
+  },
+  {
+    "id": "257",
+    "namaProduk": "Kremesan Teri Nasi",
+    "kategori": "Nima Bali",
+    "hargaJualRekomendasi": 39000,
+    "status": "Tipis",
+    "marginBersih": 0.087,
+    "asset": "nima_bali-kremesan_teri_nasi",
+    "imgUrl": ""
+  },
+  {
+    "id": "258",
+    "namaProduk": "Kusamba Sea Salt 500gr",
+    "kategori": "Nima Bali",
+    "hargaJualRekomendasi": 59000,
+    "status": "Tipis",
+    "marginBersih": 0.07605084746,
+    "asset": "nima_bali-kusamba_sea_salt_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "259",
+    "namaProduk": "Sambal Kering",
+    "kategori": "Nima Bali",
+    "hargaJualRekomendasi": 50000,
+    "status": "Tipis",
+    "marginBersih": 0.085096,
+    "asset": "nima_bali-sambal_kering",
+    "imgUrl": ""
+  },
+  {
+    "id": "260",
+    "namaProduk": "Tejakula Sea Salt 500gr",
+    "kategori": "Nima Bali",
+    "hargaJualRekomendasi": 59000,
+    "status": "Tipis",
+    "marginBersih": 0.07605084746,
+    "asset": "nima_bali-tejakula_sea_salt_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "261",
+    "namaProduk": "Virgin Coconut Oil 100ml",
+    "kategori": "Nima Bali",
+    "hargaJualRekomendasi": 62000,
+    "status": "Tipis",
+    "marginBersih": 0.07921290323,
+    "asset": "nima_bali-virgin_coconut_oil_100ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "262",
+    "namaProduk": "Virgin Coconut Oil 250ml",
+    "kategori": "Nima Bali",
+    "hargaJualRekomendasi": 102000,
+    "status": "Aman",
+    "marginBersih": 0.141,
+    "asset": "nima_bali-virgin_coconut_oil_250ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "263",
+    "namaProduk": "Almond Hazelnut Spread",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 173000,
+    "status": "Aman",
+    "marginBersih": 0.1406924855,
+    "asset": "nut-almond_hazelnut_spread",
+    "imgUrl": ""
+  },
+  {
+    "id": "264",
+    "namaProduk": "Antioksidan Trail Mix 200gr",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 120000,
+    "status": "Aman",
+    "marginBersih": 0.14004,
+    "asset": "nut-antioksidan_trail_mix_200gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "265",
+    "namaProduk": "Antioksidan Trail Mix 500gr",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 217000,
+    "status": "Aman",
+    "marginBersih": 0.1404599078,
+    "asset": "nut-antioksidan_trail_mix_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "266",
+    "namaProduk": "Cashew Almond Trail Mix 200gr",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 125000,
+    "status": "Aman",
+    "marginBersih": 0.1433584,
+    "asset": "nut-cashew_almond_trail_mix_200gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "267",
+    "namaProduk": "Cashew Almond Trail Mix 500gr",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 208000,
+    "status": "Aman",
+    "marginBersih": 0.1398307692,
+    "asset": "nut-cashew_almond_trail_mix_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "268",
+    "namaProduk": "Cashew Hazelnut Spread",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 173000,
+    "status": "Aman",
+    "marginBersih": 0.1406924855,
+    "asset": "nut-cashew_hazelnut_spread",
+    "imgUrl": ""
+  },
+  {
+    "id": "269",
+    "namaProduk": "Energy Trail Mix 200gr",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 120000,
+    "status": "Aman",
+    "marginBersih": 0.14004,
+    "asset": "nut-energy_trail_mix_200gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "270",
+    "namaProduk": "Energy Trail Mix 500gr",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 200000,
+    "status": "Aman",
+    "marginBersih": 0.142624,
+    "asset": "nut-energy_trail_mix_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "271",
+    "namaProduk": "Heart Trail Mix 200gr",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 120000,
+    "status": "Aman",
+    "marginBersih": 0.14004,
+    "asset": "nut-heart_trail_mix_200gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "272",
+    "namaProduk": "Heart Trail Mix 500gr",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 217000,
+    "status": "Aman",
+    "marginBersih": 0.1404599078,
+    "asset": "nut-heart_trail_mix_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "273",
+    "namaProduk": "Honey Butter Almond 150gr",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 120000,
+    "status": "Aman",
+    "marginBersih": 0.14004,
+    "asset": "nut-honey_butter_almond_150gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "274",
+    "namaProduk": "Nuts&Seeds Trail Mix 200gr",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 120000,
+    "status": "Aman",
+    "marginBersih": 0.14004,
+    "asset": "nut-nuts&seeds_trail_mix_200gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "275",
+    "namaProduk": "Roasted Cashew 500gr",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 182000,
+    "status": "Aman",
+    "marginBersih": 0.1414,
+    "asset": "nut-roasted_cashew_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "276",
+    "namaProduk": "Super Trail Mix 200gr",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 112000,
+    "status": "Aman",
+    "marginBersih": 0.1406714286,
+    "asset": "nut-super_trail_mix_200gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "277",
+    "namaProduk": "Super Trail Mix 500gr",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 191000,
+    "status": "Aman",
+    "marginBersih": 0.1394774869,
+    "asset": "nut-super_trail_mix_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "278",
+    "namaProduk": "Beef Shabu Slice 500g",
+    "kategori": "Protein",
+    "hargaJualRekomendasi": 112000,
+    "status": "Aman",
+    "marginBersih": 0.1428571429,
+    "asset": "protein-beef_shabu_slice_500g",
+    "imgUrl": ""
+  },
+  {
+    "id": "279",
+    "namaProduk": "Buntut Sapi Small Cut 1 Kg",
+    "kategori": "Protein",
+    "hargaJualRekomendasi": 143000,
+    "status": "Aman",
+    "marginBersih": 0.1431118881,
+    "asset": "protein-buntut_sapi_small_cut_1_kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "280",
+    "namaProduk": "Daging Giling Saga 1kg",
+    "kategori": "Protein",
+    "hargaJualRekomendasi": 159000,
+    "status": "Aman",
+    "marginBersih": 0.1434528302,
+    "asset": "protein-daging_giling_saga_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "281",
+    "namaProduk": "Homemade Patty Burger 3pcs",
+    "kategori": "Protein",
+    "hargaJualRekomendasi": 74000,
+    "status": "Tipis",
+    "marginBersih": 0.08095414279,
+    "asset": "protein-homemade_patty_burger_3pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "282",
+    "namaProduk": "Lele Fillet Tanpa Kulit Organik",
+    "kategori": "Protein",
+    "hargaJualRekomendasi": 61000,
+    "status": "Tipis",
+    "marginBersih": 0.08541169836,
+    "asset": "protein-lele_fillet_tanpa_kulit_organik",
+    "imgUrl": ""
+  },
+  {
+    "id": "283",
+    "namaProduk": "Lele Organik Marinasi",
+    "kategori": "Protein",
+    "hargaJualRekomendasi": 53000,
+    "status": "Tipis",
+    "marginBersih": 0.08773799245,
+    "asset": "protein-lele_organik_marinasi",
+    "imgUrl": ""
+  },
+  {
+    "id": "284",
+    "namaProduk": "Pepes Lele No Msg",
+    "kategori": "Protein",
+    "hargaJualRekomendasi": 80000,
+    "status": "Tipis",
+    "marginBersih": 0.0823114,
+    "asset": "protein-pepes_lele_no_msg",
+    "imgUrl": ""
+  },
+  {
+    "id": "285",
+    "namaProduk": "Rustic Tomato Beef 500g",
+    "kategori": "Protein",
+    "hargaJualRekomendasi": 126000,
+    "status": "Aman",
+    "marginBersih": 0.1420864762,
+    "asset": "protein-rustic_tomato_beef_500g",
+    "imgUrl": ""
+  },
+  {
+    "id": "286",
+    "namaProduk": "Edo Chikuwa",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 40000,
+    "status": "Tipis",
+    "marginBersih": 0.087433636,
+    "asset": "ritel-edo_chikuwa",
+    "imgUrl": ""
+  },
+  {
+    "id": "287",
+    "namaProduk": "Edo Danish Pastry Sheet 750gr",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 68000,
+    "status": "Tipis",
+    "marginBersih": 0.07877188,
+    "asset": "ritel-edo_danish_pastry_sheet_750gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "288",
+    "namaProduk": "Edo Mantou Coklat",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 56000,
+    "status": "Tipis",
+    "marginBersih": 0.07670285714,
+    "asset": "ritel-edo_mantou_coklat",
+    "imgUrl": ""
+  },
+  {
+    "id": "289",
+    "namaProduk": "Edo Mantou Multigrain",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 66000,
+    "status": "Tipis",
+    "marginBersih": 0.07631781818,
+    "asset": "ritel-edo_mantou_multigrain",
+    "imgUrl": ""
+  },
+  {
+    "id": "290",
+    "namaProduk": "Edo Mantou Wholewheat",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 56000,
+    "status": "Tipis",
+    "marginBersih": 0.07670285714,
+    "asset": "ritel-edo_mantou_wholewheat",
+    "imgUrl": ""
+  },
+  {
+    "id": "291",
+    "namaProduk": "Edo Mini Mantou Plain",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 79000,
+    "status": "Tipis",
+    "marginBersih": 0.08421802532,
+    "asset": "ritel-edo_mini_mantou_plain",
+    "imgUrl": ""
+  },
+  {
+    "id": "292",
+    "namaProduk": "Edo Mini Pau Cokelat Kacang",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 49000,
+    "status": "Tipis",
+    "marginBersih": 0.07928408163,
+    "asset": "ritel-edo_mini_pau_cokelat_kacang",
+    "imgUrl": ""
+  },
+  {
+    "id": "293",
+    "namaProduk": "Edo Mini Pau Coklat 200gr",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 46000,
+    "status": "Tipis",
+    "marginBersih": 0.09202313043,
+    "asset": "ritel-edo_mini_pau_coklat_200gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "294",
+    "namaProduk": "Edo Mini Pau Isi Ayam Kecap",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 56000,
+    "status": "Tipis",
+    "marginBersih": 0.07670285714,
+    "asset": "ritel-edo_mini_pau_isi_ayam_kecap",
+    "imgUrl": ""
+  },
+  {
+    "id": "295",
+    "namaProduk": "Edo Mini Pau Isi Kacang Merah",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 46000,
+    "status": "Tipis",
+    "marginBersih": 0.09202313043,
+    "asset": "ritel-edo_mini_pau_isi_kacang_merah",
+    "imgUrl": ""
+  },
+  {
+    "id": "296",
+    "namaProduk": "Edo Mini Pau Japanese Milky Banana",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 46000,
+    "status": "Tipis",
+    "marginBersih": 0.09202313043,
+    "asset": "ritel-edo_mini_pau_japanese_milky_banana",
+    "imgUrl": ""
+  },
+  {
+    "id": "297",
+    "namaProduk": "Edo Mini Pau Salted Caramel 200gr",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 49000,
+    "status": "Tipis",
+    "marginBersih": 0.07928408163,
+    "asset": "ritel-edo_mini_pau_salted_caramel_200gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "298",
+    "namaProduk": "Edo Pizza Base 120gr",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 24000,
+    "status": "Bahaya",
+    "marginBersih": 0.04793672,
+    "asset": "ritel-edo_pizza_base_120gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "299",
+    "namaProduk": "Golden Farm French Fries Coated 1kg",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 104000,
+    "status": "Aman",
+    "marginBersih": 0.1405879231,
+    "asset": "ritel-golden_farm_french_fries_coated_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "300",
+    "namaProduk": "Golden Farm French Fries Crinkle Cut 500gr",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 45000,
+    "status": "Tipis",
+    "marginBersih": 0.08758933333,
+    "asset": "ritel-golden_farm_french_fries_crinkle_cut_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "301",
+    "namaProduk": "Golden Farm French Fries Shoestring 1kg",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 73000,
+    "status": "Tipis",
+    "marginBersih": 0.07648328767,
+    "asset": "ritel-golden_farm_french_fries_shoestring_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "302",
+    "namaProduk": "Golden Farm French Fries Shoestring 500gr",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 45000,
+    "status": "Tipis",
+    "marginBersih": 0.08758933333,
+    "asset": "ritel-golden_farm_french_fries_shoestring_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "303",
+    "namaProduk": "Golden Farm French Fries Straigh Cut 1kg",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 73000,
+    "status": "Tipis",
+    "marginBersih": 0.07648328767,
+    "asset": "ritel-golden_farm_french_fries_straigh_cut_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "304",
+    "namaProduk": "Golden Farm French Fries Straight Cut 500gr",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 45000,
+    "status": "Tipis",
+    "marginBersih": 0.08758933333,
+    "asset": "ritel-golden_farm_french_fries_straight_cut_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "305",
+    "namaProduk": "Golden Farm Frozen Corn Kernel 1kg",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 70000,
+    "status": "Tipis",
+    "marginBersih": 0.08279371429,
+    "asset": "ritel-golden_farm_frozen_corn_kernel_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "306",
+    "namaProduk": "Golden Farm Potato Nuggets 750gr",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 92000,
+    "status": "Aman",
+    "marginBersih": 0.1460033043,
+    "asset": "ritel-golden_farm_potato_nuggets_750gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "307",
+    "namaProduk": "Just Fry French Fries Crinkle Cut 450gr",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 38000,
+    "status": "Tipis",
+    "marginBersih": 0.09292315789,
+    "asset": "ritel-just_fry_french_fries_crinkle_cut_450gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "308",
+    "namaProduk": "Just Fry French Fries Seasoned",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 64000,
+    "status": "Tipis",
+    "marginBersih": 0.080206375,
+    "asset": "ritel-just_fry_french_fries_seasoned",
+    "imgUrl": ""
+  },
+  {
+    "id": "309",
+    "namaProduk": "Just Fry French Fries Shoestring 450gr",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 37000,
+    "status": "Tipis",
+    "marginBersih": 0.09122702703,
+    "asset": "ritel-just_fry_french_fries_shoestring_450gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "310",
+    "namaProduk": "Just Fry French Fries Straight Cut",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 38000,
+    "status": "Tipis",
+    "marginBersih": 0.09292315789,
+    "asset": "ritel-just_fry_french_fries_straight_cut",
+    "imgUrl": ""
+  },
+  {
+    "id": "311",
+    "namaProduk": "Riverland Beef Bratwurst Sausage 360gr",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 95000,
+    "status": "Aman",
+    "marginBersih": 0.1405882947,
+    "asset": "ritel-riverland_beef_bratwurst_sausage_360gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "312",
+    "namaProduk": "Riverland Beef Nugget 500g",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 109000,
+    "status": "Aman",
+    "marginBersih": 0.1450195963,
+    "asset": "ritel-riverland_beef_nugget_500g",
+    "imgUrl": ""
+  },
+  {
+    "id": "313",
+    "namaProduk": "Riverland Bonito Karaage 500g",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 119000,
+    "status": "Aman",
+    "marginBersih": 0.1413485714,
+    "asset": "ritel-riverland_bonito_karaage_500g",
+    "imgUrl": ""
+  },
+  {
+    "id": "314",
+    "namaProduk": "Riverland Chicken Karaage 500g",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 114000,
+    "status": "Aman",
+    "marginBersih": 0.14072,
+    "asset": "ritel-riverland_chicken_karaage_500g",
+    "imgUrl": ""
+  },
+  {
+    "id": "315",
+    "namaProduk": "Riverland Chicken Nugget",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 76000,
+    "status": "Tipis",
+    "marginBersih": 0.07960947368,
+    "asset": "ritel-riverland_chicken_nugget",
+    "imgUrl": ""
+  },
+  {
+    "id": "316",
+    "namaProduk": "Riverland Mini Smoked Arabiki",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 64000,
+    "status": "Tipis",
+    "marginBersih": 0.078102625,
+    "asset": "ritel-riverland_mini_smoked_arabiki",
+    "imgUrl": ""
+  },
+  {
+    "id": "317",
+    "namaProduk": "Riverland Smoked Cheddar Sausage 360g",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 101000,
+    "status": "Aman",
+    "marginBersih": 0.1428300198,
+    "asset": "ritel-riverland_smoked_cheddar_sausage_360g",
+    "imgUrl": ""
+  },
+  {
+    "id": "318",
+    "namaProduk": "Riverland Smoky Blackpepper Sausage 360gr",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 95000,
+    "status": "Aman",
+    "marginBersih": 0.1405882947,
+    "asset": "ritel-riverland_smoky_blackpepper_sausage_360gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "319",
+    "namaProduk": "Bakpao Coklat Isi 8",
+    "kategori": "Roti-rotian",
+    "hargaJualRekomendasi": 42000,
+    "status": "Tipis",
+    "marginBersih": 0.08214285714,
+    "asset": "roti-rotian-bakpao_coklat_isi_8",
+    "imgUrl": ""
+  },
+  {
+    "id": "320",
+    "namaProduk": "Bakpao Unti isi 8",
+    "kategori": "Roti-rotian",
+    "hargaJualRekomendasi": 42000,
+    "status": "Tipis",
+    "marginBersih": 0.08214285714,
+    "asset": "roti-rotian-bakpao_unti_isi_8",
+    "imgUrl": ""
+  },
+  {
+    "id": "321",
+    "namaProduk": "Burger Bun isi 4",
+    "kategori": "Roti-rotian",
+    "hargaJualRekomendasi": 42000,
+    "status": "Tipis",
+    "marginBersih": 0.08214285714,
+    "asset": "roti-rotian-burger_bun_isi_4",
+    "imgUrl": ""
+  },
+  {
+    "id": "322",
+    "namaProduk": "Burger Bun isi 6",
+    "kategori": "Roti-rotian",
+    "hargaJualRekomendasi": 58000,
+    "status": "Tipis",
+    "marginBersih": 0.07879310345,
+    "asset": "roti-rotian-burger_bun_isi_6",
+    "imgUrl": ""
+  },
+  {
+    "id": "323",
+    "namaProduk": "Donat Kampung isi 10",
+    "kategori": "Roti-rotian",
+    "hargaJualRekomendasi": 37000,
+    "status": "Tipis",
+    "marginBersih": 0.07964864865,
+    "asset": "roti-rotian-donat_kampung_isi_10",
+    "imgUrl": ""
+  },
+  {
+    "id": "324",
+    "namaProduk": "Homemade Roti Gandum",
+    "kategori": "Roti-rotian",
+    "hargaJualRekomendasi": 42000,
+    "status": "Tipis",
+    "marginBersih": 0.08214285714,
+    "asset": "roti-rotian-homemade_roti_gandum",
+    "imgUrl": ""
+  },
+  {
+    "id": "325",
+    "namaProduk": "Roti isi Kacang Hijau Kupas 10pcs",
+    "kategori": "Roti-rotian",
+    "hargaJualRekomendasi": 55000,
+    "status": "Tipis",
+    "marginBersih": 0.08205454545,
+    "asset": "roti-rotian-roti_isi_kacang_hijau_kupas_10pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "326",
+    "namaProduk": "Roti Mariam Cokelat",
+    "kategori": "Roti-rotian",
+    "hargaJualRekomendasi": 52000,
+    "status": "Tipis",
+    "marginBersih": 0.08569230769,
+    "asset": "roti-rotian-roti_mariam_cokelat",
+    "imgUrl": ""
+  },
+  {
+    "id": "327",
+    "namaProduk": "Roti Mariam Original",
+    "kategori": "Roti-rotian",
+    "hargaJualRekomendasi": 47000,
+    "status": "Tipis",
+    "marginBersih": 0.08410638298,
+    "asset": "roti-rotian-roti_mariam_original",
+    "imgUrl": ""
+  },
+  {
+    "id": "328",
+    "namaProduk": "Springhome Roti Paratha Onion 325gr",
+    "kategori": "Roti-rotian",
+    "hargaJualRekomendasi": 71000,
+    "status": "Tipis",
+    "marginBersih": 0.08190670423,
+    "asset": "roti-rotian-springhome_roti_paratha_onion_325gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "329",
+    "namaProduk": "Springhome Roti Paratha Plain 325gr",
+    "kategori": "Roti-rotian",
+    "hargaJualRekomendasi": 58000,
+    "status": "Tipis",
+    "marginBersih": 0.0794262069,
+    "asset": "roti-rotian-springhome_roti_paratha_plain_325gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "330",
+    "namaProduk": "Springhome Roti Paratha Wholemeal 325gr",
+    "kategori": "Roti-rotian",
+    "hargaJualRekomendasi": 74000,
+    "status": "Tipis",
+    "marginBersih": 0.08306151351,
+    "asset": "roti-rotian-springhome_roti_paratha_wholemeal_325gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "331",
+    "namaProduk": "Chia Seed 100gr",
+    "kategori": "Seed",
+    "hargaJualRekomendasi": 22000,
+    "status": "Tipis",
+    "marginBersih": 0.06313818182,
+    "asset": "seed-chia_seed_100gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "332",
+    "namaProduk": "Bakso Gulung",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 66000,
+    "status": "Tipis",
+    "marginBersih": 0.07772727273,
+    "asset": "siap_makan-bakso_gulung",
+    "imgUrl": ""
+  },
+  {
+    "id": "333",
+    "namaProduk": "Bakso Sapi Kecil",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 99000,
+    "status": "Aman",
+    "marginBersih": 0.1446969697,
+    "asset": "siap_makan-bakso_sapi_kecil",
+    "imgUrl": ""
+  },
+  {
+    "id": "334",
+    "namaProduk": "Bitterballen 10pcs",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 42000,
+    "status": "Tipis",
+    "marginBersih": 0.08214285714,
+    "asset": "siap_makan-bitterballen_10pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "335",
+    "namaProduk": "Cilok Bumbu Kacang",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 37000,
+    "status": "Tipis",
+    "marginBersih": 0.07964864865,
+    "asset": "siap_makan-cilok_bumbu_kacang",
+    "imgUrl": ""
+  },
+  {
+    "id": "336",
+    "namaProduk": "Cireng Rujak",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 42000,
+    "status": "Tipis",
+    "marginBersih": 0.08214285714,
+    "asset": "siap_makan-cireng_rujak",
+    "imgUrl": ""
+  },
+  {
+    "id": "337",
+    "namaProduk": "Comro",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 66000,
+    "status": "Tipis",
+    "marginBersih": 0.07772727273,
+    "asset": "siap_makan-comro",
+    "imgUrl": ""
+  },
+  {
+    "id": "338",
+    "namaProduk": "Dimsum 100pcs",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 503000,
+    "status": "Aman",
+    "marginBersih": 0.1394532803,
+    "asset": "siap_makan-dimsum_100pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "339",
+    "namaProduk": "Dimsum 125pcs",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 626000,
+    "status": "Aman",
+    "marginBersih": 0.1392492013,
+    "asset": "siap_makan-dimsum_125pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "340",
+    "namaProduk": "Dimsum 25 pcs",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 134000,
+    "status": "Aman",
+    "marginBersih": 0.1423134328,
+    "asset": "siap_makan-dimsum_25_pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "341",
+    "namaProduk": "Dimsum 50 pcs",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 257000,
+    "status": "Aman",
+    "marginBersih": 0.1404474708,
+    "asset": "siap_makan-dimsum_50_pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "342",
+    "namaProduk": "Dimsum 75pcs",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 380000,
+    "status": "Aman",
+    "marginBersih": 0.1397894737,
+    "asset": "siap_makan-dimsum_75pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "343",
+    "namaProduk": "Ebi Furai 12 pcs",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 55000,
+    "status": "Tipis",
+    "marginBersih": 0.08205454545,
+    "asset": "siap_makan-ebi_furai_12_pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "344",
+    "namaProduk": "Egg Roll 3 pcs",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 42000,
+    "status": "Tipis",
+    "marginBersih": 0.08214285714,
+    "asset": "siap_makan-egg_roll_3_pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "345",
+    "namaProduk": "Gemblong Singkong",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 20000,
+    "status": "Bahaya",
+    "marginBersih": 0.0496,
+    "asset": "siap_makan-gemblong_singkong",
+    "imgUrl": ""
+  },
+  {
+    "id": "346",
+    "namaProduk": "Kaki Naga",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 42000,
+    "status": "Tipis",
+    "marginBersih": 0.08214285714,
+    "asset": "siap_makan-kaki_naga",
+    "imgUrl": ""
+  },
+  {
+    "id": "347",
+    "namaProduk": "Karipap 8pcs",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 58000,
+    "status": "Tipis",
+    "marginBersih": 0.07879310345,
+    "asset": "siap_makan-karipap_8pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "348",
+    "namaProduk": "Kebab Mozarella isi 10",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 72000,
+    "status": "Tipis",
+    "marginBersih": 0.08133333333,
+    "asset": "siap_makan-kebab_mozarella_isi_10",
+    "imgUrl": ""
+  },
+  {
+    "id": "349",
+    "namaProduk": "Kebab Original isi 10",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 59000,
+    "status": "Tipis",
+    "marginBersih": 0.08123728814,
+    "asset": "siap_makan-kebab_original_isi_10",
+    "imgUrl": ""
+  },
+  {
+    "id": "350",
+    "namaProduk": "Kroket Kentang",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 58000,
+    "status": "Tipis",
+    "marginBersih": 0.07879310345,
+    "asset": "siap_makan-kroket_kentang",
+    "imgUrl": ""
+  },
+  {
+    "id": "351",
+    "namaProduk": "Misro",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 66000,
+    "status": "Tipis",
+    "marginBersih": 0.07772727273,
+    "asset": "siap_makan-misro",
+    "imgUrl": ""
+  },
+  {
+    "id": "352",
+    "namaProduk": "Molen Cokelat",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 50000,
+    "status": "Tipis",
+    "marginBersih": 0.0802,
+    "asset": "siap_makan-molen_cokelat",
+    "imgUrl": ""
+  },
+  {
+    "id": "353",
+    "namaProduk": "Onde-Onde Home Made Isi 10",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 55000,
+    "status": "Tipis",
+    "marginBersih": 0.08205454545,
+    "asset": "siap_makan-onde-onde_home_made_isi_10",
+    "imgUrl": ""
+  },
+  {
+    "id": "354",
+    "namaProduk": "Pastel Daging isi 10",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 66000,
+    "status": "Tipis",
+    "marginBersih": 0.07772727273,
+    "asset": "siap_makan-pastel_daging_isi_10",
+    "imgUrl": ""
+  },
+  {
+    "id": "355",
+    "namaProduk": "Risol Ragout Ayam isi 6",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 55000,
+    "status": "Tipis",
+    "marginBersih": 0.08205454545,
+    "asset": "siap_makan-risol_ragout_ayam_isi_6",
+    "imgUrl": ""
+  },
+  {
+    "id": "356",
+    "namaProduk": "Risol Smoked Beef & Egg isi 10",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 58000,
+    "status": "Tipis",
+    "marginBersih": 0.07879310345,
+    "asset": "siap_makan-risol_smoked_beef_&_egg_isi_10",
+    "imgUrl": ""
+  },
+  {
+    "id": "357",
+    "namaProduk": "Shrimp Roll isi 10",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 42000,
+    "status": "Tipis",
+    "marginBersih": 0.08214285714,
+    "asset": "siap_makan-shrimp_roll_isi_10",
+    "imgUrl": ""
+  },
+  {
+    "id": "358",
+    "namaProduk": "Sosis Solo",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 74000,
+    "status": "Tipis",
+    "marginBersih": 0.07689189189,
+    "asset": "siap_makan-sosis_solo",
+    "imgUrl": ""
+  },
+  {
+    "id": "359",
+    "namaProduk": "Rainbow Stick - Original",
+    "kategori": "SUNKRISPS",
+    "hargaJualRekomendasi": 44000,
+    "status": "Tipis",
+    "marginBersih": 0.0802,
+    "asset": "sunkrisps-rainbow_stick_-_original",
+    "imgUrl": ""
+  },
+  {
+    "id": "360",
+    "namaProduk": "Rainbow Stick - Cheese",
+    "kategori": "SUNKRISPS",
+    "hargaJualRekomendasi": 44000,
+    "status": "Tipis",
+    "marginBersih": 0.0802,
+    "asset": "sunkrisps-rainbow_stick_-_cheese",
+    "imgUrl": ""
+  },
+  {
+    "id": "361",
+    "namaProduk": "Mini Rainbow Stick - Original",
+    "kategori": "SUNKRISPS",
+    "hargaJualRekomendasi": 15000,
+    "status": "Bahaya",
+    "marginBersih": 0.04076,
+    "asset": "sunkrisps-mini_rainbow_stick_-_original",
+    "imgUrl": ""
+  },
+  {
+    "id": "362",
+    "namaProduk": "Mini Rainbow Stick - Cheese",
+    "kategori": "SUNKRISPS",
+    "hargaJualRekomendasi": 15000,
+    "status": "Bahaya",
+    "marginBersih": 0.04076,
+    "asset": "sunkrisps-mini_rainbow_stick_-_cheese",
+    "imgUrl": ""
+  },
+  {
+    "id": "363",
+    "namaProduk": "Mini Rainbow Stick - Chocolate",
+    "kategori": "SUNKRISPS",
+    "hargaJualRekomendasi": 15000,
+    "status": "Bahaya",
+    "marginBersih": 0.04076,
+    "asset": "sunkrisps-mini_rainbow_stick_-_chocolate",
+    "imgUrl": ""
+  },
+  {
+    "id": "364",
+    "namaProduk": "Mini Rainbow Stick - BBQ",
+    "kategori": "SUNKRISPS",
+    "hargaJualRekomendasi": 15000,
+    "status": "Bahaya",
+    "marginBersih": 0.04076,
+    "asset": "sunkrisps-mini_rainbow_stick_-_bbq",
+    "imgUrl": ""
+  },
+  {
+    "id": "365",
+    "namaProduk": "Rainbow Choco Puff Cheese",
+    "kategori": "SUNKRISPS",
+    "hargaJualRekomendasi": 44000,
+    "status": "Tipis",
+    "marginBersih": 0.0802,
+    "asset": "sunkrisps-rainbow_choco_puff_cheese",
+    "imgUrl": ""
+  },
+  {
+    "id": "366",
+    "namaProduk": "Rainbow Choco Puff Original",
+    "kategori": "SUNKRISPS",
+    "hargaJualRekomendasi": 44000,
+    "status": "Tipis",
+    "marginBersih": 0.0802,
+    "asset": "sunkrisps-rainbow_choco_puff_original",
+    "imgUrl": ""
+  },
+  {
+    "id": "367",
+    "namaProduk": "Rainbow Noodle - Ayam Bawang",
+    "kategori": "SUNKRISPS",
+    "hargaJualRekomendasi": 22000,
+    "status": "Tipis",
+    "marginBersih": 0.07370909091,
+    "asset": "sunkrisps-rainbow_noodle_-_ayam_bawang",
+    "imgUrl": ""
+  },
+  {
+    "id": "368",
+    "namaProduk": "Rainbow Noodle - Keju",
+    "kategori": "SUNKRISPS",
+    "hargaJualRekomendasi": 22000,
+    "status": "Tipis",
+    "marginBersih": 0.07370909091,
+    "asset": "sunkrisps-rainbow_noodle_-_keju",
+    "imgUrl": ""
+  },
+  {
+    "id": "369",
+    "namaProduk": "Rainbow Noodle - Mie Goreng",
+    "kategori": "SUNKRISPS",
+    "hargaJualRekomendasi": 22000,
+    "status": "Tipis",
+    "marginBersih": 0.07370909091,
+    "asset": "sunkrisps-rainbow_noodle_-_mie_goreng",
+    "imgUrl": ""
+  },
+  {
+    "id": "370",
+    "namaProduk": "Rainbow Stick 32gr - Original",
+    "kategori": "SUNKRISPS",
+    "hargaJualRekomendasi": 33000,
+    "status": "Tipis",
+    "marginBersih": 0.08081818182,
+    "asset": "sunkrisps-rainbow_stick_32gr_-_original",
+    "imgUrl": ""
+  },
+  {
+    "id": "371",
+    "namaProduk": "Tempe Bacem",
+    "kategori": "TEMPE-YA",
+    "hargaJualRekomendasi": 37000,
+    "status": "Tipis",
+    "marginBersih": 0.09618918919,
+    "asset": "tempe-ya-tempe_bacem",
+    "imgUrl": ""
+  },
+  {
+    "id": "372",
+    "namaProduk": "Tempe Bumbu Kuning",
+    "kategori": "TEMPE-YA",
+    "hargaJualRekomendasi": 42000,
+    "status": "Tipis",
+    "marginBersih": 0.07631428571,
+    "asset": "tempe-ya-tempe_bumbu_kuning",
+    "imgUrl": ""
+  },
+  {
+    "id": "373",
+    "namaProduk": "Tempe Higienis",
+    "kategori": "TEMPE-YA",
+    "hargaJualRekomendasi": 25000,
+    "status": "Tipis",
+    "marginBersih": 0.064696,
+    "asset": "tempe-ya-tempe_higienis",
+    "imgUrl": ""
+  },
+  {
+    "id": "374",
+    "namaProduk": "Tempe Organik",
+    "kategori": "TEMPE-YA",
+    "hargaJualRekomendasi": 33000,
+    "status": "Tipis",
+    "marginBersih": 0.09194545455,
+    "asset": "tempe-ya-tempe_organik",
+    "imgUrl": ""
+  },
+  {
+    "id": "375",
+    "namaProduk": "Andaliman Paper 20gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 56000,
+    "status": "Tipis",
+    "marginBersih": 0.08347857143,
+    "asset": "timur_rasa_indonesia-andaliman_paper_20gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "376",
+    "namaProduk": "Crystal Arenga Sugar 500gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 59000,
+    "status": "Tipis",
+    "marginBersih": 0.0802,
+    "asset": "timur_rasa_indonesia-crystal_arenga_sugar_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "377",
+    "namaProduk": "Crystal Coconut Sugar 225gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 55000,
+    "status": "Tipis",
+    "marginBersih": 0.08094181818,
+    "asset": "timur_rasa_indonesia-crystal_coconut_sugar_225gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "378",
+    "namaProduk": "Dark Cocoa Powder 500gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 252000,
+    "status": "Aman",
+    "marginBersih": 0.1409952381,
+    "asset": "timur_rasa_indonesia-dark_cocoa_powder_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "379",
+    "namaProduk": "Gula Aren Cair 500ml",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 78000,
+    "status": "Tipis",
+    "marginBersih": 0.0836,
+    "asset": "timur_rasa_indonesia-gula_aren_cair_500ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "380",
+    "namaProduk": "Kacang Mete Panggang 250gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 129000,
+    "status": "Aman",
+    "marginBersih": 0.143455814,
+    "asset": "timur_rasa_indonesia-kacang_mete_panggang_250gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "381",
+    "namaProduk": "Kacang Mete Panggang 500gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 208000,
+    "status": "Aman",
+    "marginBersih": 0.1413019231,
+    "asset": "timur_rasa_indonesia-kacang_mete_panggang_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "382",
+    "namaProduk": "Moringa Powder 225gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 79000,
+    "status": "Tipis",
+    "marginBersih": 0.07761772152,
+    "asset": "timur_rasa_indonesia-moringa_powder_225gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "383",
+    "namaProduk": "Moringa Powder 60gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 53000,
+    "status": "Tipis",
+    "marginBersih": 0.08712830189,
+    "asset": "timur_rasa_indonesia-moringa_powder_60gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "384",
+    "namaProduk": "NIH Kenari Nut Caramel 250gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 155000,
+    "status": "Aman",
+    "marginBersih": 0.1410051613,
+    "asset": "timur_rasa_indonesia-nih_kenari_nut_caramel_250gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "385",
+    "namaProduk": "NIH Kenari Nut Chocolate 250gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 155000,
+    "status": "Aman",
+    "marginBersih": 0.1410051613,
+    "asset": "timur_rasa_indonesia-nih_kenari_nut_chocolate_250gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "386",
+    "namaProduk": "NIH Kenari Nut Chocolate 50gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 54000,
+    "status": "Tipis",
+    "marginBersih": 0.08964444444,
+    "asset": "timur_rasa_indonesia-nih_kenari_nut_chocolate_50gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "387",
+    "namaProduk": "NIH Kenari Nut Washabi 50gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 54000,
+    "status": "Tipis",
+    "marginBersih": 0.08964444444,
+    "asset": "timur_rasa_indonesia-nih_kenari_nut_washabi_50gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "388",
+    "namaProduk": "Raw Cacao Powde 500gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 247000,
+    "status": "Aman",
+    "marginBersih": 0.1418129555,
+    "asset": "timur_rasa_indonesia-raw_cacao_powde_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "389",
+    "namaProduk": "Raw Cacao Powder 125gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 100000,
+    "status": "Aman",
+    "marginBersih": 0.144868,
+    "asset": "timur_rasa_indonesia-raw_cacao_powder_125gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "390",
+    "namaProduk": "Selai Kacang Mete Original 200gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 111000,
+    "status": "Aman",
+    "marginBersih": 0.1415837838,
+    "asset": "timur_rasa_indonesia-selai_kacang_mete_original_200gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "391",
+    "namaProduk": "Selai Kenari Nuts Dark Cocoa 200gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 120000,
+    "status": "Aman",
+    "marginBersih": 0.14259,
+    "asset": "timur_rasa_indonesia-selai_kenari_nuts_dark_cocoa_200gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "392",
+    "namaProduk": "Selai Kenari Nuts Original 200gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 111000,
+    "status": "Aman",
+    "marginBersih": 0.1415837838,
+    "asset": "timur_rasa_indonesia-selai_kenari_nuts_original_200gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "393",
+    "namaProduk": "Selai Kenari Nuts Speculaas 200gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 111000,
+    "status": "Aman",
+    "marginBersih": 0.1415837838,
+    "asset": "timur_rasa_indonesia-selai_kenari_nuts_speculaas_200gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "394",
+    "namaProduk": "Tepung Sorghum 500gr",
+    "kategori": "Timur Rasa Indonesia",
+    "hargaJualRekomendasi": 70000,
+    "status": "Tipis",
+    "marginBersih": 0.08515428571,
+    "asset": "timur_rasa_indonesia-tepung_sorghum_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "395",
+    "namaProduk": "Bawang Goreng Brebes 100g",
+    "kategori": "TOKO IBOEK",
+    "hargaJualRekomendasi": 50000,
+    "status": "Tipis",
+    "marginBersih": 0.0802,
+    "asset": "toko_iboek-bawang_goreng_brebes_100g",
+    "imgUrl": ""
+  },
+  {
+    "id": "396",
+    "namaProduk": "Blondo 1kg",
+    "kategori": "TOKO IBOEK",
+    "hargaJualRekomendasi": 158000,
+    "status": "Aman",
+    "marginBersih": 0.1393342289,
+    "asset": "toko_iboek-blondo_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "397",
+    "namaProduk": "Gabin Mix 5pcs",
+    "kategori": "TOKO IBOEK",
+    "hargaJualRekomendasi": 25000,
+    "status": "Tipis",
+    "marginBersih": 0.0598,
+    "asset": "toko_iboek-gabin_mix_5pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "398",
+    "namaProduk": "Gabin Nanas 5pcs",
+    "kategori": "TOKO IBOEK",
+    "hargaJualRekomendasi": 30000,
+    "status": "Tipis",
+    "marginBersih": 0.087,
+    "asset": "toko_iboek-gabin_nanas_5pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "399",
+    "namaProduk": "Gabin Tape 5pcs",
+    "kategori": "TOKO IBOEK",
+    "hargaJualRekomendasi": 25000,
+    "status": "Tipis",
+    "marginBersih": 0.0598,
+    "asset": "toko_iboek-gabin_tape_5pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "400",
+    "namaProduk": "Gabin Ubi Ungu 5pcs",
+    "kategori": "TOKO IBOEK",
+    "hargaJualRekomendasi": 25000,
+    "status": "Tipis",
+    "marginBersih": 0.0598,
+    "asset": "toko_iboek-gabin_ubi_ungu_5pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "401",
+    "namaProduk": "Hello Panda",
+    "kategori": "TOKO IBOEK",
+    "hargaJualRekomendasi": 20000,
+    "status": "Tipis",
+    "marginBersih": 0.0718156,
+    "asset": "toko_iboek-hello_panda",
+    "imgUrl": ""
+  },
+  {
+    "id": "402",
+    "namaProduk": "Loofah Besar",
+    "kategori": "TOKO IBOEK",
+    "hargaJualRekomendasi": 26000,
+    "status": "Bahaya",
+    "marginBersih": 0.04253846154,
+    "asset": "toko_iboek-loofah_besar",
+    "imgUrl": ""
+  },
+  {
+    "id": "403",
+    "namaProduk": "Loofah Kecil",
+    "kategori": "TOKO IBOEK",
+    "hargaJualRekomendasi": 25000,
+    "status": "Tipis",
+    "marginBersih": 0.0598,
+    "asset": "toko_iboek-loofah_kecil",
+    "imgUrl": ""
+  },
+  {
+    "id": "404",
+    "namaProduk": "Minyak Kauniyah 100ml",
+    "kategori": "TOKO IBOEK",
+    "hargaJualRekomendasi": 243000,
+    "status": "Aman",
+    "marginBersih": 0.1407283951,
+    "asset": "toko_iboek-minyak_kauniyah_100ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "405",
+    "namaProduk": "Minyak Kauniyah 50ml",
+    "kategori": "TOKO IBOEK",
+    "hargaJualRekomendasi": 137000,
+    "status": "Aman",
+    "marginBersih": 0.1396131387,
+    "asset": "toko_iboek-minyak_kauniyah_50ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "406",
+    "namaProduk": "Minyak Kauniyah Aromatic Telon Oil 100ml",
+    "kategori": "TOKO IBOEK",
+    "hargaJualRekomendasi": 130000,
+    "status": "Aman",
+    "marginBersih": 0.1398307692,
+    "asset": "toko_iboek-minyak_kauniyah_aromatic_telon_oil_100ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "407",
+    "namaProduk": "Hedtutu River Body Wash",
+    "kategori": "TOKO IBOEK",
+    "hargaJualRekomendasi": 238000,
+    "status": "Aman",
+    "marginBersih": 0.1415714286,
+    "asset": "toko_iboek-hedtutu_river_body_wash",
+    "imgUrl": ""
+  },
+  {
+    "id": "408",
+    "namaProduk": "Hedtutu Sea Body Wash",
+    "kategori": "TOKO IBOEK",
+    "hargaJualRekomendasi": 245000,
+    "status": "Aman",
+    "marginBersih": 0.1414,
+    "asset": "toko_iboek-hedtutu_sea_body_wash",
+    "imgUrl": ""
+  },
+  {
+    "id": "409",
+    "namaProduk": "Golden Farm Mixed Veggie 1kg",
+    "kategori": "Vegie",
+    "hargaJualRekomendasi": 99000,
+    "status": "Aman",
+    "marginBersih": 0.1453151515,
+    "asset": "vegie-golden_farm_mixed_veggie_1kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "410",
+    "namaProduk": "Golden Farm Mixed Veggie 500gr",
+    "kategori": "Vegie",
+    "hargaJualRekomendasi": 54000,
+    "status": "Tipis",
+    "marginBersih": 0.08006777778,
+    "asset": "vegie-golden_farm_mixed_veggie_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "411",
+    "namaProduk": "Acne Gel",
+    "kategori": "Vitamin",
+    "hargaJualRekomendasi": 243000,
+    "status": "Aman",
+    "marginBersih": 0.1407283951,
+    "asset": "vitamin-acne_gel",
+    "imgUrl": ""
+  },
+  {
+    "id": "412",
+    "namaProduk": "Anti Aging Cream Propolis",
+    "kategori": "Vitamin",
+    "hargaJualRekomendasi": 319000,
+    "status": "Aman",
+    "marginBersih": 0.1411442006,
+    "asset": "vitamin-anti_aging_cream_propolis",
+    "imgUrl": ""
+  },
+  {
+    "id": "413",
+    "namaProduk": "Majakani 330ml",
+    "kategori": "Vitamin",
+    "hargaJualRekomendasi": 262000,
+    "status": "Aman",
+    "marginBersih": 0.1408082443,
+    "asset": "vitamin-majakani_330ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "414",
+    "namaProduk": "Premio 500ml",
+    "kategori": "Vitamin",
+    "hargaJualRekomendasi": 152000,
+    "status": "Aman",
+    "marginBersih": 0.1397089474,
+    "asset": "vitamin-premio_500ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "415",
+    "namaProduk": "Propolis 10ml",
+    "kategori": "Vitamin",
+    "hargaJualRekomendasi": 260000,
+    "status": "Aman",
+    "marginBersih": 0.1414,
+    "asset": "vitamin-propolis_10ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "416",
+    "namaProduk": "Propolis 30ml",
+    "kategori": "Vitamin",
+    "hargaJualRekomendasi": 691000,
+    "status": "Aman",
+    "marginBersih": 0.1397467438,
+    "asset": "vitamin-propolis_30ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "417",
+    "namaProduk": "Salama Obat Tetes Herbal Bio 10 ml",
+    "kategori": "Vitamin",
+    "hargaJualRekomendasi": 82000,
+    "status": "Tipis",
+    "marginBersih": 0.08338439024,
+    "asset": "vitamin-salama_obat_tetes_herbal_bio_10_ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "418",
+    "namaProduk": "Skinpro 250ml",
+    "kategori": "Vitamin",
+    "hargaJualRekomendasi": 210000,
+    "status": "Aman",
+    "marginBersih": 0.1421965714,
+    "asset": "vitamin-skinpro_250ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "419",
+    "namaProduk": "Natural Shampoo Bar - Clean Breeze",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 65000,
+    "status": "Tipis",
+    "marginBersih": 0.07690461538,
+    "asset": "zentia-natural_shampoo_bar_-_clean_breeze",
+    "imgUrl": ""
+  },
+  {
+    "id": "420",
+    "namaProduk": "Natural Shampoo Bar - Musk",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 65000,
+    "status": "Tipis",
+    "marginBersih": 0.07690461538,
+    "asset": "zentia-natural_shampoo_bar_-_musk",
+    "imgUrl": ""
+  },
+  {
+    "id": "421",
+    "namaProduk": "Natural Shampoo Bar - Lavender",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 65000,
+    "status": "Tipis",
+    "marginBersih": 0.07690461538,
+    "asset": "zentia-natural_shampoo_bar_-_lavender",
+    "imgUrl": ""
+  },
+  {
+    "id": "422",
+    "namaProduk": "Natural Shampoo Bar - 3 in 1",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 168000,
+    "status": "Aman",
+    "marginBersih": 0.14225,
+    "asset": "zentia-natural_shampoo_bar_-_3_in_1",
+    "imgUrl": ""
+  },
+  {
+    "id": "423",
+    "namaProduk": "Natural Lip Balm Stick - Cookies",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 70000,
+    "status": "Tipis",
+    "marginBersih": 0.08646571429,
+    "asset": "zentia-natural_lip_balm_stick_-_cookies",
+    "imgUrl": ""
+  },
+  {
+    "id": "424",
+    "namaProduk": "Natural Lip Balm Stick - Strawberry",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 70000,
+    "status": "Tipis",
+    "marginBersih": 0.08646571429,
+    "asset": "zentia-natural_lip_balm_stick_-_strawberry",
+    "imgUrl": ""
+  },
+  {
+    "id": "425",
+    "namaProduk": "Natural Lip Balm Stick - Vanilla",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 70000,
+    "status": "Tipis",
+    "marginBersih": 0.08646571429,
+    "asset": "zentia-natural_lip_balm_stick_-_vanilla",
+    "imgUrl": ""
+  },
+  {
+    "id": "426",
+    "namaProduk": "Room & Linen Spray - Good Night",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 145000,
+    "status": "Aman",
+    "marginBersih": 0.1399931034,
+    "asset": "zentia-room_&_linen_spray_-_good_night",
+    "imgUrl": ""
+  },
+  {
+    "id": "427",
+    "namaProduk": "Room & Linen Spray - Baby Room",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 145000,
+    "status": "Aman",
+    "marginBersih": 0.1399931034,
+    "asset": "zentia-room_&_linen_spray_-_baby_room",
+    "imgUrl": ""
+  },
+  {
+    "id": "428",
+    "namaProduk": "Room & Linen Spray - Cotton Blossom",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 145000,
+    "status": "Aman",
+    "marginBersih": 0.1399931034,
+    "asset": "zentia-room_&_linen_spray_-_cotton_blossom",
+    "imgUrl": ""
+  },
+  {
+    "id": "429",
+    "namaProduk": "Room & Linen Spray - Wild Rose",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 145000,
+    "status": "Aman",
+    "marginBersih": 0.1399931034,
+    "asset": "zentia-room_&_linen_spray_-_wild_rose",
+    "imgUrl": ""
+  },
+  {
+    "id": "430",
+    "namaProduk": "Room & Linen Spray - Lavender",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 145000,
+    "status": "Aman",
+    "marginBersih": 0.1399931034,
+    "asset": "zentia-room_&_linen_spray_-_lavender",
+    "imgUrl": ""
+  },
+  {
+    "id": "431",
+    "namaProduk": "Natural Soap Bar - Goat Milk & Honey",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 102000,
+    "status": "Aman",
+    "marginBersih": 0.1428,
+    "asset": "zentia-natural_soap_bar_-_goat_milk_&_honey",
+    "imgUrl": ""
+  },
+  {
+    "id": "432",
+    "namaProduk": "Natural Soap Bar - Lavender",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 102000,
+    "status": "Aman",
+    "marginBersih": 0.1428,
+    "asset": "zentia-natural_soap_bar_-_lavender",
+    "imgUrl": ""
+  },
+  {
+    "id": "433",
+    "namaProduk": "Natural Soap Bar - Telon",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 102000,
+    "status": "Aman",
+    "marginBersih": 0.1428,
+    "asset": "zentia-natural_soap_bar_-_telon",
+    "imgUrl": ""
+  },
+  {
+    "id": "434",
+    "namaProduk": "Natural Soap Bar - Charcoal",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 109000,
+    "status": "Aman",
+    "marginBersih": 0.1395284404,
+    "asset": "zentia-natural_soap_bar_-_charcoal",
+    "imgUrl": ""
+  },
+  {
+    "id": "435",
+    "namaProduk": "Natural Soap Bar - Coffee",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 109000,
+    "status": "Aman",
+    "marginBersih": 0.1395284404,
+    "asset": "zentia-natural_soap_bar_-_coffee",
+    "imgUrl": ""
+  },
+  {
+    "id": "436",
+    "namaProduk": "Natural Soap Bar - Himalayan",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 109000,
+    "status": "Aman",
+    "marginBersih": 0.1395284404,
+    "asset": "zentia-natural_soap_bar_-_himalayan",
+    "imgUrl": ""
+  },
+  {
+    "id": "437",
+    "namaProduk": "Natural Soap Bar - Lumi",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 112000,
+    "status": "Aman",
+    "marginBersih": 0.1395785714,
+    "asset": "zentia-natural_soap_bar_-_lumi",
+    "imgUrl": ""
+  },
+  {
+    "id": "438",
+    "namaProduk": "Natural Soap Bar - Pine Tar",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 112000,
+    "status": "Aman",
+    "marginBersih": 0.1395785714,
+    "asset": "zentia-natural_soap_bar_-_pine_tar",
+    "imgUrl": ""
+  },
+  {
+    "id": "439",
+    "namaProduk": "Natural Deodorant Stick - White Musk",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 160000,
+    "status": "Aman",
+    "marginBersih": 0.140125,
+    "asset": "zentia-natural_deodorant_stick_-_white_musk",
+    "imgUrl": ""
+  },
+  {
+    "id": "440",
+    "namaProduk": "Natural Deodorant Stick - Ocean",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 160000,
+    "status": "Aman",
+    "marginBersih": 0.140125,
+    "asset": "zentia-natural_deodorant_stick_-_ocean",
+    "imgUrl": ""
+  },
+  {
+    "id": "441",
+    "namaProduk": "Natural Deodorant Stick - Baby Powder",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 160000,
+    "status": "Aman",
+    "marginBersih": 0.140125,
+    "asset": "zentia-natural_deodorant_stick_-_baby_powder",
+    "imgUrl": ""
+  },
+  {
+    "id": "442",
+    "namaProduk": "Natural Deodorant Stick - Lavender",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 160000,
+    "status": "Aman",
+    "marginBersih": 0.140125,
+    "asset": "zentia-natural_deodorant_stick_-_lavender",
+    "imgUrl": ""
+  },
+  {
+    "id": "443",
+    "namaProduk": "Muscle Balm",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 97000,
+    "status": "Aman",
+    "marginBersih": 0.1446597938,
+    "asset": "zentia-muscle_balm",
+    "imgUrl": ""
+  },
+  {
+    "id": "444",
+    "namaProduk": "Natural Scented Candle - Tuberose",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 108000,
+    "status": "Aman",
+    "marginBersih": 0.1427222222,
+    "asset": "zentia-natural_scented_candle_-_tuberose",
+    "imgUrl": ""
+  },
+  {
+    "id": "445",
+    "namaProduk": "Natural Scented Candle - Lavender Field",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 108000,
+    "status": "Aman",
+    "marginBersih": 0.1427222222,
+    "asset": "zentia-natural_scented_candle_-_lavender_field",
+    "imgUrl": ""
+  },
+  {
+    "id": "446",
+    "namaProduk": "Natural Scented Candle - English Pear",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 108000,
+    "status": "Aman",
+    "marginBersih": 0.1427222222,
+    "asset": "zentia-natural_scented_candle_-_english_pear",
+    "imgUrl": ""
+  },
+  {
+    "id": "447",
+    "namaProduk": "Natural Scented Candle - Peony",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 108000,
+    "status": "Aman",
+    "marginBersih": 0.1427222222,
+    "asset": "zentia-natural_scented_candle_-_peony",
+    "imgUrl": ""
+  },
+  {
+    "id": "448",
+    "namaProduk": "Natural Perfume Oil Roll On - TGIF",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 189000,
+    "status": "Aman",
+    "marginBersih": 0.1421555556,
+    "asset": "zentia-natural_perfume_oil_roll_on_-_tgif",
+    "imgUrl": ""
+  },
+  {
+    "id": "449",
+    "namaProduk": "Natural Perfume Oil Roll On - Monday Morning",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 189000,
+    "status": "Aman",
+    "marginBersih": 0.1421555556,
+    "asset": "zentia-natural_perfume_oil_roll_on_-_monday_morning",
+    "imgUrl": ""
+  },
+  {
+    "id": "450",
+    "namaProduk": "Yoga Mat Spray - Unscented",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 145000,
+    "status": "Aman",
+    "marginBersih": 0.1399931034,
+    "asset": "zentia-yoga_mat_spray_-_unscented",
+    "imgUrl": ""
+  },
+  {
+    "id": "451",
+    "namaProduk": "Yoga Mat Spray - Calm",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 145000,
+    "status": "Aman",
+    "marginBersih": 0.1399931034,
+    "asset": "zentia-yoga_mat_spray_-_calm",
+    "imgUrl": ""
+  },
+  {
+    "id": "452",
+    "namaProduk": "Yoga Mat Spray - Energy",
+    "kategori": "Zentia",
+    "hargaJualRekomendasi": 145000,
+    "status": "Aman",
+    "marginBersih": 0.1399931034,
+    "asset": "zentia-yoga_mat_spray_-_energy",
+    "imgUrl": ""
+  },
+  {
+    "id": "453",
+    "namaProduk": "Go'Nola Triple Berry 35gr",
+    "kategori": "Yava",
+    "hargaJualRekomendasi": 21000,
+    "status": "Tipis",
+    "marginBersih": 0.06799885714,
+    "asset": "yava-go'nola_triple_berry_35gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "454",
+    "namaProduk": "Granola Bites Coconut Banana 132gr",
+    "kategori": "Yava",
+    "hargaJualRekomendasi": 47000,
+    "status": "Tipis",
+    "marginBersih": 0.0847053617,
+    "asset": "yava-granola_bites_coconut_banana_132gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "455",
+    "namaProduk": "Granola Bites Chocolate Banana 132gr",
+    "kategori": "Yava",
+    "hargaJualRekomendasi": 47000,
+    "status": "Tipis",
+    "marginBersih": 0.0847053617,
+    "asset": "yava-granola_bites_chocolate_banana_132gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "456",
+    "namaProduk": "Granola Chocolate Vanilla 200gr",
+    "kategori": "Yava",
+    "hargaJualRekomendasi": 59000,
+    "status": "Tipis",
+    "marginBersih": 0.08762698305,
+    "asset": "yava-granola_chocolate_vanilla_200gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "457",
+    "namaProduk": "Sea Salt Cashew 35gr",
+    "kategori": "Yava",
+    "hargaJualRekomendasi": 36000,
+    "status": "Tipis",
+    "marginBersih": 0.08566266667,
+    "asset": "yava-sea_salt_cashew_35gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "458",
+    "namaProduk": "Ya'Bar Chocolate 28gr",
+    "kategori": "Yava",
+    "hargaJualRekomendasi": 20000,
+    "status": "Tipis",
+    "marginBersih": 0.0568216,
+    "asset": "yava-ya'bar_chocolate_28gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "459",
+    "namaProduk": "Ya'Bar Peanut Caramel 28gr",
+    "kategori": "Yava",
+    "hargaJualRekomendasi": 20000,
+    "status": "Tipis",
+    "marginBersih": 0.0568216,
+    "asset": "yava-ya'bar_peanut_caramel_28gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "460",
+    "namaProduk": "Opor Daging Otak Sapi",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 90000,
+    "status": "Aman",
+    "marginBersih": 0.1409466667,
+    "asset": "benourish-opor_daging_otak_sapi_",
+    "imgUrl": ""
+  },
+  {
+    "id": "461",
+    "namaProduk": "Tim Beef Carbonara",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 71000,
+    "status": "Tipis",
+    "marginBersih": 0.07933802817,
+    "asset": "benourish-tim_beef_carbonara",
+    "imgUrl": ""
+  },
+  {
+    "id": "462",
+    "namaProduk": "Sup Ayam Hainan",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 56000,
+    "status": "Tipis",
+    "marginBersih": 0.07626571429,
+    "asset": "benourish-sup_ayam_hainan",
+    "imgUrl": ""
+  },
+  {
+    "id": "463",
+    "namaProduk": "Tim Daging Maranggi",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 56000,
+    "status": "Tipis",
+    "marginBersih": 0.08675714286,
+    "asset": "benourish-tim_daging_maranggi",
+    "imgUrl": ""
+  },
+  {
+    "id": "464",
+    "namaProduk": "Dori Kuah Santan",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 63000,
+    "status": "Tipis",
+    "marginBersih": 0.08596380952,
+    "asset": "benourish-dori_kuah_santan",
+    "imgUrl": ""
+  },
+  {
+    "id": "465",
+    "namaProduk": "Otak-otak Labu Daging",
+    "kategori": "Benourish",
+    "hargaJualRekomendasi": 67000,
+    "status": "Tipis",
+    "marginBersih": 0.07806865672,
+    "asset": "benourish-otak-otak_labu_daging",
+    "imgUrl": ""
+  },
+  {
+    "id": "466",
+    "namaProduk": "Cookie Dough Energy Bars - Chewy Choco",
+    "kategori": "Cakes",
+    "hargaJualRekomendasi": 34000,
+    "status": "Tipis",
+    "marginBersih": 0.077404,
+    "asset": "cakes-cookie_dough_energy_bars_-_chewy_choco",
+    "imgUrl": ""
+  },
+  {
+    "id": "467",
+    "namaProduk": "Cookie Dough Energy Bars - Chewy Crunchy",
+    "kategori": "Cakes",
+    "hargaJualRekomendasi": 30000,
+    "status": "Tipis",
+    "marginBersih": 0.0987912,
+    "asset": "cakes-cookie_dough_energy_bars_-_chewy_crunchy",
+    "imgUrl": ""
+  },
+  {
+    "id": "468",
+    "namaProduk": "Cookie Dough Energy Bars - Matcha Choco",
+    "kategori": "Cakes",
+    "hargaJualRekomendasi": 38000,
+    "status": "Tipis",
+    "marginBersih": 0.09272989474,
+    "asset": "cakes-cookie_dough_energy_bars_-_matcha_choco",
+    "imgUrl": ""
+  },
+  {
+    "id": "469",
+    "namaProduk": "Cookie Dough Energy Bars - Mix 3",
+    "kategori": "Cakes",
+    "hargaJualRekomendasi": 121000,
+    "status": "Aman",
+    "marginBersih": 0.1395420826,
+    "asset": "cakes-cookie_dough_energy_bars_-_mix_3",
+    "imgUrl": ""
+  },
+  {
+    "id": "470",
+    "namaProduk": "Blackthins 100gr",
+    "kategori": "Ladang Lima",
+    "hargaJualRekomendasi": 55000,
+    "status": "Tipis",
+    "marginBersih": 0.08229155636,
+    "asset": "ladang_lima-blackthins_100gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "471",
+    "namaProduk": "Bistik Daging",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 92000,
+    "status": "Aman",
+    "marginBersih": 0.145723913,
+    "asset": "kedai_mpasi-bistik_daging",
+    "imgUrl": ""
+  },
+  {
+    "id": "472",
+    "namaProduk": "Bubur Tim Rendang Otak",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 70000,
+    "status": "Tipis",
+    "marginBersih": 0.07990857143,
+    "asset": "kedai_mpasi-bubur_tim_rendang_otak",
+    "imgUrl": ""
+  },
+  {
+    "id": "473",
+    "namaProduk": "Honey Butter Almond 500gr",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 200000,
+    "status": "Aman",
+    "marginBersih": 0.142012,
+    "asset": "nut-honey_butter_almond_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "474",
+    "namaProduk": "Roasted Almond Premium 500gr",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 182000,
+    "status": "Aman",
+    "marginBersih": 0.1414,
+    "asset": "nut-roasted_almond_premium_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "475",
+    "namaProduk": "Lele Fillet Kulit Organik",
+    "kategori": "Protein",
+    "hargaJualRekomendasi": 53000,
+    "status": "Tipis",
+    "marginBersih": 0.08773799245,
+    "asset": "protein-lele_fillet_kulit_organik",
+    "imgUrl": ""
+  },
+  {
+    "id": "476",
+    "namaProduk": "Cacao Cashew 32gr",
+    "kategori": "Yava",
+    "hargaJualRekomendasi": 36000,
+    "status": "Tipis",
+    "marginBersih": 0.08566266667,
+    "asset": "yava-cacao_cashew_32gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "477",
+    "namaProduk": "Diamond UHT Milk Plain 200ml",
+    "kategori": "Milk",
+    "hargaJualRekomendasi": 16000,
+    "status": "Tipis",
+    "marginBersih": 0.0653845,
+    "asset": "milk-diamond_uht_milk_plain_200ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "478",
+    "namaProduk": "Ayam Marinasi Non MSG",
+    "kategori": "healticiken",
+    "hargaJualRekomendasi": 125000,
+    "status": "Aman",
+    "marginBersih": 0.1414,
+    "asset": "healticiken-ayam_marinasi_non_msg",
+    "imgUrl": ""
+  },
+  {
+    "id": "479",
+    "namaProduk": "Boneless Dada Bold",
+    "kategori": "healticiken",
+    "hargaJualRekomendasi": 137000,
+    "status": "Aman",
+    "marginBersih": 0.144080292,
+    "asset": "healticiken-boneless_dada_bold",
+    "imgUrl": ""
+  },
+  {
+    "id": "480",
+    "namaProduk": "Boneless Dada Slice",
+    "kategori": "healticiken",
+    "hargaJualRekomendasi": 148000,
+    "status": "Aman",
+    "marginBersih": 0.1416756757,
+    "asset": "healticiken-boneless_dada_slice",
+    "imgUrl": ""
+  },
+  {
+    "id": "481",
+    "namaProduk": "Boneless Paha Skin On 1 kg",
+    "kategori": "healticiken",
+    "hargaJualRekomendasi": 138000,
+    "status": "Aman",
+    "marginBersih": 0.1402173913,
+    "asset": "healticiken-boneless_paha_skin_on_1_kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "482",
+    "namaProduk": "Chicken Tenderloin 1 kg",
+    "kategori": "healticiken",
+    "hargaJualRekomendasi": 141000,
+    "status": "Aman",
+    "marginBersih": 0.1419787234,
+    "asset": "healticiken-chicken_tenderloin_1_kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "483",
+    "namaProduk": "Chicken Tenderloin 500gr",
+    "kategori": "healticiken",
+    "hargaJualRekomendasi": 75000,
+    "status": "Tipis",
+    "marginBersih": 0.07884,
+    "asset": "healticiken-chicken_tenderloin_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "484",
+    "namaProduk": "Chicken Tenderloin Marinasi",
+    "kategori": "healticiken",
+    "hargaJualRekomendasi": 157000,
+    "status": "Aman",
+    "marginBersih": 0.1424394904,
+    "asset": "healticiken-chicken_tenderloin_marinasi",
+    "imgUrl": ""
+  },
+  {
+    "id": "485",
+    "namaProduk": "Daging Giling",
+    "kategori": "healticiken",
+    "hargaJualRekomendasi": 80000,
+    "status": "Tipis",
+    "marginBersih": 0.0802,
+    "asset": "healticiken-daging_giling",
+    "imgUrl": ""
+  },
+  {
+    "id": "486",
+    "namaProduk": "Kulit Ayam 500gr",
+    "kategori": "healticiken",
+    "hargaJualRekomendasi": 47000,
+    "status": "Tipis",
+    "marginBersih": 0.08410638298,
+    "asset": "healticiken-kulit_ayam_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "487",
+    "namaProduk": "Paha Atas",
+    "kategori": "healticiken",
+    "hargaJualRekomendasi": 120000,
+    "status": "Aman",
+    "marginBersih": 0.1431,
+    "asset": "healticiken-paha_atas",
+    "imgUrl": ""
+  },
+  {
+    "id": "488",
+    "namaProduk": "Paha Bawah",
+    "kategori": "healticiken",
+    "hargaJualRekomendasi": 120000,
+    "status": "Aman",
+    "marginBersih": 0.1431,
+    "asset": "healticiken-paha_bawah",
+    "imgUrl": ""
+  },
+  {
+    "id": "489",
+    "namaProduk": "Paha Utuh",
+    "kategori": "healticiken",
+    "hargaJualRekomendasi": 120000,
+    "status": "Aman",
+    "marginBersih": 0.1431,
+    "asset": "healticiken-paha_utuh",
+    "imgUrl": ""
+  },
+  {
+    "id": "490",
+    "namaProduk": "Sayap",
+    "kategori": "healticiken",
+    "hargaJualRekomendasi": 110000,
+    "status": "Aman",
+    "marginBersih": 0.1414,
+    "asset": "healticiken-sayap",
+    "imgUrl": ""
+  },
+  {
+    "id": "491",
+    "namaProduk": "Chicken Prawn Roll X-tra Misso Soup",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 69000,
+    "status": "Tipis",
+    "marginBersih": 0.08182608696,
+    "asset": "kedai_mpasi-chicken_prawn_roll_x-tra_misso_soup",
+    "imgUrl": ""
+  },
+  {
+    "id": "492",
+    "namaProduk": "Unscented Tallow Balm 30ml",
+    "kategori": "Tallow Nara",
+    "hargaJualRekomendasi": 45000,
+    "status": "Tipis",
+    "marginBersih": 0.07793333333,
+    "asset": "tallow_nara-unscented_tallow_balm_30ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "493",
+    "namaProduk": "Unscented Tallow Balm 50ml",
+    "kategori": "Tallow Nara",
+    "hargaJualRekomendasi": 70000,
+    "status": "Tipis",
+    "marginBersih": 0.08602857143,
+    "asset": "tallow_nara-unscented_tallow_balm_50ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "494",
+    "namaProduk": "Luxury Tallow Balm 5ml",
+    "kategori": "Tallow Nara",
+    "hargaJualRekomendasi": 28000,
+    "status": "Tipis",
+    "marginBersih": 0.07728571429,
+    "asset": "tallow_nara-luxury_tallow_balm_5ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "495",
+    "namaProduk": "Luxury Tallow Balm 20ml",
+    "kategori": "Tallow Nara",
+    "hargaJualRekomendasi": 104000,
+    "status": "Aman",
+    "marginBersih": 0.1437538462,
+    "asset": "tallow_nara-luxury_tallow_balm_20ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "496",
+    "namaProduk": "Luxury Tallow Balm 30ml",
+    "kategori": "Tallow Nara",
+    "hargaJualRekomendasi": 146000,
+    "status": "Aman",
+    "marginBersih": 0.1439150685,
+    "asset": "tallow_nara-luxury_tallow_balm_30ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "497",
+    "namaProduk": "Arem-arem Otak Sapi",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 74000,
+    "status": "Tipis",
+    "marginBersih": 0.07689189189,
+    "asset": "kedai_mpasi-arem-arem_otak_sapi",
+    "imgUrl": ""
+  },
+  {
+    "id": "498",
+    "namaProduk": "Kaki Naga @halykameals",
+    "kategori": "Halyka Meals",
+    "hargaJualRekomendasi": 56000,
+    "status": "Tipis",
+    "marginBersih": 0.07714,
+    "asset": "halyka_meals-kaki_naga_@halykameals",
+    "imgUrl": ""
+  },
+  {
+    "id": "499",
+    "namaProduk": "Nugget Ayam @halykameals",
+    "kategori": "Halyka Meals",
+    "hargaJualRekomendasi": 64000,
+    "status": "Tipis",
+    "marginBersih": 0.08275,
+    "asset": "halyka_meals-nugget_ayam_@halykameals",
+    "imgUrl": ""
+  },
+  {
+    "id": "500",
+    "namaProduk": "Nugget Kulit Ayam @halykameals",
+    "kategori": "Halyka Meals",
+    "hargaJualRekomendasi": 63000,
+    "status": "Tipis",
+    "marginBersih": 0.08363238095,
+    "asset": "halyka_meals-nugget_kulit_ayam_@halykameals",
+    "imgUrl": ""
+  },
+  {
+    "id": "501",
+    "namaProduk": "Otak-otak Ikan Kembung @halykameals",
+    "kategori": "Halyka Meals",
+    "hargaJualRekomendasi": 69000,
+    "status": "Tipis",
+    "marginBersih": 0.07801217391,
+    "asset": "halyka_meals-otak-otak_ikan_kembung_@halykameals",
+    "imgUrl": ""
+  },
+  {
+    "id": "502",
+    "namaProduk": "Sate Lilit Hati Ayam @halykameals",
+    "kategori": "Halyka Meals",
+    "hargaJualRekomendasi": 63000,
+    "status": "Tipis",
+    "marginBersih": 0.08363238095,
+    "asset": "halyka_meals-sate_lilit_hati_ayam_@halykameals",
+    "imgUrl": ""
+  },
+  {
+    "id": "503",
+    "namaProduk": "Sosis Ayam @halykameals",
+    "kategori": "Halyka Meals",
+    "hargaJualRekomendasi": 63000,
+    "status": "Tipis",
+    "marginBersih": 0.08363238095,
+    "asset": "halyka_meals-sosis_ayam_@halykameals",
+    "imgUrl": ""
+  },
+  {
+    "id": "504",
+    "namaProduk": "Roasted Cocoa Powder 100gr",
+    "kategori": "Chocolate",
+    "hargaJualRekomendasi": 58000,
+    "status": "Tipis",
+    "marginBersih": 0.07879310345,
+    "asset": "chocolate-roasted_cocoa_powder_100gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "505",
+    "namaProduk": "Roasted Cocoa Powder 200gr",
+    "kategori": "Chocolate",
+    "hargaJualRekomendasi": 116000,
+    "status": "Aman",
+    "marginBersih": 0.1403448276,
+    "asset": "chocolate-roasted_cocoa_powder_200gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "506",
+    "namaProduk": "Raw Cocoa Powder @nimabali",
+    "kategori": "Chocolate",
+    "hargaJualRekomendasi": 131000,
+    "status": "Aman",
+    "marginBersih": 0.1437358779,
+    "asset": "chocolate-raw_cocoa_powder_@nimabali",
+    "imgUrl": ""
+  },
+  {
+    "id": "507",
+    "namaProduk": "Kusamba Sea Salt 1 kg",
+    "kategori": "Bumbu",
+    "hargaJualRekomendasi": 74000,
+    "status": "Tipis",
+    "marginBersih": 0.07689189189,
+    "asset": "bumbu-kusamba_sea_salt_1_kg",
+    "imgUrl": ""
+  },
+  {
+    "id": "508",
+    "namaProduk": "Kusamba Sea Salt 75gr",
+    "kategori": "Bumbu",
+    "hargaJualRekomendasi": 14000,
+    "status": "Tipis",
+    "marginBersih": 0.06271428571,
+    "asset": "bumbu-kusamba_sea_salt_75gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "509",
+    "namaProduk": "Edamame",
+    "kategori": "TOKO IBOEK",
+    "hargaJualRekomendasi": 99000,
+    "status": "Aman",
+    "marginBersih": 0.1446969697,
+    "asset": "toko_iboek-edamame",
+    "imgUrl": ""
+  },
+  {
+    "id": "510",
+    "namaProduk": "Maseko Ayam Refill 100gr",
+    "kategori": "Lingkar Organik",
+    "hargaJualRekomendasi": 36000,
+    "status": "Tipis",
+    "marginBersih": 0.08940266667,
+    "asset": "lingkar_organik-maseko_ayam_refill_100gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "511",
+    "namaProduk": "Maseko Sapi Refill 100gr",
+    "kategori": "Lingkar Organik",
+    "hargaJualRekomendasi": 36000,
+    "status": "Tipis",
+    "marginBersih": 0.08940266667,
+    "asset": "lingkar_organik-maseko_sapi_refill_100gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "512",
+    "namaProduk": "Maseko Jamur Refill 100gr",
+    "kategori": "Lingkar Organik",
+    "hargaJualRekomendasi": 55000,
+    "status": "Tipis",
+    "marginBersih": 0.08512567273,
+    "asset": "lingkar_organik-maseko_jamur_refill_100gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "513",
+    "namaProduk": "Maseko Ayam Botol 100gr",
+    "kategori": "Lingkar Organik",
+    "hargaJualRekomendasi": 41000,
+    "status": "Tipis",
+    "marginBersih": 0.0941715122,
+    "asset": "lingkar_organik-maseko_ayam_botol_100gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "514",
+    "namaProduk": "Maseko Sapi Botol 100gr",
+    "kategori": "Lingkar Organik",
+    "hargaJualRekomendasi": 41000,
+    "status": "Tipis",
+    "marginBersih": 0.0941715122,
+    "asset": "lingkar_organik-maseko_sapi_botol_100gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "515",
+    "namaProduk": "Maseko Jamur Botol 80gr",
+    "kategori": "Lingkar Organik",
+    "hargaJualRekomendasi": 51000,
+    "status": "Tipis",
+    "marginBersih": 0.079592,
+    "asset": "lingkar_organik-maseko_jamur_botol_80gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "516",
+    "namaProduk": "Kecap Manis 150ml",
+    "kategori": "Lingkar Organik",
+    "hargaJualRekomendasi": 29000,
+    "status": "Tipis",
+    "marginBersih": 0.09682951724,
+    "asset": "lingkar_organik-kecap_manis_150ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "517",
+    "namaProduk": "Kecap Manis 350ml",
+    "kategori": "Lingkar Organik",
+    "hargaJualRekomendasi": 42000,
+    "status": "Tipis",
+    "marginBersih": 0.07622685714,
+    "asset": "lingkar_organik-kecap_manis_350ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "518",
+    "namaProduk": "Keripik Cijeruk",
+    "kategori": "TOKO IBOEK",
+    "hargaJualRekomendasi": 34000,
+    "status": "Tipis",
+    "marginBersih": 0.085,
+    "asset": "toko_iboek-keripik_cijeruk",
+    "imgUrl": ""
+  },
+  {
+    "id": "519",
+    "namaProduk": "Coconut Sugar",
+    "kategori": "Nima Bali",
+    "hargaJualRekomendasi": 43000,
+    "status": "Tipis",
+    "marginBersih": 0.08371069767,
+    "asset": "nima_bali-coconut_sugar",
+    "imgUrl": ""
+  },
+  {
+    "id": "520",
+    "namaProduk": "Ghee",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 219000,
+    "status": "Aman",
+    "marginBersih": 0.1423315068,
+    "asset": "brothmama-ghee",
+    "imgUrl": ""
+  },
+  {
+    "id": "521",
+    "namaProduk": "V-soy Multigrain 1 L",
+    "kategori": "Milk",
+    "hargaJualRekomendasi": 58000,
+    "status": "Tipis",
+    "marginBersih": 0.08411117241,
+    "asset": "milk-v-soy_multigrain_1_l",
+    "imgUrl": ""
+  },
+  {
+    "id": "522",
+    "namaProduk": "Ubi Cilembu 600gr",
+    "kategori": "Makanan",
+    "hargaJualRekomendasi": 37000,
+    "status": "Tipis",
+    "marginBersih": 0.08626486486,
+    "asset": "makanan-ubi_cilembu_600gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "523",
+    "namaProduk": "Honey Butter Almond 75gr",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 52000,
+    "status": "Tipis",
+    "marginBersih": 0.07863076923,
+    "asset": "nut-honey_butter_almond_75gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "524",
+    "namaProduk": "Nuts & Seeds Trail Mix 500gr",
+    "kategori": "Nut",
+    "hargaJualRekomendasi": 200000,
+    "status": "Aman",
+    "marginBersih": 0.142624,
+    "asset": "nut-nuts_&_seeds_trail_mix_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "525",
+    "namaProduk": "Raw Goat Milk Pamijahan 100ml",
+    "kategori": "Milk",
+    "hargaJualRekomendasi": 15000,
+    "status": "Tipis",
+    "marginBersih": 0.0734,
+    "asset": "milk-raw_goat_milk_pamijahan_100ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "526",
+    "namaProduk": "Japanese Matcha Powder 100gr",
+    "kategori": "Powder",
+    "hargaJualRekomendasi": 55000,
+    "status": "Tipis",
+    "marginBersih": 0.07927272727,
+    "asset": "powder-japanese_matcha_powder_100gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "527",
+    "namaProduk": "Tape Cicurug 500gr",
+    "kategori": "Makanan",
+    "hargaJualRekomendasi": 21000,
+    "status": "Tipis",
+    "marginBersih": 0.05785714286,
+    "asset": "makanan-tape_cicurug_500gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "528",
+    "namaProduk": "Greenfields UHT Full Cream Milk 200ml",
+    "kategori": "Milk",
+    "hargaJualRekomendasi": 18000,
+    "status": "Tipis",
+    "marginBersih": 0.05255445833,
+    "asset": "milk-greenfields_uht_full_cream_milk_200ml",
+    "imgUrl": ""
+  },
+  {
+    "id": "529",
+    "namaProduk": "Kue Manco Wijen",
+    "kategori": "Makanan",
+    "hargaJualRekomendasi": 25000,
+    "status": "Tipis",
+    "marginBersih": 0.0598,
+    "asset": "makanan-kue_manco_wijen",
+    "imgUrl": ""
+  },
+  {
+    "id": "530",
+    "namaProduk": "Kaldu Dashi 75gr",
+    "kategori": "Powder",
+    "hargaJualRekomendasi": 35000,
+    "status": "Tipis",
+    "marginBersih": 0.09244,
+    "asset": "powder-kaldu_dashi_75gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "531",
+    "namaProduk": "Otak-otak Ayam",
+    "kategori": "Halyka Meals",
+    "hargaJualRekomendasi": 64000,
+    "status": "Tipis",
+    "marginBersih": 0.08275,
+    "asset": "halyka_meals-otak-otak_ayam",
+    "imgUrl": ""
+  },
+  {
+    "id": "532",
+    "namaProduk": "Hydrathera 2 L",
+    "kategori": "Botol",
+    "hargaJualRekomendasi": 43000,
+    "status": "Tipis",
+    "marginBersih": 0.07593023256,
+    "asset": "botol-hydrathera_2_l",
+    "imgUrl": ""
+  },
+  {
+    "id": "533",
+    "namaProduk": "Hydrathera 1 Dus",
+    "kategori": "Botol",
+    "hargaJualRekomendasi": 231000,
+    "status": "Aman",
+    "marginBersih": 0.1417532468,
+    "asset": "botol-hydrathera_1_dus",
+    "imgUrl": ""
+  },
+  {
+    "id": "534",
+    "namaProduk": "Homemade Katsu 5 pcs",
+    "kategori": "Protein",
+    "hargaJualRekomendasi": 118000,
+    "status": "Aman",
+    "marginBersih": null,
+    "asset": "protein-homemade_katsu_5_pcs",
+    "imgUrl": ""
+  },
+  {
+    "id": "535",
+    "namaProduk": "Teri Nasi Frozen",
+    "kategori": "Protein",
+    "hargaJualRekomendasi": 55000,
+    "status": "Tipis",
+    "marginBersih": null,
+    "asset": "protein-teri_nasi_frozen",
+    "imgUrl": ""
+  },
+  {
+    "id": "536",
+    "namaProduk": "Onion Powder 100gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 65000,
+    "status": "Tipis",
+    "marginBersih": 0.07737538462,
+    "asset": "herbs-onion_powder_100gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "537",
+    "namaProduk": "Garlic Powder 100gr",
+    "kategori": "Herbs",
+    "hargaJualRekomendasi": 56000,
+    "status": "Tipis",
+    "marginBersih": 0.07692142857,
+    "asset": "herbs-garlic_powder_100gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "538",
+    "namaProduk": "Ya'Bites Light Choco 35gr",
+    "kategori": "Yava",
+    "hargaJualRekomendasi": 21000,
+    "status": "Tipis",
+    "marginBersih": 0.05505942857,
+    "asset": "yava-ya'bites_light_choco_35gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "539",
+    "namaProduk": "Granola Chocolate Vanilla 90gr",
+    "kategori": "Yava",
+    "hargaJualRekomendasi": 34000,
+    "status": "Tipis",
+    "marginBersih": 0.077548,
+    "asset": "yava-granola_chocolate_vanilla_90gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "540",
+    "namaProduk": "Dubai Chewy Cookies",
+    "kategori": "Chocolate",
+    "hargaJualRekomendasi": 53000,
+    "status": "Tipis",
+    "marginBersih": 0.08828301887,
+    "asset": "chocolate-dubai_chewy_cookies",
+    "imgUrl": ""
+  },
+  {
+    "id": "541",
+    "namaProduk": "Tempe Chips Original",
+    "kategori": "TEMPE-YA",
+    "hargaJualRekomendasi": 51000,
+    "status": "Tipis",
+    "marginBersih": 0.083,
+    "asset": "tempe-ya-tempe_chips_original",
+    "imgUrl": ""
+  },
+  {
+    "id": "542",
+    "namaProduk": "Sosis Solo Ayam",
+    "kategori": "De Natural Taste",
+    "hargaJualRekomendasi": 75000,
+    "status": "Tipis",
+    "marginBersih": 0.07884,
+    "asset": "de_natural_taste-sosis_solo_ayam",
+    "imgUrl": ""
+  },
+  {
+    "id": "543",
+    "namaProduk": "Abon Sapi 90gr",
+    "kategori": "Lingkar Organik",
+    "hargaJualRekomendasi": 61000,
+    "status": "Tipis",
+    "marginBersih": 0.08475996852,
+    "asset": "lingkar_organik-abon_sapi_90gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "544",
+    "namaProduk": "Eomuk Lele",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 74000,
+    "status": "Tipis",
+    "marginBersih": 0.07689189189,
+    "asset": "kedai_mpasi-eomuk_lele",
+    "imgUrl": ""
+  },
+  {
+    "id": "545",
+    "namaProduk": "Hati Sapi Nusantara",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 76000,
+    "status": "Tipis",
+    "marginBersih": 0.08073684211,
+    "asset": "kedai_mpasi-hati_sapi_nusantara_",
+    "imgUrl": ""
+  },
+  {
+    "id": "546",
+    "namaProduk": "Pepes Tuna",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 73000,
+    "status": "Tipis",
+    "marginBersih": 0.0832739726,
+    "asset": "kedai_mpasi-pepes_tuna_",
+    "imgUrl": ""
+  },
+  {
+    "id": "547",
+    "namaProduk": "Golden Nori Chicken Roll",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 93000,
+    "status": "Aman",
+    "marginBersih": 0.1396451613,
+    "asset": "kedai_mpasi-golden_nori_chicken_roll",
+    "imgUrl": ""
+  },
+  {
+    "id": "548",
+    "namaProduk": "Grilled Kembung",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 79000,
+    "status": "Tipis",
+    "marginBersih": 0.07839240506,
+    "asset": "kedai_mpasi-grilled_kembung",
+    "imgUrl": ""
+  },
+  {
+    "id": "549",
+    "namaProduk": "Gulai Belut",
+    "kategori": "Halyka Meals",
+    "hargaJualRekomendasi": 65000,
+    "status": "Tipis",
+    "marginBersih": 0.08490769231,
+    "asset": "halyka_meals-gulai_belut",
+    "imgUrl": ""
+  },
+  {
+    "id": "550",
+    "namaProduk": "Pesmol Ikan Gabus",
+    "kategori": "Halyka Meals",
+    "hargaJualRekomendasi": 71000,
+    "status": "Tipis",
+    "marginBersih": 0.07933802817,
+    "asset": "halyka_meals-pesmol_ikan_gabus",
+    "imgUrl": ""
+  },
+  {
+    "id": "551",
+    "namaProduk": "Boneless Feet Chicken Soup",
+    "kategori": "Halyka Meals",
+    "hargaJualRekomendasi": 63000,
+    "status": "Tipis",
+    "marginBersih": 0.08052380952,
+    "asset": "halyka_meals-boneless_feet_chicken_soup",
+    "imgUrl": ""
+  },
+  {
+    "id": "552",
+    "namaProduk": "Luncheon Ayam",
+    "kategori": "Halyka Meals",
+    "hargaJualRekomendasi": 58000,
+    "status": "Tipis",
+    "marginBersih": 0.07879310345,
+    "asset": "halyka_meals-luncheon_ayam",
+    "imgUrl": ""
+  },
+  {
+    "id": "553",
+    "namaProduk": "Chamomile Tea",
+    "kategori": "Tea & Artisan Tea",
+    "hargaJualRekomendasi": 52000,
+    "status": "Tipis",
+    "marginBersih": 0.07980769231,
+    "asset": "tea_&_artisan_tea-chamomile_tea",
+    "imgUrl": ""
+  },
+  {
+    "id": "554",
+    "namaProduk": "Curry Paste 100gr",
+    "kategori": "Bumbu",
+    "hargaJualRekomendasi": 19000,
+    "status": "Tipis",
+    "marginBersih": 0.06430947368,
+    "asset": "bumbu-curry_paste_100gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "555",
+    "namaProduk": "Miso Paste 100gr",
+    "kategori": "Bumbu",
+    "hargaJualRekomendasi": 17000,
+    "status": "Tipis",
+    "marginBersih": 0.050968,
+    "asset": "bumbu-miso_paste_100gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "556",
+    "namaProduk": "Pisang Goreng isi 6",
+    "kategori": "Siap Makan",
+    "hargaJualRekomendasi": 36000,
+    "status": "Tipis",
+    "marginBersih": 0.08239866667,
+    "asset": "siap_makan-pisang_goreng_isi_6",
+    "imgUrl": ""
+  },
+  {
+    "id": "557",
+    "namaProduk": "Glutinous Rice Ball Peanut",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 55000,
+    "status": "Tipis",
+    "marginBersih": 0.08267767273,
+    "asset": "ritel-glutinous_rice_ball_peanut",
+    "imgUrl": ""
+  },
+  {
+    "id": "558",
+    "namaProduk": "Glutinous Rice Ball Red Bean",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 55000,
+    "status": "Tipis",
+    "marginBersih": 0.08267767273,
+    "asset": "ritel-glutinous_rice_ball_red_bean",
+    "imgUrl": ""
+  },
+  {
+    "id": "559",
+    "namaProduk": "Glutinous Rice Ball Sesame",
+    "kategori": "Ritel",
+    "hargaJualRekomendasi": 55000,
+    "status": "Tipis",
+    "marginBersih": 0.08267767273,
+    "asset": "ritel-glutinous_rice_ball_sesame",
+    "imgUrl": ""
+  },
+  {
+    "id": "560",
+    "namaProduk": "Grilled Lele",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 74000,
+    "status": "Tipis",
+    "marginBersih": 0.07689189189,
+    "asset": "kedai_mpasi-grilled_lele",
+    "imgUrl": ""
+  },
+  {
+    "id": "561",
+    "namaProduk": "Ground Beef Booster",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 95000,
+    "status": "Aman",
+    "marginBersih": 0.1414,
+    "asset": "kedai_mpasi-ground_beef_booster",
+    "imgUrl": ""
+  },
+  {
+    "id": "562",
+    "namaProduk": "Ground Beef Potato",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 74000,
+    "status": "Tipis",
+    "marginBersih": 0.07689189189,
+    "asset": "kedai_mpasi-ground_beef_potato",
+    "imgUrl": ""
+  },
+  {
+    "id": "563",
+    "namaProduk": "Kaki Naga Ayam Udang",
+    "kategori": "Kedai MPASI",
+    "hargaJualRekomendasi": 95000,
+    "status": "Aman",
+    "marginBersih": 0.1414,
+    "asset": "kedai_mpasi-kaki_naga_ayam_udang",
+    "imgUrl": ""
+  },
+  {
+    "id": "564",
+    "namaProduk": "Dried Seaweed 20gr",
+    "kategori": "Herbs & Spices",
+    "hargaJualRekomendasi": 22000,
+    "status": "Tipis",
+    "marginBersih": 0.05379127273,
+    "asset": "herbs_&_spices-dried_seaweed_20gr",
+    "imgUrl": ""
+  },
+  {
+    "id": "565",
+    "namaProduk": "NDF Honey Histago",
+    "kategori": "Brothmama",
+    "hargaJualRekomendasi": 254000,
+    "status": "Aman",
+    "marginBersih": 0.1418818898,
+    "asset": "brothmama-ndf_honey_histago",
+    "imgUrl": ""
+  }
+]

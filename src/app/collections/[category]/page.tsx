@@ -1,8 +1,7 @@
 import { Metadata } from 'next';
-import { fetchCategories, fetchProducts, formatPrice } from '@/lib/sheets';
+import { fetchCategories, fetchProducts } from '@/lib/sheets';
 import { ProductGrid } from '@/components/ProductGrid';
 import { CategoryCard } from '@/components/CategoryCard';
-import { Category } from '@/lib/types';
 import Link from 'next/link';
 
 interface CategoryPageProps {
@@ -47,7 +46,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     return (
       <div className="container py-16 text-center">
         <h1 className="text-3xl font-bold mb-4">Kategori tidak ditemukan</h1>
-        <p className="text-gray-600 mb-8">Kategori "{categoryName}" tidak tersedia.</p>
+        <p className="text-gray-600 mb-8">Kategori &ldquo;{categoryName}&rdquo; tidak tersedia.</p>
         <Link href="/collections/all" className="btn btn-primary">
           Lihat Semua Koleksi
         </Link>

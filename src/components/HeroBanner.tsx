@@ -67,8 +67,6 @@ export function HeroBanner() {
     return () => clearInterval(interval);
   }, [goToNext]);
 
-  const current = slides[currentSlide];
-
   return (
     <section className="relative overflow-hidden" aria-label="Hero banner">
       <div className="relative h-[450px] md:h-[550px] lg:h-[650px]">
